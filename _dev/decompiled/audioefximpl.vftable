@@ -1,0 +1,173 @@
+AudioEffects[0x0] = AudioEffectsImpl::vftable;
+AudioEffects[0x1] = Mutex;
+AudioEffects[0xd] = 0;
+AudioEffects[0xe] = 0;
+AudioEffects[0xf] = 0;
+AudioEffects[0x10] = 0;
+AudioEffects[0x11] = 0;
+AudioEffects[0x12] = 0xffffffff;
+AudioEffects[0x13] = 0x800;
+AudioEffects[0x14] = 0xffffffff;
+AudioEffects[0x15] = 0xffffffff;
+AudioEffects[0x16] = 2;
+AudioEffects[0x18] = 0;
+AudioEffects[0x19] = 0x3f800000;
+AudioEffects[0x5c] = 0;
+AudioEffects[0x5d] = 0;
+AudioEffects[0x68] = 0;
+AudioEffects[0x6c] = 0;
+AudioEffects[0x70] = 0;
+AudioEffects[0x74] = 0;
+AudioEffects[0x78] = 0x41c80000;
+AudioEffects[0x7c] = 0x3f99999a;
+AudioEffects[0x80] = 0x40100000;
+AudioEffects[0x84] = 0x42a00000;
+AudioEffects[0x88] = 0x42c80000;
+AudioEffects[0x8c] = 8;
+AudioEffects[0x90] = 0x42c80000;
+AudioEffects[0x94] = 0x43340000;
+AudioEffects[0x96] = 0;
+AudioEffects[0x97] = 0x3d23d70a;
+AudioEffects[0x98] = 0x3da3d70a;
+AudioEffects[0x99] = 0;
+AudioEffects[0x9a] = 1;
+AudioEffects[0x9b] = 0x42480000;
+AudioEffects[0x9c] = 3;
+AudioEffects[0x9d] = 0xffffffff;
+AudioEffects[0xa0] = 0;
+AudioEffects[0xa8] = 0x42c80000;
+AudioEffects[0xac] = 0x3f800000;
+AudioEffects[0xb0] = 3;
+AudioEffects[0xb4] = 1;
+AudioEffects[0xb8] = 0;
+AudioEffects[0xbc] = 0x447a0000;
+AudioEffects[0xc0] = 0x3f800000;
+AudioEffects[0xc4] = 3;
+AudioEffects[0xc8] = 2;
+AudioEffects[0xcc] = 0;
+AudioEffects[0xd0] = 0x461c4000;
+AudioEffects[0xd4] = 0x3f800000;
+AudioEffects[0xd8] = 0;
+AudioEffects[0xdc] = 0;
+AudioEffects[0xe0] = 0;
+AudioEffects[0xe4] = 0;
+AudioEffects[0xe8] = 0;
+AudioEffects[0xec] = 0;
+AudioEffects[0xf0] = 0;
+AudioEffects[0xf4] = 0xc2c0999a;
+AudioEffects[0xf8] = 0xc2c0999a;
+AudioEffects[0xfc] = 0;
+AudioEffects[0x100] = 0;
+AudioEffects[0x104] = 0;
+AudioEffects[0x108] = 1;
+AudioEffects[0x10c] = 0;
+AudioEffects[0x110] = 0;
+AudioEffects[0x114] = 0x42200000;
+AudioEffects[0x118] = 0;
+AudioEffects[0x11c] = 0;
+AudioEffects[0x120] = 0;
+AudioEffects[0x124] = 0;
+AudioEffects[0x128] = 0;
+AudioEffects[0x12c] = 0;
+AudioEffects[0x130] = 0;
+AudioEffects[0x134] = 0;
+AudioEffects[0x138] = 0;
+AudioEffects[0x13c] = 0;
+AudioEffects[0x140] = 0;
+AudioEffects[0x144] = 0;
+AudioEffects[0x148] = 0;
+AudioEffects[0x14c] = 0;
+AudioEffects[0x150] = 0x42f00000;
+AudioEffects[0x154] = 0x3f000000;
+AudioEffects[0x158] = 0x45bb8000;
+AudioEffects[0x15c] = 0x3f000000;
+AudioEffects[0x160] = 0;
+AudioEffects[0x164] = 0;
+AudioEffects[0x168] = 8;
+AudioEffects[0x16c] = 0;
+AudioEffects[0x170] = 0x468ca000;
+AudioEffects[0x174] = 0x3f000000;
+AudioEffects[0x178] = 0;
+AudioEffects[0x17c] = 8;
+AudioEffects[0x180] = 0;
+AudioEffects[0x184] = 0x468ca000;
+AudioEffects[0x188] = 0x3f000000;
+AudioEffects[0x18c] = 0;
+AudioEffects[0x190] = 8;
+AudioEffects[0x194] = 0;
+AudioEffects[0x198] = 0x468ca000;
+AudioEffects[0x19c] = 0x3f000000;
+AudioEffects[0x1a0] = 0;
+AudioEffects[0x1a4] = 8;
+AudioEffects[0x1a8] = 0;
+AudioEffects[0x1ac] = 0x468ca000;
+AudioEffects[0x1b0] = 0x3f000000;
+AudioEffects[0x1b4] = 0;
+AudioEffects[0x1b8] = 8;
+AudioEffects[0x1bc] = 0;
+AudioEffects[0x1c0] = 0x468ca000;
+AudioEffects[0x1c4] = 0x3f000000;
+AudioEffects[0x1c8] = 0;
+AudioEffects[0x1cc] = 8;
+AudioEffects[0x1d0] = 0;
+AudioEffects[0x1d4] = 0x468ca000;
+AudioEffects[0x1d8] = 0x3f000000;
+AudioEffects[0x1dc] = 0;
+AudioEffects[0x1e0] = 8;
+AudioEffects[0x1e4] = 0;
+AudioEffects[0x1e8] = 0x468ca000;
+AudioEffects[0x1ec] = 0x3f000000;
+AudioEffects[0x1f0] = 0;
+AudioEffects[0x1f4] = 8;
+AudioEffects[0x1f8] = 0;
+AudioEffects[0x1fc] = 0x468ca000;
+AudioEffects[0x200] = 0x3f000000;
+AudioEffects[0x204] = 0;
+AudioEffects[0x208] = 8;
+AudioEffects[0x20c] = 0;
+AudioEffects[0x210] = 0x468ca000;
+AudioEffects[0x214] = 0x3f000000;
+AudioEffects[0x218] = 0;
+AudioEffects[0x21c] = 0;
+AudioEffects[0x230] = 0;
+AudioEffects[0x238] = 0;
+AudioEffects[0x24c] = 0;
+AudioEffects[0x254] = 1;
+
+0x00    FUN_10009a00
+0x01    FUN_100091b0
+0x02    FUN_1000b110
+0x03    FUN_1000a2f0
+0x04    FUN_1000a680
+0x05    FUN_1000a530
+0x06    FUN_1000aa00
+0x07    FUN_1000b120
+0x08    FUN_1000b1f0
+0x0A    FUN_1000b4f0
+0x0B    FUN_1000b9f0
+0x0C    FUN_1000bac0
+0x0D    FUN_1000b5c0
+0x0E    FUN_1000b6a0
+0x0F    FUN_1000b760
+0x10    FUN_1000b920
+0x11    FUN_1000bcd0
+0x12    FUN_1000bda0
+0x13    FUN_1000ad30
+0x14    FUN_1000ac40
+0x15    FUN_1000a870
+0x16    FUN_1000a940
+0x17    FUN_1000a780
+0x18    FUN_1000b380
+0x19    FUN_1000b450
+0x1A    FUN_1000b2b0
+0x1B    FUN_1000ab70
+0x1C    FUN_1000aad0
+0x1D    FUN_1000aea0
+0x1E    FUN_1000ae00
+0x1F    FUN_1000af70
+0x20    FUN_1000b040
+0x21    FUN_1000a5e0
+0x22    FUN_100091c0
+0x23    FUN_1000bb60
+0x24    FUN_1000bc30
+0x25    FUN_10008ec0
