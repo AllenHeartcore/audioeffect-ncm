@@ -5,37 +5,46 @@ import zlib
 
 
 
-toint = lambda x: int.from_bytes(x, byteorder='big')
-
-
 def read_parts(filename):
+
+    toint = lambda x: int.from_bytes(x, byteorder='big')
+
     with open(filename, 'rb') as fin:
+
         magic = fin.read(4)
         assert magic == b'NCAE'
+
         ldata = toint(fin.read(4))
-        fin.read(6)     # unused
-        short = toint(fin.read(2))
+        fin.read(8)     # unused
+
         lkey = toint(fin.read(1)) - 1
         assert lkey % 4 == 0
         key0 = bytearray(fin.read(lkey + 1))
         key = np.array(key0[:4] + key0[5:]) ^ key0[4]
+
         data = bytearray(fin.read(ldata))
+
     return key, data
 
 
 def make_swaptable(key):
+
     table = np.arange(0x100, dtype=np.uint8)
     byte = 0
+
     for i in range(0x100):
         byte = table[i] + key[i % len(key)] + byte & 0xFF
         table[i], table[byte] = table[byte], table[i]
+
     return table
 
 
 def use_swaptable(data, table):
+
     for j in range(len(data)):
         byte = table[(j + 1) & 0xFF]
         data[j] ^= table[table[(byte + j + 1) & 0xFF] + byte & 0xFF]
+
     return data
 
 
@@ -51,10 +60,12 @@ def determine_ext(data):
         data = json.dumps(data, indent=4).encode('utf-8')
         return '.json'
     except UnicodeDecodeError or json.JSONDecodeError:
+
         try:
             _ = AudioSegment.from_file(BytesIO(data))
             return '.wav'
         except pydub.exceptions.CouldntDecodeError:
+
             warnings.warn('Unrecognized format')
             return '.bin'
 
