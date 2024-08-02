@@ -11,18 +11,10 @@
             1.5,
             1.91,
             1.91
-        ],
-        "on": true
-    },
-    "bt": {
-        "on": false
-    },
-    "rvb": {
-        "on": false
+        ]
     },
     "se": {
         "ambience": 3,
-        "on": true,
         "presence": 2,
         "sshaper": true,
         "stereoizer": 5

@@ -56,8 +56,7 @@ def determine_ext(data):
     from io import BytesIO
 
     try:
-        data = json.loads(data.decode('utf-8'))
-        data = json.dumps(data, indent=4).encode('utf-8')
+        _ = json.loads(data.decode('utf-8'))
         return '.json'
     except UnicodeDecodeError or json.JSONDecodeError:
 
@@ -68,6 +67,19 @@ def determine_ext(data):
 
             warnings.warn('Unrecognized format')
             return '.bin'
+
+
+def format_json(data):
+
+    d = json.loads(data.decode('utf-8'))
+    d = {k: d[k] for k in sorted(d) if d[k]['on']}
+    for k in d:
+        del d[k]['on']
+        d[k] = {k1: d[k][k1] for k1 in sorted(d[k])}
+
+    data = json.dumps(d, indent=4).encode('utf-8')
+
+    return data
 
 
 
@@ -93,6 +105,8 @@ if __name__ == '__main__':
         ext = determine_ext(data)
 
         file = translator[os.path.splitext(file)[0]] + ext
+        if ext == '.json':
+            data = format_json(data)
         with open(os.path.join(dst, file), 'wb') as fout:
             fout.write(data)
         print(file)

@@ -1,18 +1,8 @@
 {
-    "eq": {
-        "on": false
-    },
-    "bt": {
-        "on": false
-    },
-    "rvb": {
-        "on": false
-    },
     "se": {
-        "on": true,
+        "ambience": 0,
         "presence": 0,
-        "stereoizer": 0,
         "sshaper": true,
-        "ambience": 0
+        "stereoizer": 0
     }
 }

@@ -1,18 +1,5 @@
 {
-    "eq": {
-        "on": false
-    },
-    "bt": {
-        "on": false
-    },
-    "rvb": {
-        "on": false
-    },
-    "se": {
-        "on": false
-    },
     "rotate": {
-        "on": true,
         "velocity": 20
     }
 }

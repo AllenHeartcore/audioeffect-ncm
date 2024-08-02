@@ -1,6 +1,9 @@
 {
+    "bt": {
+        "bass": 12,
+        "treble": -12
+    },
     "eq": {
-        "on": true,
         "eqs": [
             -6,
             -6.5,
@@ -14,18 +17,27 @@
             -12
         ]
     },
-    "bt": {
-        "on": true,
-        "bass": 12,
-        "treble": -12
-    },
     "rvb": {
-        "on": true,
         "er": {
             "on": true,
             "pattern": 24,
             "rsize": 50,
             "sdelay": 40
+        },
+        "il": {
+            "center": 0,
+            "lfe": 0
+        },
+        "ol": {
+            "dry": 0,
+            "er": -3,
+            "rvb": -20
+        },
+        "rl": {
+            "front": 0,
+            "rear": 0,
+            "center": 0,
+            "lfe": 0
         },
         "rvb": {
             "pdelay": 0,
@@ -65,28 +77,12 @@
                     "q": 0.5
                 }
             ]
-        },
-        "il": {
-            "center": 0,
-            "lfe": 0
-        },
-        "rl": {
-            "front": 0,
-            "rear": 0,
-            "center": 0,
-            "lfe": 0
-        },
-        "ol": {
-            "dry": 0,
-            "er": -3,
-            "rvb": -20
         }
     },
     "se": {
-        "on": true,
+        "ambience": 0,
         "presence": 10,
-        "stereoizer": 10,
         "sshaper": true,
-        "ambience": 0
+        "stereoizer": 10
     }
 }

@@ -1,17 +1,25 @@
 {
-    "eq": {
-        "on": false
-    },
-    "bt": {
-        "on": false
-    },
     "rvb": {
-        "on": true,
         "er": {
             "on": true,
             "pattern": 4,
             "rsize": 70,
             "sdelay": 40
+        },
+        "il": {
+            "center": 0,
+            "lfe": 0
+        },
+        "ol": {
+            "dry": 0,
+            "er": -23,
+            "rvb": -20
+        },
+        "rl": {
+            "front": 0,
+            "rear": 0,
+            "center": 0,
+            "lfe": 0
         },
         "rvb": {
             "pdelay": 25,
@@ -51,24 +59,6 @@
                     "q": 0.5
                 }
             ]
-        },
-        "il": {
-            "center": 0,
-            "lfe": 0
-        },
-        "rl": {
-            "front": 0,
-            "rear": 0,
-            "center": 0,
-            "lfe": 0
-        },
-        "ol": {
-            "dry": 0,
-            "er": -23,
-            "rvb": -20
         }
-    },
-    "se": {
-        "on": false
     }
 }

@@ -1,6 +1,9 @@
 {
+    "bt": {
+        "bass": 3,
+        "treble": 0
+    },
     "eq": {
-        "on": true,
         "eqs": [
             6,
             4.5,
@@ -13,16 +16,5 @@
             0,
             0
         ]
-    },
-    "bt": {
-        "on": true,
-        "bass": 3,
-        "treble": 0
-    },
-    "rvb": {
-        "on": false
-    },
-    "se": {
-        "on": false
     }
 }

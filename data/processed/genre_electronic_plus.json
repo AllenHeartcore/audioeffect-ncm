@@ -1,6 +1,5 @@
 {
     "eq": {
-        "on": true,
         "eqs": [
             4,
             4,
@@ -14,16 +13,27 @@
             4
         ]
     },
-    "bt": {
-        "on": false
-    },
     "rvb": {
-        "on": true,
         "er": {
             "on": true,
             "pattern": 4,
             "rsize": 80,
             "sdelay": 40
+        },
+        "il": {
+            "center": 0,
+            "lfe": 0
+        },
+        "ol": {
+            "dry": 0,
+            "er": -22,
+            "rvb": -24
+        },
+        "rl": {
+            "front": 0,
+            "rear": 0,
+            "center": 0,
+            "lfe": 0
         },
         "rvb": {
             "pdelay": 50,
@@ -63,24 +73,6 @@
                     "q": 0.5
                 }
             ]
-        },
-        "il": {
-            "center": 0,
-            "lfe": 0
-        },
-        "ol": {
-            "dry": 0,
-            "er": -22,
-            "rvb": -24
-        },
-        "rl": {
-            "front": 0,
-            "rear": 0,
-            "center": 0,
-            "lfe": 0
         }
-    },
-    "se": {
-        "on": false
     }
 }
