@@ -1,21 +1,9 @@
 {
     "eq": {
-        "eqs": [
-            4,
-            4,
-            3,
-            1,
-            -1,
-            -2,
-            -1,
-            2,
-            4,
-            4
-        ]
+        "eqs": [4, 4, 3, 1, -1, -2, -1, 2, 4, 4]
     },
     "rvb": {
         "er": {
-            "on": true,
             "pattern": 4,
             "rsize": 80,
             "sdelay": 40
@@ -36,17 +24,16 @@
             "lfe": 0
         },
         "rvb": {
-            "pdelay": 50,
+            "density": 50,
+            "diffusion": 85,
             "dtime": 2.5,
             "hfdamping": 6.5,
-            "density": 50,
-            "rshape": 20,
+            "pdelay": 50,
             "q": 8,
-            "diffusion": 85,
+            "rshape": 20,
             "swidth": 180
         },
         "tc": {
-            "on": true,
             "f": [
                 {
                     "band": 1,

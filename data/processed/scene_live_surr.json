@@ -4,22 +4,10 @@
         "treble": -12
     },
     "eq": {
-        "eqs": [
-            -6,
-            -6.5,
-            -3.7,
-            -9.93,
-            -12,
-            -12,
-            -12,
-            -12,
-            -12,
-            -12
-        ]
+        "eqs": [-6, -6.5, -3.7, -9.93, -12, -12, -12, -12, -12, -12]
     },
     "rvb": {
         "er": {
-            "on": true,
             "pattern": 24,
             "rsize": 50,
             "sdelay": 40
@@ -40,17 +28,16 @@
             "lfe": 0
         },
         "rvb": {
-            "pdelay": 0,
+            "density": 60,
+            "diffusion": 40,
             "dtime": 3.59,
             "hfdamping": 2,
-            "density": 60,
-            "rshape": 40,
+            "pdelay": 0,
             "q": 8,
-            "diffusion": 40,
+            "rshape": 40,
             "swidth": 110
         },
         "tc": {
-            "on": true,
             "f": [
                 {
                     "band": 1,

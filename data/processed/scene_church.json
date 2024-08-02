@@ -1,7 +1,6 @@
 {
     "rvb": {
         "er": {
-            "on": true,
             "pattern": 0,
             "rsize": 80,
             "sdelay": 40
@@ -22,17 +21,16 @@
             "lfe": 0
         },
         "rvb": {
-            "pdelay": 25,
+            "density": 60,
+            "diffusion": 80,
             "dtime": 2.4,
             "hfdamping": 2,
-            "density": 60,
-            "rshape": 80,
+            "pdelay": 25,
             "q": 6,
-            "diffusion": 80,
+            "rshape": 80,
             "swidth": 180
         },
         "tc": {
-            "on": true,
             "f": [
                 {
                     "band": 1,

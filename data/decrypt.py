@@ -72,14 +72,34 @@ def determine_ext(data):
 def format_json(data):
 
     d = json.loads(data.decode('utf-8'))
-    d = {k: d[k] for k in sorted(d) if d[k]['on']}
+    d = {k: d[k] for k in sorted(d) if d[k]['on']}  # 'bt, eq, rvb, se'
+
     for k in d:
         del d[k]['on']
         d[k] = {k1: d[k][k1] for k1 in sorted(d[k])}
+        # bt: 'bass, treble'
+        # eq: 'eqs'
+        # rvb: 'er, il, ol, rl, rvb, tc'
+        # se: 'ambience, presence, sshaper, stereoizer'
 
-    data = json.dumps(d, indent=4).encode('utf-8')
+    if 'rvb' in d:
+        d1 = d['rvb']
+        for k in d1:
+            try:
+                del d1[k]['on']
+            except KeyError:
+                pass
+            if k == 'rl': continue  # keep the order of 'front, rear, center, lfe'
+            d1[k] = {k1: d1[k][k1] for k1 in sorted(d1[k])}
+        d['rvb'] = d1
 
-    return data
+    if 'eq' in d:
+        d['eq']['eqs'] = str(d['eq']['eqs'])    # don't expand eqs list
+
+    data = json.dumps(d, indent=4)
+    data = data.replace('"[', '[').replace(']"', ']')
+
+    return data.encode('utf-8')
 
 
 
@@ -109,4 +129,5 @@ if __name__ == '__main__':
             data = format_json(data)
         with open(os.path.join(dst, file), 'wb') as fout:
             fout.write(data)
+
         print(file)
