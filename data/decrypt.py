@@ -3,18 +3,13 @@ import json
 import numpy as np
 import zlib
 
-import warnings
-import pydub.exceptions
-from pydub import AudioSegment
-from io import BytesIO
-
 
 
 toint = lambda x: int.from_bytes(x, byteorder='big')
 
 
 def read_parts(filename):
-    with open('raw/%s' % filename, 'rb') as fin:
+    with open(filename, 'rb') as fin:
         magic = fin.read(4)
         assert magic == b'NCAE'
         ldata = toint(fin.read(4))
@@ -45,6 +40,12 @@ def use_swaptable(data, table):
 
 
 def determine_ext(data):
+
+    import warnings
+    import pydub.exceptions
+    from pydub import AudioSegment
+    from io import BytesIO
+
     try:
         data = json.loads(data.decode('utf-8'))
         data = json.dumps(data, indent=4).encode('utf-8')
@@ -59,22 +60,28 @@ def determine_ext(data):
 
 
 
+src = 'raw'
+dst = 'processed'
+
+
 if __name__ == '__main__':
 
-    if not os.path.exists('processed'):
-        os.makedirs('processed')
+    if not os.path.exists(dst):
+        os.makedirs(dst)
+
     with open('translate.json', encoding='utf-8') as f:
         translator = json.load(f)
 
-    for file in os.listdir('raw'):
+    for file in os.listdir(src):
+        if not file.endswith('.ncae'): continue
 
-        lkey, key, data = read_parts(file)
+        key, data = read_parts(os.path.join(src, file))
         table = make_swaptable(key)
         data = use_swaptable(data, table)
         data = zlib.decompress(data, -zlib.MAX_WBITS)
         ext = determine_ext(data)
 
-        file = translator[file[:-5]] + ext
-        with open('processed/%s' % file, 'wb') as fout:
+        file = translator[os.path.splitext(file)[0]] + ext
+        with open(os.path.join(dst, file), 'wb') as fout:
             fout.write(data)
         print(file)
