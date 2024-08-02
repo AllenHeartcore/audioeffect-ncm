@@ -1,8 +1,9 @@
 import os
 import json
 import numpy as np
-
 import zlib
+
+import warnings
 import pydub.exceptions
 from pydub import AudioSegment
 from io import BytesIO
@@ -36,7 +37,7 @@ for file in os.listdir('raw'):
         data[j] ^= arr[arr[(byte + j + 1) & 0xFF] + byte & 0xFF]
 
     data = zlib.decompress(data, -zlib.MAX_WBITS)
-    ext = '.bin'
+    ext = '.bin'    # to be overwritten
     try:
         data = json.loads(data.decode('utf-8'))
         data = json.dumps(data, indent=4).encode('utf-8')
@@ -46,7 +47,7 @@ for file in os.listdir('raw'):
             _ = AudioSegment.from_file(BytesIO(data))
             ext = '.wav'
         except pydub.exceptions.CouldntDecodeError:
-            raise Exception('Unrecognized format')
+            warnings.warn('Unrecognized format')
 
     translator = json.loads(open('translate.json', encoding='utf-8').read())
     file = translator[file[:-5]] + ext
