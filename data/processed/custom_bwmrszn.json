@@ -1,0 +1,30 @@
+{
+    "bt": {
+        "on": false
+    },
+    "eq": {
+        "eqs": [
+            -1,
+            -1,
+            -2,
+            -3,
+            -2,
+            -2,
+            -1,
+            -1,
+            -1,
+            -1
+        ],
+        "on": true
+    },
+    "rvb": {
+        "on": false
+    },
+    "se": {
+        "ambience": 2,
+        "on": true,
+        "presence": 0.5,
+        "sshaper": false,
+        "stereoizer": 1.5
+    }
+}

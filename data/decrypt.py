@@ -1,7 +1,11 @@
 import os
 import json
 import numpy as np
+
 import zlib
+import pydub.exceptions
+from pydub import AudioSegment
+from io import BytesIO
 
 toint = lambda x: int.from_bytes(x, byteorder='big')
 if not os.path.exists('processed'):
@@ -31,9 +35,22 @@ for file in os.listdir('raw'):
         byte = arr[(j + 1) & 0xFF]
         data[j] ^= arr[arr[(byte + j + 1) & 0xFF] + byte & 0xFF]
 
+    data = zlib.decompress(data, -zlib.MAX_WBITS)
+    ext = '.bin'
+    try:
+        data = json.loads(data.decode('utf-8'))
+        data = json.dumps(data, indent=4).encode('utf-8')
+        ext = '.json'
+    except UnicodeDecodeError or json.JSONDecodeError:
+        try:
+            _ = AudioSegment.from_file(BytesIO(data))
+            ext = '.wav'
+        except pydub.exceptions.CouldntDecodeError:
+            raise Exception('Unrecognized format')
+
     translator = json.loads(open('translate.json', encoding='utf-8').read())
-    file = translator[file[:-5]] + '.bin'
+    file = translator[file[:-5]] + ext
     fout = open('processed/%s' % file, 'wb')
-    fout.write(zlib.decompress(data, -zlib.MAX_WBITS))
+    fout.write(data)
     fout.close()
     print(file)
