@@ -25,22 +25,22 @@ def read_parts(filename):
         key0 = bytearray(fin.read(lkey + 1))
         key = np.array(key0[:4] + key0[5:]) ^ key0[4]
         data = bytearray(fin.read(ldata))
-    return lkey, key, data
+    return key, data
 
 
-def make_swaptable(lkey, key):
-    arr = np.arange(0x100, dtype=np.uint8)
+def make_swaptable(key):
+    table = np.arange(0x100, dtype=np.uint8)
     byte = 0
     for i in range(0x100):
-        byte = arr[i] + key[i % lkey] + byte & 0xFF
-        arr[i], arr[byte] = arr[byte], arr[i]
-    return arr
+        byte = table[i] + key[i % len(key)] + byte & 0xFF
+        table[i], table[byte] = table[byte], table[i]
+    return table
 
 
-def use_swaptable(data, arr):
+def use_swaptable(data, table):
     for j in range(len(data)):
-        byte = arr[(j + 1) & 0xFF]
-        data[j] ^= arr[arr[(byte + j + 1) & 0xFF] + byte & 0xFF]
+        byte = table[(j + 1) & 0xFF]
+        data[j] ^= table[table[(byte + j + 1) & 0xFF] + byte & 0xFF]
     return data
 
 
@@ -63,18 +63,18 @@ if __name__ == '__main__':
 
     if not os.path.exists('processed'):
         os.makedirs('processed')
+    with open('translate.json', encoding='utf-8') as f:
+        translator = json.load(f)
 
     for file in os.listdir('raw'):
 
         lkey, key, data = read_parts(file)
-        arr = make_swaptable(lkey, key)
-        data = use_swaptable(data, arr)
+        table = make_swaptable(key)
+        data = use_swaptable(data, table)
         data = zlib.decompress(data, -zlib.MAX_WBITS)
         ext = determine_ext(data)
 
-        translator = json.loads(open('translate.json', encoding='utf-8').read())
         file = translator[file[:-5]] + ext
-        fout = open('processed/%s' % file, 'wb')
-        fout.write(data)
-        fout.close()
+        with open('processed/%s' % file, 'wb') as fout:
+            fout.write(data)
         print(file)
