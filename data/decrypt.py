@@ -1,6 +1,7 @@
 import os
 import json
 import numpy as np
+import zlib
 
 toint = lambda x: int.from_bytes(x, byteorder='big')
 if not os.path.exists('processed'):
@@ -33,6 +34,6 @@ for file in os.listdir('raw'):
     translator = json.loads(open('translate.json', encoding='utf-8').read())
     file = translator[file[:-5]] + '.bin'
     fout = open('processed/%s' % file, 'wb')
-    fout.write(data)
+    fout.write(zlib.decompress(data, -zlib.MAX_WBITS))
     fout.close()
     print(file)
