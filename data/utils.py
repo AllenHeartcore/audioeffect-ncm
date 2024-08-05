@@ -1,10 +1,9 @@
 import os
 import json
 import numpy as np
-import pydub.exceptions
+import soundfile as sf
 import warnings
 
-from pydub import AudioSegment
 from io import BytesIO
 
 
@@ -34,16 +33,20 @@ def read_encfile(filename):
 def write_decfile(filename, data):
 
     ext = determine_ext(data)
+    filename += ext
 
     if ext == '.json':
         data = format_json(data)
 
     os.makedirs(os.path.dirname(filename), exist_ok=True)
 
-    with open(filename + ext, 'wb') as fout:
+    with open(filename, 'wb') as fout:
         fout.write(data)
 
-    return filename + ext
+    if ext == '.wav':
+        rewrite_wav(filename)
+
+    return filename
 
 
 def determine_ext(data):
@@ -54,9 +57,9 @@ def determine_ext(data):
     except UnicodeDecodeError or json.JSONDecodeError:
 
         try:
-            _ = AudioSegment.from_file(BytesIO(data))
+            _ = sf.read(BytesIO(data))
             return '.wav'
-        except pydub.exceptions.CouldntDecodeError:
+        except sf.LibsndfileError:
 
             warnings.warn('Unrecognized format')
             return '.bin'
@@ -93,3 +96,10 @@ def format_json(data):
     data = data.replace('"[', '[').replace(']"', ']')
 
     return data.encode('utf-8')
+
+
+def rewrite_wav(filename):
+
+    data, sr = sf.read(filename)
+    info = sf.info(filename)
+    sf.write(filename, data, sr, format='WAV', subtype=info.subtype)
