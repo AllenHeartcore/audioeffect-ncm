@@ -40,5 +40,5 @@ if __name__ == '__main__':
 
         file_new = translator[os.path.splitext(os.path.basename(file))[0]]
         brand = file_new.split()[0]
-        file_new = write_decfile(os.path.join(dst, brand, file_new), data)
+        file_new = write_decfile(os.path.join(dst, brand, file_new), data, rewrite_wav=True)
         print(file, '->', file_new)

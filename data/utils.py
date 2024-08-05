@@ -30,26 +30,26 @@ def read_encfile(filename):
     return key, data
 
 
-def write_decfile(filename, data):
+def write_decfile(filename, data, rewrite_wav=False):
 
-    ext = determine_ext(data)
+    ext = _determine_ext(data)
     filename += ext
 
     if ext == '.json':
-        data = format_json(data)
+        data = _format_json(data)
 
     os.makedirs(os.path.dirname(filename), exist_ok=True)
 
     with open(filename, 'wb') as fout:
         fout.write(data)
 
-    if ext == '.wav':
-        rewrite_wav(filename)
+    if rewrite_wav and ext == '.wav':
+        _rewrite_wav(filename)
 
     return filename
 
 
-def determine_ext(data):
+def _determine_ext(data):
 
     try:
         _ = json.loads(data.decode('utf-8'))
@@ -65,7 +65,7 @@ def determine_ext(data):
             return '.bin'
 
 
-def format_json(data):
+def _format_json(data):
 
     d = json.loads(data.decode('utf-8'))
     d = {k: d[k] for k in sorted(d) if d[k]['on']}  # 'bt, eq, rvb, se'
@@ -98,8 +98,14 @@ def format_json(data):
     return data.encode('utf-8')
 
 
-def rewrite_wav(filename):
+def _rewrite_wav(filename):
 
     data, sr = sf.read(filename)
+    if data.shape[0] != 16384:
+        if data[16384:].max() == 0:
+            data = data[:16384]
+        else:
+            warnings.warn('Unexpected pikes in high frequencies')
+
     info = sf.info(filename)
     sf.write(filename, data, sr, format='WAV', subtype=info.subtype)
