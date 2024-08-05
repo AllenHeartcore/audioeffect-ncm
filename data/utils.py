@@ -1,3 +1,4 @@
+import os
 import json
 import numpy as np
 import pydub.exceptions
@@ -36,6 +37,8 @@ def write_decfile(filename, data):
 
     if ext == '.json':
         data = format_json(data)
+
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
 
     with open(filename + ext, 'wb') as fout:
         fout.write(data)
