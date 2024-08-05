@@ -6,8 +6,8 @@ from utils import read_encfile, write_decfile
 
 
 
-src = 'raw'
-dst = 'processed'
+src = 'data/raw'
+dst = 'data/processed'
 
 
 def iter_files(src):
