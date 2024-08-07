@@ -1,0 +1,85 @@
+import os
+import json
+import numpy as np
+import soundfile as sf
+import warnings
+
+
+
+class NCAESchema:
+
+
+    def __init__(self, ext, data):
+
+        self.ext = ext      # "type" collides with a reserved word
+        self.data = data
+
+
+    def export(self, filename, fmt=True):
+
+        ext = self.ext
+        data = self.data
+        filename += ext
+
+        os.makedirs(os.path.dirname(filename), exist_ok=True)
+
+        if ext == '.json':
+            if fmt:
+                data = self._format_json(data)
+            with open(filename, 'wb') as fout:
+                fout.write(data)
+
+        elif ext == '.wav':
+            with open(filename, 'wb') as fout:
+                fout.write(data['wav'])
+            if fmt:
+                self._rewrite_wav(filename)
+
+        else:
+            raise ValueError('Unrecognized format')
+
+
+    def _format_json(self, data):
+
+        d = self.data
+        d = {k: d[k] for k in sorted(d) if d[k]['on']}  # 'bt, eq, rvb, se'
+
+        for k in d:
+            del d[k]['on']
+            d[k] = {k1: d[k][k1] for k1 in sorted(d[k])}
+            # bt: 'bass, treble'
+            # eq: 'eqs'
+            # rvb: 'er, il, ol, rl, rvb, tc'
+            # se: 'ambience, presence, sshaper, stereoizer'
+
+        if 'rvb' in d:
+            d1 = d['rvb']
+            for k in d1:
+                try:
+                    del d1[k]['on']
+                except KeyError:
+                    pass
+                if k == 'rl': continue  # keep the order of 'front, rear, center, lfe'
+                d1[k] = {k1: d1[k][k1] for k1 in sorted(d1[k])}
+            d['rvb'] = d1
+
+        if 'eq' in d:
+            d['eq']['eqs'] = str(d['eq']['eqs'])    # don't expand eqs list
+
+        data = json.dumps(d, indent=4)
+        data = data.replace('"[', '[').replace(']"', ']')
+
+        return data.encode('utf-8')
+
+
+    def _rewrite_wav(self, filename):
+
+        data, sr = sf.read(filename)
+        if data.shape[0] != 16384:
+            if data[16384:].max() == 0:
+                data = data[:16384]
+            else:
+                warnings.warn('Unexpected pikes in high frequencies')
+
+        info = sf.info(filename)
+        sf.write(filename, data, sr, fmt='WAV', subtype=info.subtype)
