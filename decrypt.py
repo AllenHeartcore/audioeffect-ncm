@@ -1,9 +1,6 @@
 import numpy as np
-import json
 import zlib
-import soundfile as sf
 
-from io import BytesIO
 from schema import NCAEJsonSchema, NCAEWavSchema
 
 
@@ -32,20 +29,11 @@ class NCAEDecryptor:
         data = zlib.decompress(data, -zlib.MAX_WBITS)
 
         try:
-            dic = json.loads(data.decode('utf-8'))
-            return NCAEJsonSchema(data, dic)
+            return NCAEJsonSchema(data)
 
-        except UnicodeDecodeError or json.JSONDecodeError:
+        except:
             try:
-                io = BytesIO(data)
-                wav, sr = sf.read(io)
-                io.seek(0)              # forcefully suppress sf.LibsndfileError...
-                io.name = '_tmp.wav'    # ...by assigning a filename to the BytesIO object
-                info = sf.info(io)
-                return NCAEWavSchema(data, wav, meta={
-                    'sr': sr,
-                    'subtype': info.subtype,
-                })
+                return NCAEWavSchema(data)
 
-            except sf.LibsndfileError:
+            except:
                 raise ValueError('Unrecognized format')

@@ -4,30 +4,38 @@ import numpy as np
 import soundfile as sf
 import warnings
 
+from io import BytesIO
+
 
 
 class NCAESchema:
 
 
-    def __init__(self, raw, ext, data):
+    def __init__(self, raw, ext='.bin'):
 
         self.raw = raw
         self.ext = ext      # "type" collides with a reserved word
-        self.data = data
+        self.data = None
 
 
     def export(self, filename):
+        # to be overridden by subclasses
 
-        raise NotImplementedError('To be implemented in subclasses')
+        filename += self.ext
+        os.makedirs(os.path.dirname(filename), exist_ok=True)
+
+        with open(filename, 'wb') as fout:
+            fout.write(self.raw)
 
 
 
 class NCAEJsonSchema(NCAESchema):
 
 
-    def __init__(self, raw, data):
+    def __init__(self, raw):
 
-        super().__init__(raw, '.json', data)
+        super().__init__(raw, '.json')
+        self.data = json.loads(raw.decode('utf-8'))
 
 
     def export(self, filename, fmt=True):
@@ -76,10 +84,19 @@ class NCAEJsonSchema(NCAESchema):
 class NCAEWavSchema(NCAESchema):
 
 
-    def __init__(self, raw, data, meta):
+    def __init__(self, raw):
 
-        super().__init__(raw, '.wav', data)
-        self.meta = meta
+        super().__init__(raw, '.wav')
+        io = BytesIO(raw)
+        self.data, sr = sf.read(io)
+
+        io.seek(0)              # forcefully suppress sf.LibsndfileError...
+        io.name = '_tmp.wav'    # ...by assigning a filename to the BytesIO object
+        info = sf.info(io)
+        self.meta = {
+            'sr': sr,
+            'subtype': info.subtype,
+        }
 
 
     def export(self, filename, fmt=False):
