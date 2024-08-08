@@ -33,16 +33,16 @@ class NCAEDecryptor:
 
         try:
             dic = json.loads(data.decode('utf-8'))
-            return NCAEJsonSchema(dic)
+            return NCAEJsonSchema(data, dic)
 
         except UnicodeDecodeError or json.JSONDecodeError:
             try:
                 io = BytesIO(data)
                 wav, sr = sf.read(io)
-                io = BytesIO(data)
-                io.name = '_tmp.wav'
+                io.seek(0)              # forcefully suppress sf.LibsndfileError...
+                io.name = '_tmp.wav'    # ...by assigning a filename to the BytesIO object
                 info = sf.info(io)
-                return NCAEWavSchema(wav, meta={
+                return NCAEWavSchema(data, wav, meta={
                     'sr': sr,
                     'subtype': info.subtype,
                 })

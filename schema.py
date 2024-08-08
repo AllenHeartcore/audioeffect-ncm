@@ -9,8 +9,9 @@ import warnings
 class NCAESchema:
 
 
-    def __init__(self, ext, data):
+    def __init__(self, raw, ext, data):
 
+        self.raw = raw
         self.ext = ext      # "type" collides with a reserved word
         self.data = data
 
@@ -24,9 +25,9 @@ class NCAESchema:
 class NCAEJsonSchema(NCAESchema):
 
 
-    def __init__(self, data):
+    def __init__(self, raw, data):
 
-        super().__init__('.json', data)
+        super().__init__(raw, '.json', data)
 
 
     def export(self, filename, fmt=True):
@@ -65,7 +66,7 @@ class NCAEJsonSchema(NCAESchema):
             string = string.replace('"[', '[').replace(']"', ']')
 
         else:
-            string = json.dumps(self.data, indent=4)
+            string = self.raw.decode('utf-8')
 
         with open(filename, 'w') as fout:
             fout.write(string)
@@ -75,9 +76,9 @@ class NCAEJsonSchema(NCAESchema):
 class NCAEWavSchema(NCAESchema):
 
 
-    def __init__(self, data, meta):
+    def __init__(self, raw, data, meta):
 
-        super().__init__('.wav', data)
+        super().__init__(raw, '.wav', data)
         self.meta = meta
 
 
@@ -105,4 +106,4 @@ class NCAEWavSchema(NCAESchema):
 
         else:
             with open(filename, 'wb') as fout:
-                fout.write(data)
+                fout.write(self.raw)
