@@ -4,7 +4,7 @@ import zlib
 import soundfile as sf
 
 from io import BytesIO
-from schema import NCAESchema
+from schema import NCAEJsonSchema, NCAEWavSchema
 
 
 
@@ -33,17 +33,18 @@ class NCAEDecryptor:
 
         try:
             dic = json.loads(data.decode('utf-8'))
-            return NCAESchema('.json', dic)
+            return NCAEJsonSchema(dic)
 
         except UnicodeDecodeError or json.JSONDecodeError:
             try:
                 io = BytesIO(data)
                 wav, sr = sf.read(io)
+                io = BytesIO(data)
+                io.name = '_tmp.wav'
                 info = sf.info(io)
-                return NCAESchema('.wav', {
+                return NCAEWavSchema(wav, meta={
                     'sr': sr,
                     'subtype': info.subtype,
-                    'wav': wav
                 })
 
             except sf.LibsndfileError:

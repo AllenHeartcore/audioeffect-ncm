@@ -40,5 +40,5 @@ if __name__ == '__main__':
 
         file_new = translator[os.path.splitext(os.path.basename(file))[0]]
         brand = file_new.split()[0]
-        schema.export(os.path.join(dst, brand, file_new))
+        schema.export(os.path.join(dst, brand, file_new), fmt=True)
         print(file, '->', file_new)

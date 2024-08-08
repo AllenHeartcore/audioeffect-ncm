@@ -15,71 +15,94 @@ class NCAESchema:
         self.data = data
 
 
+    def export(self, filename):
+
+        raise NotImplementedError('To be implemented in subclasses')
+
+
+
+class NCAEJsonSchema(NCAESchema):
+
+
+    def __init__(self, data):
+
+        super().__init__('.json', data)
+
+
     def export(self, filename, fmt=True):
 
-        ext = self.ext
-        data = self.data
-        filename += ext
-
+        filename += self.ext
         os.makedirs(os.path.dirname(filename), exist_ok=True)
 
-        if ext == '.json':
-            if fmt:
-                data = self._format_json(data)
-            with open(filename, 'wb') as fout:
-                fout.write(data)
+        if fmt:
 
-        elif ext == '.wav':
-            with open(filename, 'wb') as fout:
-                fout.write(data['wav'])
-            if fmt:
-                self._rewrite_wav(filename)
+            d = self.data
+            d = {k: d[k] for k in sorted(d) if d[k]['on']}  # 'bt, eq, rvb, se'
+
+            for k in d:
+                del d[k]['on']
+                d[k] = {k1: d[k][k1] for k1 in sorted(d[k])}
+                # bt: 'bass, treble'
+                # eq: 'eqs'
+                # rvb: 'er, il, ol, rl, rvb, tc'
+                # se: 'ambience, presence, sshaper, stereoizer'
+
+            if 'rvb' in d:
+                d1 = d['rvb']
+                for k in d1:
+                    try:
+                        del d1[k]['on']
+                    except KeyError:
+                        pass
+                    if k == 'rl': continue  # keep the order of 'front, rear, center, lfe'
+                    d1[k] = {k1: d1[k][k1] for k1 in sorted(d1[k])}
+                d['rvb'] = d1
+
+            if 'eq' in d:
+                d['eq']['eqs'] = str(d['eq']['eqs'])    # don't expand eqs list
+
+            string = json.dumps(d, indent=4)
+            string = string.replace('"[', '[').replace(']"', ']')
 
         else:
-            raise ValueError('Unrecognized format')
+            string = json.dumps(self.data, indent=4)
+
+        with open(filename, 'w') as fout:
+            fout.write(string)
 
 
-    def _format_json(self, data):
 
-        d = self.data
-        d = {k: d[k] for k in sorted(d) if d[k]['on']}  # 'bt, eq, rvb, se'
-
-        for k in d:
-            del d[k]['on']
-            d[k] = {k1: d[k][k1] for k1 in sorted(d[k])}
-            # bt: 'bass, treble'
-            # eq: 'eqs'
-            # rvb: 'er, il, ol, rl, rvb, tc'
-            # se: 'ambience, presence, sshaper, stereoizer'
-
-        if 'rvb' in d:
-            d1 = d['rvb']
-            for k in d1:
-                try:
-                    del d1[k]['on']
-                except KeyError:
-                    pass
-                if k == 'rl': continue  # keep the order of 'front, rear, center, lfe'
-                d1[k] = {k1: d1[k][k1] for k1 in sorted(d1[k])}
-            d['rvb'] = d1
-
-        if 'eq' in d:
-            d['eq']['eqs'] = str(d['eq']['eqs'])    # don't expand eqs list
-
-        data = json.dumps(d, indent=4)
-        data = data.replace('"[', '[').replace(']"', ']')
-
-        return data.encode('utf-8')
+class NCAEWavSchema(NCAESchema):
 
 
-    def _rewrite_wav(self, filename):
+    def __init__(self, data, meta):
 
-        data, sr = sf.read(filename)
-        if data.shape[0] != 16384:
-            if data[16384:].max() == 0:
-                data = data[:16384]
-            else:
-                warnings.warn('Unexpected pikes in high frequencies')
+        super().__init__('.wav', data)
+        self.meta = meta
 
-        info = sf.info(filename)
-        sf.write(filename, data, sr, fmt='WAV', subtype=info.subtype)
+
+    def export(self, filename, fmt=False):
+
+        data = self.data
+        meta = self.meta
+
+        filename += self.ext
+        os.makedirs(os.path.dirname(filename), exist_ok=True)
+
+        if fmt:
+
+            if data.shape[0] != 16384:
+                if data[16384:].max() == 0:
+                    data = data[:16384]
+                else:
+                    warnings.warn('Unexpected spikes in overlength sample')
+
+            sf.write(filename, data,
+                samplerate=meta['sr'],
+                format='WAV',
+                subtype=meta['subtype']
+            )
+
+        else:
+            with open(filename, 'wb') as fout:
+                fout.write(data)
