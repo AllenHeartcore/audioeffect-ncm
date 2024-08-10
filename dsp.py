@@ -26,11 +26,3 @@ def convolve_ir(clip, clip_sr, efx, efx_sr):
 
     out = out / np.max(np.abs(out))
     return out, out_sr
-
-
-
-clip, clip_sr = sf.read('data/hajime_48.flac')
-efx, efx_sr = sf.read('data/processed/Spatial - Panorama.wav')
-
-out, out_sr = convolve_ir(clip, clip_sr, efx, efx_sr)
-sf.write('data/hajime_48_panorama.flac', out, out_sr)
