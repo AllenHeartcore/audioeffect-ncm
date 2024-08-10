@@ -1,0 +1,36 @@
+{
+    "迷幻电音": "Genre - Electronic",
+    "动感电音": "Genre - electronic+",
+    "摇滚经典": "Genre - Rock",
+    "嘻哈音效": "Genre - Hiphop",
+    "纯净ACG": "Genre - ACG",
+    "民谣音效": "Genre - Folk",
+    "婉约古风": "Genre - Classical",
+
+    "极重低音": "EQ - Bass",
+    "超重低音": "EQ - Bass+",
+    "清澈人声": "EQ - Vocal",
+    "高解析人声": "EQ - Vocal+",
+
+    "震撼全景": "Spatial - Panorama",
+    "3D环绕": "Spatial - Surround",
+    "独享立体声": "Spatial - Stereo",
+    "环绕立体声": "Spatial - Stereo Surround",
+    "水晶立体声": "Spatial - Stereo Crystal",
+    "录音棚立体声": "Spatial - Stereo Studio",
+
+    "音乐厅": "Scene - Concert",
+    "教堂混响": "Scene - Church",
+    "演唱会现场": "Scene - Live",
+    "HiFi现场": "Scene - Live+",
+    "狂嗨LIVE": "Scene - Live Surround",
+    "LiveHouse现场": "Scene - Livehouse",
+
+    "复古收音机": "SFX - Radio",
+    "怀旧卡带机": "SFX - Tape",
+    "HiFi电子管": "SFX - Vacuum Tube",
+
+    "NINEONE#专属音效": "Custom - NINEONE#",
+    "毛不易《小王》专属音效": "Custom - Xiaowang",
+    "《不完美人生指南》专属音效": "Custom - BWMRSZN"
+}

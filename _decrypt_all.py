@@ -11,34 +11,27 @@ dst = 'data/processed'
 
 
 def iter_files(src):
-
-    for file in os.listdir(src):
-        if not file.endswith('.ncae'): continue
-        yield os.path.join(src, file)
+    for r, d, f in os.walk(src):
+        for file in f:
+            if not file.endswith('.ncae'): continue
+            yield r, os.path.join(r, file)
 
 
 if __name__ == '__main__':
 
-    with open('translate.json', encoding='utf-8') as f:
+    with open('_translate.json', encoding='utf-8') as f:
         translator = json.load(f)
 
-    for file in iter_files(src):
+    for root, file in iter_files(src):
 
         key, data = read_encfile(file)
         decryptor = NCAEDecryptor(key)
         scheme = decryptor.decrypt(data)
 
-        file_new = translator[os.path.splitext(os.path.basename(file))[0]]
-        scheme.export(os.path.join(dst, file_new))
-        print(file, '->', file_new)
-
-    for file in iter_files(os.path.join(src, 'brand')):
-
-        key, data = read_encfile(file)
-        decryptor = NCAEDecryptor(key)
-        scheme = decryptor.decrypt(data)
-
-        file_new = translator[os.path.splitext(os.path.basename(file))[0]]
-        brand = file_new.split()[0]
-        scheme.export(os.path.join(dst, brand, file_new), fmt=True)
-        print(file, '->', file_new)
+        root = root.replace(src, dst)                               # change root
+        file_new = os.path.splitext(os.path.basename(file))[0]      # remove extension
+        if file_new in translator:                                  # potentially translate name
+            scheme.export(os.path.join(root, translator[file_new]))
+        else:
+            scheme.export(os.path.join(root, file_new), fmt=True)   # device-specific presets
+        print(file)
