@@ -59,26 +59,26 @@ class NCAEScheme:
         self.ext = '.wav'
 
 
-    def export(self, filename, fmt=True):
+    def export(self, filename, fmt=False):
 
-        filename += self.ext
+        filename = os.path.splitext(filename)[0] + self.ext
         os.makedirs(os.path.dirname(filename), exist_ok=True)
 
         if fmt:
             if self.ext == '.json':
-                self._export_formatted_json()
+                self._export_formatted_json(filename)
                 return
             elif self.ext == '.wav':
-                self._export_formatted_wav()
+                self._export_formatted_wav(filename)
                 return
             else:
                 warnings.warn('Raw binary data cannot be formatted')
 
-        with open(self.filename, 'wb') as fout:
+        with open(filename, 'wb') as fout:
             fout.write(self.raw)
 
 
-    def _export_formatted_json(self):
+    def _export_formatted_json(self, filename):
 
         d = self.data
         d = {k: d[k] for k in sorted(d) if d[k]['on']}  # 'bt, eq, rvb, se'
@@ -108,12 +108,12 @@ class NCAEScheme:
         string = json.dumps(d, indent=4)
         string = string.replace('"[', '[').replace(']"', ']')
 
-        with open(self.filename, 'w') as fout:
+        with open(filename, 'w') as fout:
             fout.write(string)
 
 
 
-    def _export_formatted_wav(self):
+    def _export_formatted_wav(self, filename):
 
         data = self.data
         meta = self.meta
@@ -124,7 +124,7 @@ class NCAEScheme:
             else:
                 warnings.warn('Unexpected spikes in overlength sample')
 
-        sf.write(self.filename, data,
+        sf.write(filename, data,
             samplerate=meta['sr'],
             format='WAV',
             subtype=meta['subtype']
