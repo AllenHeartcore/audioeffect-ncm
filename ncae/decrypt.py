@@ -47,14 +47,4 @@ class NCAEDecryptor:
             byte = self._table[(j + 1) & 0xFF]
             data[j] ^= self._table[self._table[(byte + j + 1) & 0xFF] + byte & 0xFF]
 
-        data = zlib.decompress(data, -zlib.MAX_WBITS)
-
-        try:
-            return NCAEJsonScheme(data)
-
-        except:
-            try:
-                return NCAEWavScheme(data)
-
-            except:
-                raise ValueError('Unrecognized format')
+        return zlib.decompress(data, -zlib.MAX_WBITS)

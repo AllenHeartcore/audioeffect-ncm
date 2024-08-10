@@ -1,7 +1,7 @@
 import os
 import json
 
-from decrypt import read_encfile, NCAEDecryptor
+from ncae.scheme import NCAEScheme
 
 
 
@@ -23,9 +23,7 @@ if __name__ == '__main__':
 
     for root, file in iter_files(src):
 
-        key, data = read_encfile(file)
-        decryptor = NCAEDecryptor(key)
-        scheme = decryptor.decrypt(data)
+        scheme = NCAEScheme(file)
 
         root = root.replace(src, dst)                               # change root
         file_new = os.path.splitext(os.path.basename(file))[0]      # remove extension
