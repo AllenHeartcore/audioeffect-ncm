@@ -1,8 +1,7 @@
 import os
 import json
 
-from decrypt import NCAEDecryptor
-from utils import read_encfile
+from decrypt import read_encfile, NCAEDecryptor
 
 
 
