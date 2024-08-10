@@ -26,19 +26,19 @@ if __name__ == '__main__':
 
         key, data = read_encfile(file)
         decryptor = NCAEDecryptor(key)
-        schema = decryptor.decrypt(data)
+        scheme = decryptor.decrypt(data)
 
         file_new = translator[os.path.splitext(os.path.basename(file))[0]]
-        schema.export(os.path.join(dst, file_new))
+        scheme.export(os.path.join(dst, file_new))
         print(file, '->', file_new)
 
     for file in iter_files(os.path.join(src, 'brand')):
 
         key, data = read_encfile(file)
         decryptor = NCAEDecryptor(key)
-        schema = decryptor.decrypt(data)
+        scheme = decryptor.decrypt(data)
 
         file_new = translator[os.path.splitext(os.path.basename(file))[0]]
         brand = file_new.split()[0]
-        schema.export(os.path.join(dst, brand, file_new), fmt=True)
+        scheme.export(os.path.join(dst, brand, file_new), fmt=True)
         print(file, '->', file_new)

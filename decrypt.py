@@ -1,7 +1,7 @@
 import numpy as np
 import zlib
 
-from schema import NCAEJsonSchema, NCAEWavSchema
+from scheme import NCAEJsonScheme, NCAEWavScheme
 
 
 
@@ -29,11 +29,11 @@ class NCAEDecryptor:
         data = zlib.decompress(data, -zlib.MAX_WBITS)
 
         try:
-            return NCAEJsonSchema(data)
+            return NCAEJsonScheme(data)
 
         except:
             try:
-                return NCAEWavSchema(data)
+                return NCAEWavScheme(data)
 
             except:
                 raise ValueError('Unrecognized format')

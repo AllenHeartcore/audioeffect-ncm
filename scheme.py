@@ -8,7 +8,7 @@ from io import BytesIO
 
 
 
-class NCAESchema:
+class NCAEScheme:
 
 
     def __init__(self, raw, ext='.bin'):
@@ -29,7 +29,7 @@ class NCAESchema:
 
 
 
-class NCAEJsonSchema(NCAESchema):
+class NCAEJsonScheme(NCAEScheme):
 
 
     def __init__(self, raw):
@@ -81,7 +81,7 @@ class NCAEJsonSchema(NCAESchema):
 
 
 
-class NCAEWavSchema(NCAESchema):
+class NCAEWavScheme(NCAEScheme):
 
 
     def __init__(self, raw):
