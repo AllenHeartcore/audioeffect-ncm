@@ -6,6 +6,7 @@ import soundfile as sf
 from io import BytesIO
 
 from ncae.decrypt import read_encfile, NCAEDecryptor
+from ncae.audio import Audio
 
 
 
@@ -17,49 +18,25 @@ class NCAEScheme:
 
     def __init__(self, filename: str):
 
-        self.filename = filename
         self.raw = None
         self.ext = None
         self.data = None
 
-        self._read_and_decrypt()
+        key, data = read_encfile(filename)
+        decryptor = NCAEDecryptor(key)
+        self.raw = decryptor.decrypt(data)
+
         try:
-            self._parse_json()
+            self.data = json.loads(self.raw.decode('utf-8'))
+            self.ext = '.json'
         except:
             try:
-                self._parse_wav()
+                self.data = Audio(self.raw)
+                self.ext = '.wav'
             except:
                 warnings.warn('Unrecognized format')
                 self.ext = '.bin'
 
-
-    def _read_and_decrypt(self):
-
-        key, data = read_encfile(self.filename)
-        decryptor = NCAEDecryptor(key)
-        self.raw = decryptor.decrypt(data)
-
-
-    def _parse_json(self):
-
-        self.data = json.loads(self.raw.decode('utf-8'))
-        self.ext = '.json'
-
-
-    def _parse_wav(self):
-
-        io = BytesIO(self.raw)
-        self.data, sr = sf.read(io)
-
-        io.seek(0)              # forcefully suppress sf.LibsndfileError...
-        io.name = '_tmp.wav'    # ...by assigning a filename to the BytesIO object
-        info = sf.info(io)
-        self.meta = {
-            'sr': sr,
-            'subtype': info.subtype,
-        }
-
-        self.ext = '.wav'
 
 
     # ------------ APPLY ------------- #
@@ -122,18 +99,7 @@ class NCAEScheme:
 
 
     def _export_formatted_wav(self, filename: str):
+        # This function exports an audio effect preset as an IR waveform
+        # Audio clip export is handled in ncae.audio.Audio
 
-        data = self.data
-        meta = self.meta
-
-        if data.shape[0] != 16384:
-            if data[16384:].max() == 0:
-                data = data[:16384]
-            else:
-                warnings.warn('Unexpected spikes in overlength sample')
-
-        sf.write(filename, data,
-            samplerate=meta['sr'],
-            format='WAV',
-            subtype=meta['subtype']
-        )
+        self.data.export(filename, trim=16384)
