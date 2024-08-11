@@ -12,7 +12,10 @@ from ncae.decrypt import read_encfile, NCAEDecryptor
 class NCAEScheme:
 
 
-    def __init__(self, filename):
+    # ---------- INITIALIZE ---------- #
+
+
+    def __init__(self, filename: str):
 
         self.filename = filename
         self.raw = None
@@ -59,7 +62,13 @@ class NCAEScheme:
         self.ext = '.wav'
 
 
-    def export(self, filename, fmt=False):
+    # ------------ APPLY ------------- #
+
+
+    # ------------ EXPORT ------------ #
+
+
+    def export(self, filename: str, fmt=False):
 
         filename = os.path.splitext(filename)[0] + self.ext
         os.makedirs(os.path.dirname(filename), exist_ok=True)
@@ -78,7 +87,7 @@ class NCAEScheme:
             fout.write(self.raw)
 
 
-    def _export_formatted_json(self, filename):
+    def _export_formatted_json(self, filename: str):
 
         d = self.data
         d = {k: d[k] for k in sorted(d) if d[k]['on']}  # 'bt, eq, rvb, se'
@@ -112,8 +121,7 @@ class NCAEScheme:
             fout.write(string)
 
 
-
-    def _export_formatted_wav(self, filename):
+    def _export_formatted_wav(self, filename: str):
 
         data = self.data
         meta = self.meta

@@ -1,9 +1,11 @@
 import numpy as np
 import zlib
 
+from typing import Union
 
 
-def read_encfile(filename):
+
+def read_encfile(filename: str) -> tuple:
 
     toint = lambda x: int.from_bytes(x, byteorder='big')
 
@@ -29,7 +31,7 @@ def read_encfile(filename):
 class NCAEDecryptor:
 
 
-    def __init__(self, key):
+    def __init__(self, key: Union[bytes, bytearray, np.ndarray]):
 
         table = np.arange(0x100, dtype=np.uint8)
         byte = 0
@@ -41,7 +43,7 @@ class NCAEDecryptor:
         self._table = table
 
 
-    def decrypt(self, data):
+    def decrypt(self, data: Union[bytes, bytearray, np.ndarray]) -> bytes:
 
         for j in range(len(data)):
             byte = self._table[(j + 1) & 0xFF]
