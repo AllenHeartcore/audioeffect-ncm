@@ -1,3 +1,5 @@
+import warnings
+
 import os
 import json
 
@@ -5,30 +7,19 @@ from ncae.scheme import NCAEScheme
 
 
 
-src = 'data/raw'
-dst = 'data/processed'
-
-
-def iter_files(src):
-    for r, d, f in os.walk(src):
-        for file in f:
-            if not file.endswith('.ncae'): continue
-            yield r, os.path.join(r, file)
+dsrc = 'data/raw'
+ddst = 'data/processed'
 
 
 if __name__ == '__main__':
 
+    warnings.filterwarnings('ignore', category=UserWarning)
+    # otherwise, scheme.export() always warns about file extension mismatch (.bin)
+
     with open('_translate.json', encoding='utf-8') as f:
         translator = json.load(f)
 
-    for root, file in iter_files(src):
-
-        scheme = NCAEScheme(file)
-
-        root = root.replace(src, dst)                               # change root
-        file_new = os.path.splitext(os.path.basename(file))[0]      # remove extension
-        if file_new in translator:                                  # potentially translate name
-            scheme.export(os.path.join(root, translator[file_new]))
-        else:
-            scheme.export(os.path.join(root, file_new), fmt=True)   # device-specific presets
-        print(file)
+    for src, dst in translator.items():
+        scheme = NCAEScheme(os.path.join(dsrc, src)+'.ncae')
+        scheme.export(os.path.join(ddst, dst)+'.bin', fmt='/' in dst)   # device-specific presets
+        print(src, '->', dst)

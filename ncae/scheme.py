@@ -1,6 +1,7 @@
+import warnings
+
 import os
 import json
-import warnings
 
 import soundfile as sf
 from io import BytesIO
@@ -18,6 +19,7 @@ class NCAEScheme:
 
     def __init__(self, filename: str):
 
+        self.filename = filename
         self.raw = None
         self.ext = None
         self.data = None
@@ -45,10 +47,16 @@ class NCAEScheme:
     # ------------ EXPORT ------------ #
 
 
-    def export(self, filename: str, fmt=False):
+    def export(self, filename: str='', fmt=False):
 
-        filename = os.path.splitext(filename)[0] + self.ext
-        os.makedirs(os.path.dirname(filename), exist_ok=True)
+        filename = filename if filename else self.filename
+        if os.path.dirname(filename):
+            os.makedirs(os.path.dirname(filename), exist_ok=True)
+
+        base, ext = os.path.splitext(filename)
+        if ext[-1] != self.ext:
+            warnings.warn(f'File extension mismatch, fallback to auto-detect ({self.ext})')
+        filename = base + self.ext
 
         if fmt:
             if self.ext == '.json':

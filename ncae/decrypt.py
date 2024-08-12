@@ -1,7 +1,8 @@
+from typing import Union
+import warnings
+
 import numpy as np
 import zlib
-
-from typing import Union
 
 
 
@@ -44,6 +45,8 @@ class NCAEDecryptor:
 
 
     def decrypt(self, data: Union[bytes, bytearray, np.ndarray]) -> bytes:
+
+        warnings.filterwarnings('ignore', category=RuntimeWarning)
 
         for j in range(len(data)):
             byte = self._table[(j + 1) & 0xFF]

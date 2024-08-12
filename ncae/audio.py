@@ -1,11 +1,11 @@
-import numpy as np
+from typing import Union
 import warnings
+
+import numpy as np
 
 import soundfile as sf
 from io import BytesIO
 from music_tag import load_file
-
-from typing import Union
 
 
 
