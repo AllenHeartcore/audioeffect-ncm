@@ -16,7 +16,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     clip = Audio(args.clip)
-    clip.apply([NCAEScheme(f'data/raw/{e}.ncae') for e in args.efx.split(',')])
+    clip.apply([NCAEScheme(f'presets/{e}.ncae') for e in args.efx.split(',')])
 
     base, ext = os.path.splitext(args.clip)
     clip.export(args.out or f'{base}_{args.efx}{ext}', normalize=args.norm)

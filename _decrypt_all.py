@@ -7,7 +7,7 @@ from ncae.scheme import NCAEScheme
 
 
 
-dsrc = 'data/raw'
+dsrc = 'presets'
 ddst = 'data/processed'
 
 
