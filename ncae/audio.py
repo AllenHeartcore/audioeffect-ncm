@@ -34,6 +34,12 @@ class Audio:
             self.meta = None        # assume no metadata; load_file() only accepts str argument
 
 
+    def apply(self, schemes: list): # should be scheme: NCAEScheme, but this creates a circular import
+
+        for scheme in schemes:
+            scheme._apply(self)     # in-place operation
+
+
     def export(self, file: str, trim=-1, normalize=False):
 
         wave = self.wave

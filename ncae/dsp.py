@@ -1,28 +1,29 @@
 import numpy as np
-import soundfile as sf
 import matplotlib.pyplot as plt
 from scipy.signal import resample, convolve
 
+from ncae.audio import Audio
 
 
-def convolve_ir(clip, clip_sr, efx, efx_sr):
 
-    out_sr = clip_sr
+def convolve_ir(clip: Audio, efx: Audio):
+    # used to return another Audio object,
+    # but switched to in-place operation on 'clip' for memory efficiency
 
-    if efx_sr != out_sr:
-        efx = resample(efx, int(len(efx) * out_sr / efx_sr))
+    wc = clip.wave          # pointer
+    we = efx.wave.copy()    # deepcopy
 
-    if len(clip.shape) == 1:
-        if len(efx.shape) == 1:
-            out = convolve(clip, efx)
+    if clip.sr != efx.sr:
+        we = resample(we, int(len(we) * clip.sr / efx.sr))
+
+    if len(wc.shape) == 1:
+        if len(we.shape) == 1:
+            clip.wave = convolve(wc, we)
         else:
-            out = np.array([convolve(clip, efx[:, i]) for i in range(efx.shape[1])]).T
+            clip.wave = np.array([convolve(wc, we[:, i]) for i in range(we.shape[1])]).T
     else:
-        if len(efx.shape) == 1:
-            out = np.array([convolve(clip[:, i], efx) for i in range(clip.shape[1])]).T
+        if len(we.shape) == 1:
+            clip.wave = np.array([convolve(wc[:, i], we) for i in range(wc.shape[1])]).T
         else:
-            assert clip.shape[1] == efx.shape[1]
-            out = np.array([convolve(clip[:, i], efx[:, i]) for i in range(clip.shape[1])]).T
-
-    out = out / np.max(np.abs(out))
-    return out, out_sr
+            assert wc.shape[1] == we.shape[1]
+            clip.wave = np.array([convolve(wc[:, i], we[:, i]) for i in range(wc.shape[1])]).T

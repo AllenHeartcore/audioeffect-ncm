@@ -8,6 +8,7 @@ from io import BytesIO
 
 from ncae.decrypt import read_encfile, NCAEDecryptor
 from ncae.audio import Audio
+from ncae.dsp import convolve_ir
 
 
 
@@ -42,6 +43,26 @@ class NCAEScheme:
 
 
     # ------------ APPLY ------------- #
+
+
+    def _apply(self, audio: Audio):
+
+        if self.ext == '.json':
+            self._apply_json(audio)
+        elif self.ext == '.wav':
+            self._apply_wav(audio)
+        else:
+            raise ValueError('Unrecognized format')     # halt, instead of warn; should never happen
+
+
+    def _apply_json(self, audio: Audio):
+
+        raise NotImplementedError
+
+
+    def _apply_wav(self, audio: Audio):
+
+        convolve_ir(audio, self.data)
 
 
     # ------------ EXPORT ------------ #
