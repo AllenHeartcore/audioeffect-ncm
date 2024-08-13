@@ -46,8 +46,6 @@ class NCAEDecryptor:
 
     def decrypt(self, data: Union[bytes, bytearray, np.ndarray]) -> bytes:
 
-        warnings.filterwarnings('ignore', category=RuntimeWarning)
-
         for j in range(len(data)):
             byte = self._table[(j + 1) & 0xFF]
             data[j] ^= self._table[self._table[(byte + j + 1) & 0xFF] + byte & 0xFF]

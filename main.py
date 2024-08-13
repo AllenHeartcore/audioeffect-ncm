@@ -1,4 +1,5 @@
 import os
+import warnings
 from argparse import ArgumentParser
 
 from ncae.audio import Audio
@@ -8,6 +9,8 @@ from ncae.scheme import NCAEScheme
 
 if __name__ == '__main__':
 
+    warnings.filterwarnings('ignore', category=RuntimeWarning)
+
     parser = ArgumentParser()
     parser.add_argument('clip', type=str)
     parser.add_argument('-e', '--efx', type=str)
@@ -15,8 +18,19 @@ if __name__ == '__main__':
     parser.add_argument('-n', '--norm', action='store_true')
     args = parser.parse_args()
 
+    print('Decoding input file:', args.clip)
     clip = Audio(args.clip)
-    clip.apply([NCAEScheme(f'presets/{e}.ncae') for e in args.efx.split(',')])
+
+    schemes = []
+    for e in args.efx.split(','):
+        fsch = f'presets/{e}.ncae'
+        print('Decrypting NCAE scheme:', fsch)
+        schemes.append(NCAEScheme(fsch))
+
+    print('Applying NCAE schemes:', args.efx)
+    clip.apply(schemes)
 
     base, ext = os.path.splitext(args.clip)
-    clip.export(args.out or f'{base}_{args.efx}{ext}', normalize=args.norm)
+    fout = args.out or f'{base}_{args.efx.replace('/', '-')}{ext}'
+    print('Encoding output file:', fout, '[Normalization', 'ON]' if args.norm else 'OFF]')
+    clip.export(fout, normalize=args.norm)
