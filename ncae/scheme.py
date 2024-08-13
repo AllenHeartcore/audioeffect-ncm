@@ -3,19 +3,17 @@ import warnings
 import os
 import json
 
-import soundfile as sf
-from io import BytesIO
-
-from ncae.decrypt import read_encfile, NCAEDecryptor
 from ncae.audio import Audio
-from ncae.dsp import convolve_ir
+from ncae.decrypt import read_encfile, NCAEDecryptor
+from ncae.plugins.convolve import NCAEPluginConvolve
+from ncae.plugins.bt import NCAEPluginBT
+from ncae.plugins.eq import NCAEPluginEQ
+from ncae.plugins.reverb import NCAEPluginReverb
+from ncae.plugins.se import NCAEPluginSE
 
 
 
 class NCAEScheme:
-
-
-    # ---------- INITIALIZE ---------- #
 
 
     def __init__(self, filename: str):
@@ -23,49 +21,32 @@ class NCAEScheme:
         self.filename = filename
         self.raw = None
         self.ext = None
-        self.data = None
+        self.plugins = []
 
         key, data = read_encfile(filename)
         decryptor = NCAEDecryptor(key)
         self.raw = decryptor.decrypt(data)
 
         try:
-            self.data = json.loads(self.raw.decode('utf-8'))
+            d = json.loads(self.raw.decode('utf-8'))
+            if d['bt']['on']:   self.plugins.append(NCAEPluginBT(d['bt']))
+            if d['eq']['on']:   self.plugins.append(NCAEPluginEQ(d['eq']))
+            if d['rvb']['on']:  self.plugins.append(NCAEPluginReverb(d['rvb']))
+            if d['se']['on']:   self.plugins.append(NCAEPluginSE(d['se']))
             self.ext = '.json'
         except:
             try:
-                self.data = Audio(self.raw)
+                self.plugins.append(NCAEPluginConvolve(self.raw))
                 self.ext = '.wav'
             except:
                 warnings.warn('Unrecognized format')
                 self.ext = '.bin'
 
 
+    def _applyto(self, audio: Audio):
 
-    # ------------ APPLY ------------- #
-
-
-    def _apply(self, audio: Audio):
-
-        if self.ext == '.json':
-            self._apply_json(audio)
-        elif self.ext == '.wav':
-            self._apply_wav(audio)
-        else:
-            raise ValueError('Unrecognized format')     # halt, instead of warn; should never happen
-
-
-    def _apply_json(self, audio: Audio):
-
-        raise NotImplementedError
-
-
-    def _apply_wav(self, audio: Audio):
-
-        convolve_ir(audio, self.data)
-
-
-    # ------------ EXPORT ------------ #
+        for plugin in self.plugins:
+            plugin.applyto(audio)
 
 
     def export(self, filename: str='', fmt=False):
@@ -79,11 +60,11 @@ class NCAEScheme:
             warnings.warn(f'File extension mismatch, fallback to auto-detect ({self.ext})')
         filename = base + self.ext
 
+        if self.ext == '.json':
+            self._export_formatted_json(filename)
+            return
         if fmt:
-            if self.ext == '.json':
-                self._export_formatted_json(filename)
-                return
-            elif self.ext == '.wav':
+            if self.ext == '.wav':
                 self._export_formatted_wav(filename)
                 return
             else:
@@ -95,7 +76,7 @@ class NCAEScheme:
 
     def _export_formatted_json(self, filename: str):
 
-        d = self.data
+        d = json.loads(self.raw.decode('utf-8'))
         d = {k: d[k] for k in sorted(d) if d[k]['on']}  # 'bt, eq, rvb, se'
 
         for k in d:
@@ -128,7 +109,5 @@ class NCAEScheme:
 
 
     def _export_formatted_wav(self, filename: str):
-        # This function exports an audio effect preset as an IR waveform
-        # Audio clip export is handled in ncae.audio.Audio
 
-        self.data.export(filename, trim=16384)
+        self.plugins[0].ir.export(filename, trim=16384)
