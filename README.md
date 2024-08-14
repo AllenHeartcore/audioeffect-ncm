@@ -1,7 +1,19 @@
 # ncm-audioeffect
 Reverse engineered audio effect module for NetEase Cloud Music
 
-<table>
+<br>
+
+## Parameter Table (Bass-Treble, EQ, Special Effects)
+
+<table style="overflow-x:scroll">
+    <style>
+        table {
+            font-size: 10px;
+        }
+        td {
+            text-align: center;
+        }
+    </style>
     <thead>
         <tr>
             <th rowspan=2></th>
@@ -22,7 +34,7 @@ Reverse engineered audio effect module for NetEase Cloud Music
     </thead>
     <tbody>
         <tr>
-            <td rowspan=7>Genre</td>
+            <th rowspan=7>Genre</th>
             <td>Electronic</td> <td>迷幻电音</td>
             <td>3</td> <td>2</td>
             <td>[5, 6.09, 2.2, 0, -1.6, 1.5, 0, 1, 2.57, 3.77]</td>
@@ -65,7 +77,7 @@ Reverse engineered audio effect module for NetEase Cloud Music
             <td></td> <td></td> <td></td> <td></td>
         </tr>
         <tr>
-            <td rowspan=2>EQ</td>
+            <th rowspan=2>EQ</th>
             <td>Bass</td> <td>极重低音</td>
             <td>3</td> <td></td>
             <td>[6, 4.5, 3.2, 2.09, 0, 0, 0, 0, 0, 0]</td>
@@ -78,7 +90,7 @@ Reverse engineered audio effect module for NetEase Cloud Music
             <td></td> <td></td> <td></td> <td></td>
         </tr>
         <tr>
-            <td rowspan=4>Spatial</td>
+            <th rowspan=4>Spatial</th>
             <td>Surr</td> <td>3D环绕</td>
             <td></td> <td></td> <td></td>
             <td>6</td> <td>4</td> <td>ON</td> <td>1</td>
@@ -89,19 +101,17 @@ Reverse engineered audio effect module for NetEase Cloud Music
             <td></td> <td></td> <td>ON</td> <td></td>
         </tr>
         <tr>
-            <td>StereoSurr</td>
-            <td>环绕立体声</td>
+            <td>StereoSurr</td> <td>环绕立体声</td>
             <td></td> <td></td> <td></td>
             <td></td> <td></td> <td>ON</td> <td>1</td>
         </tr>
         <tr>
-            <td>StereoCrystal</td>
-            <td>水晶立体声</td>
+            <td>StereoCrystal</td> <td>水晶立体声</td>
             <td></td> <td></td> <td></td>
             <td></td> <td></td> <td>ON</td> <td>6</td>
         </tr>
         <tr>
-            <td rowspan=5>Scene</td>
+            <th rowspan=5>Scene</th>
             <td>Concert</td> <td>音乐厅</td>
             <td></td> <td></td> <td></td>
             <td></td> <td></td> <td>ON</td> <td>3</td>
@@ -131,7 +141,7 @@ Reverse engineered audio effect module for NetEase Cloud Music
             <td></td> <td></td> <td></td> <td></td>
         </tr>
         <tr>
-            <td rowspan=3>Custom</td>
+            <th rowspan=3>Custom</th>
             <td>NINEONE</td> <td>NINEONE#专属音效</td>
             <td></td> <td></td>
             <td>[0, 0, -1, -1, -2, 1, 2, 2, 0, 0]</td>
@@ -152,7 +162,16 @@ Reverse engineered audio effect module for NetEase Cloud Music
     </tbody>
 </table>
 
-<table>
+<br>
+
+## Parameter Table (Reverb)
+
+<table style="overflow-x:scroll">
+    <style>
+        table {
+            font-size: 10px;
+        }
+    </style>
     <thead>
         <tr>
             <th rowspan=2></th>
@@ -169,7 +188,7 @@ Reverse engineered audio effect module for NetEase Cloud Music
     </thead>
     <tbody>
         <tr>
-            <td rowspan=1>Genre</td>
+            <th rowspan=1>Genre</th>
             <td>Electronic+</td> <td>动感电音</td>
             <td>Pattern 4, RSize 80, SDelay 40</td>
             <td>Dry 0, ER -22, RVB -24</td>
@@ -184,7 +203,7 @@ Reverse engineered audio effect module for NetEase Cloud Music
             </td>
         </tr>
         <tr>
-            <td rowspan=3>Scene</td>
+            <th rowspan=3>Scene</th>
             <td>Church</td> <td>教堂混响</td>
             <td>Pattern 0, RSize 80, SDelay 40</td>
             <td>Dry 0, ER -15, RVB -20</td>
@@ -227,7 +246,7 @@ Reverse engineered audio effect module for NetEase Cloud Music
             </td>
         </tr>
         <tr>
-            <td rowspan=2>Custom</td>
+            <th rowspan=2>Custom</th>
             <td>NINEONE</td> <td>NINEONE#专属音效</td>
             <td>Pattern 4, RSize 60, SDelay 0</td>
             <td>Dry -1.5, ER -28, RVB -22</td>
