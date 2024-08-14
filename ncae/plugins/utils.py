@@ -85,13 +85,16 @@ class ImpulseResponse:
             for freq in ticks.keys():
                 ax.axvline(freq, color="#D8D8D8", linestyle="--")
 
+        fft_max = 0
         for i in range(data.shape[1]):
             fft = np.abs(np.fft.fft(data[:, i]))
             freqs = np.fft.fftfreq(n, 1 / self.sr)
             ax.plot(freqs[: n // 2], fft[: n // 2])
+            fft_max = max(fft_max, fft.max())
 
         ax.set_xscale("log")
         ax.set_xlim(0, 24000)
+        ax.set_ylim(0, max(fft_max * 1.05, 2))
 
         if show_ticks:
             ax.set_xticks(list(ticks.keys()))
