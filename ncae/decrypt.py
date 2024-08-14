@@ -8,12 +8,12 @@ import zlib
 
 def read_encfile(filename: str) -> tuple:
 
-    toint = lambda x: int.from_bytes(x, byteorder='big')
+    toint = lambda x: int.from_bytes(x, byteorder="big")
 
-    with open(filename, 'rb') as fin:
+    with open(filename, "rb") as fin:
 
         magic = fin.read(4)
-        assert magic == b'NCAE'
+        assert magic == b"NCAE"
 
         ldata = toint(fin.read(4))
         fin.read(8)     # unused

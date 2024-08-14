@@ -11,7 +11,7 @@ from ncae.audio import Audio
 class ImpulseResponse:
 
 
-    def __init__(self, wave: np.ndarray, sr: int=48000, subtype: str='PCM_24'):
+    def __init__(self, wave: np.ndarray, sr: int=48000, subtype: str="PCM_24"):
 
         self.wave = wave
         self.sr = sr
@@ -47,11 +47,11 @@ class ImpulseResponse:
 
         if trim > 0:
             if trim > len(wave):
-                warnings.warn('Trim length exceeds sample length, ignoring')
+                warnings.warn("Trim length exceeds sample length, ignoring")
             elif trim == len(wave):
                 pass    # otherwise, gets ValueError due to zero-size array
             elif wave[trim:].max() != 0:
-                warnings.warn('Unexpected spikes in trimmed sample, ignoring')
+                warnings.warn("Unexpected spikes in trimmed sample, ignoring")
             else:
                 wave = wave[:trim]
 

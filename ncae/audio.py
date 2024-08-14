@@ -14,10 +14,10 @@ class Audio:
 
         tag = load_file(file)
         self.meta = {
-            'title': tag['title'] or None,
-            'artist': tag['artist'] or None,
-            'album': tag['album'] or None,
-            'tracknumber': tag['tracknumber'] or None
+            "title": tag["title"] or None,
+            "artist": tag["artist"] or None,
+            "album": tag["album"] or None,
+            "tracknumber": tag["tracknumber"] or None
         }
 
 
@@ -36,8 +36,8 @@ class Audio:
             sf.write(file, self.wave, self.sr, subtype=self.subtype)
 
         tag = load_file(file)
-        tag['title'] = self.meta['title']
-        tag['artist'] = self.meta['artist']
-        tag['album'] = self.meta['album']
-        tag['tracknumber'] = self.meta['tracknumber']
+        tag["title"] = self.meta["title"]
+        tag["artist"] = self.meta["artist"]
+        tag["album"] = self.meta["album"]
+        tag["tracknumber"] = self.meta["tracknumber"]
         tag.save()

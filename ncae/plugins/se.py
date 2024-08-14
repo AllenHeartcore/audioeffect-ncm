@@ -7,10 +7,10 @@ class NCAEPluginSE:
 
     def __init__(self, data: dict):
 
-        self.ambience = data['ambience']
-        self.presence = data['presence']
-        self.sshaper = data['sshaper']
-        self.stereoizer = data['stereoizer']
+        self.ambience = data["ambience"]
+        self.presence = data["presence"]
+        self.sshaper = data["sshaper"]
+        self.stereoizer = data["stereoizer"]
 
 
     def applyto(self, audio: Audio):

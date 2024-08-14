@@ -17,7 +17,7 @@ class NCAEPluginConvolve:
         with BytesIO(data) as io:
             wave, sr = sf.read(io)
             io.seek(0)              # forcefully suppress sf.LibsndfileError...
-            io.name = '_tmp.wav'    # ...by assigning a filename to the BytesIO object
+            io.name = "_tmp.wav"    # ...by assigning a filename to the BytesIO object
             subtype = sf.info(io).subtype
 
         self.ir = ImpulseResponse(wave, sr, subtype)
