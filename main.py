@@ -6,7 +6,6 @@ from ncae.audio import Audio
 from ncae.scheme import NCAEScheme
 
 
-
 if __name__ == "__main__":
 
     warnings.filterwarnings("ignore", category=RuntimeWarning)
@@ -32,5 +31,7 @@ if __name__ == "__main__":
 
     base, ext = os.path.splitext(args.clip)
     fout = args.out or f"{base}_{args.efx.replace("/", "-")}{ext}"
-    print("Encoding output file:", fout, "[Normalization", "ON]" if args.norm else "OFF]")
+    print(
+        "Encoding output file:", fout, "[Normalization", "ON]" if args.norm else "OFF]"
+    )
     clip.export(fout, normalize=args.norm)

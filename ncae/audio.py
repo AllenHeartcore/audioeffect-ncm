@@ -3,9 +3,7 @@ import soundfile as sf
 from music_tag import load_file
 
 
-
 class Audio:
-
 
     def __init__(self, file: str):
 
@@ -17,20 +15,23 @@ class Audio:
             "title": tag["title"] or None,
             "artist": tag["artist"] or None,
             "album": tag["album"] or None,
-            "tracknumber": tag["tracknumber"] or None
+            "tracknumber": tag["tracknumber"] or None,
         }
 
-
-    def apply(self, schemes: list): # list of NCAEScheme's
+    def apply(self, schemes: list):  # list of NCAEScheme's
 
         for scheme in schemes:
-            scheme._applyto(self)   # in-place operation
-
+            scheme._applyto(self)  # in-place operation
 
     def export(self, file: str, normalize=False):
 
         if normalize:
-            sf.write(file, self.wave / np.max(np.abs(self.wave)), self.sr, subtype=self.subtype)
+            sf.write(
+                file,
+                self.wave / np.max(np.abs(self.wave)),
+                self.sr,
+                subtype=self.subtype,
+            )
             # doesn't motify self.wave in-place
         else:
             sf.write(file, self.wave, self.sr, subtype=self.subtype)

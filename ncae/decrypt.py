@@ -5,7 +5,6 @@ import numpy as np
 import zlib
 
 
-
 def read_encfile(filename: str) -> tuple:
 
     toint = lambda x: int.from_bytes(x, byteorder="big")
@@ -16,7 +15,7 @@ def read_encfile(filename: str) -> tuple:
         assert magic == b"NCAE"
 
         ldata = toint(fin.read(4))
-        fin.read(8)     # unused
+        fin.read(8)  # unused
 
         lkey = toint(fin.read(1)) - 1
         assert lkey % 4 == 0
@@ -28,9 +27,7 @@ def read_encfile(filename: str) -> tuple:
     return key, data
 
 
-
 class NCAEDecryptor:
-
 
     def __init__(self, key: Union[bytes, bytearray, np.ndarray]):
 
@@ -42,7 +39,6 @@ class NCAEDecryptor:
             table[i], table[byte] = table[byte], table[i]
 
         self._table = table
-
 
     def decrypt(self, data: Union[bytes, bytearray, np.ndarray]) -> bytes:
 

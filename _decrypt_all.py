@@ -6,7 +6,6 @@ import json
 from ncae.scheme import NCAEScheme
 
 
-
 dsrc = "presets"
 ddst = "data/processed"
 
@@ -20,6 +19,8 @@ if __name__ == "__main__":
         translator = json.load(f)
 
     for src, dst in translator.items():
-        scheme = NCAEScheme(os.path.join(dsrc, src)+".ncae")
-        scheme.export(os.path.join(ddst, dst)+".bin", fmt="/" in dst)   # device-specific presets
+        scheme = NCAEScheme(os.path.join(dsrc, src) + ".ncae")
+        scheme.export(
+            os.path.join(ddst, dst) + ".bin", fmt="/" in dst
+        )  # device-specific presets
         print(src, "->", dst)
