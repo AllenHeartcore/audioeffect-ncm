@@ -86,25 +86,27 @@ if __name__ == "__main__":
     effects = {}
     for _e in sum(_effects.values(), []):
 
-        _id = _e["id"]
-        _name = _e["name"]
-        _desc = _e["subTitle"]
+        with _e["soundMaterialList"] as _smls:
+            if len(_smls) != 1:
+                raise ValueError(f"Unexpected soundMaterialList length {len(_smls)} for effect {_e['id']}")
+            _sml = _smls[0]
+            new = {
+                "id": _e["id"],
+                "name": _e["name"],
+                "desc": _e["subTitle"],
+                "url": _sml["link"],
+                "size": _sml["size"],
+                "md5": _sml["md5"],
+            }
 
-        assert len(_e["soundMaterialList"]) == 1
-        _sml = _e["soundMaterialList"][0]
-        _url = _sml["link"]
-        _size = _sml["size"]
-        _md5 = _sml["md5"]
-
-        if _md5 not in effects:
-            effects[_md5] = {"id": _id, "name": _name, "desc": _desc, "url": _url, "size": _size, "md5": _md5}
-        elif effects[_md5]["id"] < _id:
-            ptr = effects[_md5]
-            assert ptr["size"] == _size
-            ptr["name"] = _name
-            ptr["desc"] = _desc
-            ptr["url"] = _url
-            # but keep the smaller id
+        with new["md5"] as _md5:
+            if _md5 not in effects:
+                effects[_md5] = new
+            elif (old := effects[_md5])["id"] < new["id"]:
+                if old["size"] != new["size"]:
+                    raise ValueError(f"Size mismatch for effect {_md5}: {old['size']} vs {new['size']}")
+                old.update(name=new["name"], desc=new["desc"], url=new["url"])
+                # but keep the smaller id
 
     effects = list(effects.values())
     effects.sort(key=lambda x: x["id"])
@@ -160,8 +162,10 @@ if __name__ == "__main__":
         if m["id"] not in models:
             models[m["id"]] = m
         else:
-            ptr = models[m["id"]]
-            assert all(ptr[field] == m[field] for field in ("model", "url", "size", "md5"))
+            old = models[m["id"]]
+            for field in ("model", "url", "size", "md5"):
+                if old[field] != m[field]:
+                    raise ValueError(f"Device model mismatch in {field} for id {m['id']}: {old[field]} vs {m[field]}")
 
     models = list(models.values())
     servers = list(set([urlparse(m["url"]).netloc for m in models]))
