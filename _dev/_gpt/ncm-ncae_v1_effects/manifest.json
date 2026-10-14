@@ -1,0 +1,11 @@
+{
+  "retrievedAt": "2026-09-15T02:45:45.418269+00:00",
+  "apiHost": "https://interfacepc.music.163.com",
+  "appver": "3.1.29.205117",
+  "effectsEndpoint": "/api/usertool/sound/mobile/all",
+  "deviceBrandsEndpoint": "/api/usertool/home/soundeffect/devicebrand/list",
+  "deviceSoundsEndpoint": "/api/usertool/home/soundeffect/devicesound/list",
+  "effects": [],
+  "deviceBrands": [],
+  "devices": []
+}
