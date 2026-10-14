@@ -25,6 +25,19 @@ CATALOG_DIR = Path(__file__).parent / "ncae_catalog"
 REQ_TIMEOUT = 10
 
 
+def _unify_servers(diclist: list[dict], key: str) -> None:
+    # for the sake of smaller diffs
+    servers = list(set([urlparse(d[key]).netloc for d in diclist]))
+    for d in diclist:
+        d[key] = urlparse(d[key])._replace(netloc=servers[0]).geturl()
+
+
+def _remove_field(diclist: list[dict], key: str) -> None:
+    for d in diclist:
+        if key in d:
+            del d[key]
+
+
 def _rget(url: str, **kwargs) -> requests.Response:
     r = requests.get(url, timeout=REQ_TIMEOUT, **kwargs)
     r.raise_for_status()
@@ -78,6 +91,8 @@ if __name__ == "__main__":
         print(f"Fetching effects for exposeType={_type}...")
         _effects[_type] = eapi_post(EFFECTS_ENDPOINT, {"exposeType": _type})["data"]
 
+    _unify_servers(sum(_effects.values(), []), "url")  # pointers
+    _remove_field(sum(_effects.values(), []), "useCount")
     json_dump(_effects, CATALOG_DIR / "effects_raw.json")
 
     # ------------ Parsed effects
@@ -110,9 +125,6 @@ if __name__ == "__main__":
 
     effects = list(effects.values())
     effects.sort(key=lambda x: x["id"])
-    servers = list(set([urlparse(e["url"]).netloc for e in effects]))
-    for e in effects:
-        e["url"] = urlparse(e["url"])._replace(netloc=servers[0]).geturl()
     json_dump(effects, CATALOG_DIR / "effects_parsed.json")
 
     # ----------- Raw device brands
@@ -136,6 +148,10 @@ if __name__ == "__main__":
 
     _brands = [b for b in _brands if b["deviceManagerId"] != CLOUD_AUDIO_BRAND_ID]
     _models = asyncio.run(fetch_device_models([b["deviceManagerId"] for b in _brands]))
+
+    _unify_servers(sum(_models, []), "deviceSoundUrl")  # pointers
+    _unify_servers(sum(_models, []), "deviceSoundImgUrl")
+    _remove_field(sum(_models, []), "useCount")
     json_dump(
         {f"{b['deviceManagerId']}_{b['deviceName']}": ms for b, ms in zip(_brands, _models)},
         CATALOG_DIR / "devices_raw_models.json",
@@ -143,6 +159,10 @@ if __name__ == "__main__":
 
     # "Cloud Audio"
     _models_ca = eapi_post(DEVICE_MODELS_ENDPOINT, {"deviceManagerId": CLOUD_AUDIO_BRAND_ID})["data"]
+
+    _unify_servers(_models_ca, "deviceSoundUrl")
+    _unify_servers(_models_ca, "deviceSoundImgUrl")
+    _remove_field(_models_ca, "useCount")
     json_dump(_models_ca, CATALOG_DIR / "devices_raw_models_cloudaudio.json")
 
     # ---------- Parsed device models
@@ -168,7 +188,4 @@ if __name__ == "__main__":
                     raise ValueError(f"Device model mismatch in {field} for id {m['id']}: {old[field]} vs {m[field]}")
 
     models = list(models.values())
-    servers = list(set([urlparse(m["url"]).netloc for m in models]))
-    for m in models:
-        m["url"] = urlparse(m["url"])._replace(netloc=servers[0]).geturl()
     json_dump(models, CATALOG_DIR / "devices_parsed.json")
