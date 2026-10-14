@@ -21,21 +21,15 @@ EFFECTS_ENDPOINT = "/api/usertool/sound/queryAllSound"
 EFFECTS_EXPOSE_TYPES = (2, 3, 6, 7)
 CLOUD_AUDIO_BRAND_ID = -1
 
+DEFAULT_IMG_NETLOC = "p1.music.126.net"
 CATALOG_DIR = Path(__file__).parent / "ncae_catalog"
 REQ_TIMEOUT = 10
 
 
-def _unify_servers(diclist: list[dict], key: str) -> None:
+def _unify_netloc(diclist: list[dict], key: str) -> None:
     # for the sake of smaller diffs
-    servers = list(set([urlparse(d[key]).netloc for d in diclist]))
     for d in diclist:
-        d[key] = urlparse(d[key])._replace(netloc=servers[0]).geturl()
-
-
-def _remove_field(diclist: list[dict], key: str) -> None:
-    for d in diclist:
-        if key in d:
-            del d[key]
+        d[key] = urlparse(d[key])._replace(netloc=DEFAULT_IMG_NETLOC).geturl()
 
 
 def _rget(url: str, **kwargs) -> requests.Response:
@@ -91,8 +85,6 @@ if __name__ == "__main__":
         print(f"Fetching effects for exposeType={_type}...")
         _effects[_type] = eapi_post(EFFECTS_ENDPOINT, {"exposeType": _type})["data"]
 
-    _unify_servers(sum(_effects.values(), []), "link")  # pointers
-    _remove_field(sum(_effects.values(), []), "useCount")
     json_dump(_effects, CATALOG_DIR / "effects_raw.json")
 
     # ------------ Parsed effects
@@ -132,7 +124,7 @@ if __name__ == "__main__":
 
     _brands = eapi_post(DEVICE_BRANDS_ENDPOINT, {})["data"]
 
-    _unify_servers(_brands, "deviceImgUrl")
+    _unify_netloc(_brands, "deviceImgUrl")
     json_dump(_brands, CATALOG_DIR / "devices_raw_brands.json")
 
     # ----------- Raw device models
@@ -151,10 +143,7 @@ if __name__ == "__main__":
     _brands = [b for b in _brands if b["deviceManagerId"] != CLOUD_AUDIO_BRAND_ID]
     _models = asyncio.run(fetch_device_models([b["deviceManagerId"] for b in _brands]))
 
-    _unify_servers(sum(_models, []), "deviceSoundUrl")  # pointers
-    _unify_servers(sum(_models, []), "deviceSoundImgUrl")
-    _remove_field(sum(_models, []), "usedCount")
-    _remove_field(sum(_models, []), "feedMsgCount")
+    _unify_netloc(sum(_models, []), "deviceSoundImgUrl")  # pointers
     json_dump(
         {f"{b['deviceManagerId']}_{b['deviceName']}": ms for b, ms in zip(_brands, _models)},
         CATALOG_DIR / "devices_raw_models.json",
@@ -163,10 +152,7 @@ if __name__ == "__main__":
     # "Cloud Audio"
     _models_ca = eapi_post(DEVICE_MODELS_ENDPOINT, {"deviceManagerId": CLOUD_AUDIO_BRAND_ID})["data"]
 
-    _unify_servers(_models_ca, "deviceSoundUrl")
-    _unify_servers(_models_ca, "deviceSoundImgUrl")
-    _remove_field(_models_ca, "usedCount")
-    _remove_field(_models_ca, "feedMsgCount")
+    _unify_netloc(_models_ca, "deviceSoundImgUrl")
     json_dump(_models_ca, CATALOG_DIR / "devices_raw_models_cloudaudio.json")
 
     # ---------- Parsed device models
