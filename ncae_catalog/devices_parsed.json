@@ -1,0 +1,2874 @@
+[
+    {
+        "id": 38001,
+        "model": "AKG K240 MKII",
+        "brand": "AKG",
+        "url": "http://d1.music.126.net/dmusic/07a4a25c6c6b691cc5f1ef2b4238393a.ncae",
+        "size": 14961,
+        "md5": "3b49c4d47a3e70a6832380b855b011c6"
+    },
+    {
+        "id": 3000,
+        "model": "AKG K272",
+        "brand": "AKG",
+        "url": "http://d1.music.126.net/dmusic/0dbcd633b9c11f71c5f878fdb1395f91.ncae",
+        "size": 6747,
+        "md5": "0efbd06f8e885d7e4e5f688b50a75661"
+    },
+    {
+        "id": 4000,
+        "model": "AKG K374",
+        "brand": "AKG",
+        "url": "http://d1.music.126.net/dmusic/814555bbfc7ca5a0bb8f9b30f97e993d.ncae",
+        "size": 16084,
+        "md5": "7202988756efeccc5493dea6ebe7d896"
+    },
+    {
+        "id": 41005,
+        "model": "AKG K44",
+        "brand": "AKG",
+        "url": "http://d1.music.126.net/dmusic/1f1f9d6c752abd98ae5cb315e987c986.ncae",
+        "size": 14784,
+        "md5": "7c391088ea13db8b0585bc8d13fefe2c"
+    },
+    {
+        "id": 4001,
+        "model": "AKG K450",
+        "brand": "AKG",
+        "url": "http://d1.music.126.net/dmusic/ceb01b812e5f2058fb8665105afdb4ea.ncae",
+        "size": 11501,
+        "md5": "04a5a87daa858cd895370e1d05340d7d"
+    },
+    {
+        "id": 41006,
+        "model": "AKG K490NC",
+        "brand": "AKG",
+        "url": "http://d1.music.126.net/dmusic/7b68f7bd5a6af65a591f8a7c0cb42d90.ncae",
+        "size": 14823,
+        "md5": "b22f5b9a548076a24fbb1eb321fd9cf3"
+    },
+    {
+        "id": 43002,
+        "model": "AKG K701",
+        "brand": "AKG",
+        "url": "http://d1.music.126.net/dmusic/014fb2416e207f5220f23afca73cea4b.ncae",
+        "size": 12958,
+        "md5": "d4f96201ea071d1840b4153671c08986"
+    },
+    {
+        "id": 37002,
+        "model": "AKG K702",
+        "brand": "AKG",
+        "url": "http://d1.music.126.net/dmusic/1315135e16184ab91c58f8b2734371d9.ncae",
+        "size": 13021,
+        "md5": "2246f3b71d7b26533543ac84ad86d00f"
+    },
+    {
+        "id": 43003,
+        "model": "AKG K712 PRO",
+        "brand": "AKG",
+        "url": "http://d1.music.126.net/dmusic/be5738644d377afd7f2606986f90ea40.ncae",
+        "size": 13871,
+        "md5": "d8976729d2a3d9aadfb5eabbbc32bb87"
+    },
+    {
+        "id": 5000,
+        "model": "AKG N20",
+        "brand": "AKG",
+        "url": "http://d1.music.126.net/dmusic/220e6dcc0349e21fbbf9e316b1cc45b2.ncae",
+        "size": 12558,
+        "md5": "3c2d5d071c07b3809136ce6f547d32c6"
+    },
+    {
+        "id": 6000,
+        "model": "AKG Q350",
+        "brand": "AKG",
+        "url": "http://d1.music.126.net/dmusic/f3313b8b5ca9f169a5f6c7570c23eb5f.ncae",
+        "size": 11150,
+        "md5": "0eb6e44b90d7df8ea3c2299b4a28a406"
+    },
+    {
+        "id": 4002,
+        "model": "AKG Q460",
+        "brand": "AKG",
+        "url": "http://d1.music.126.net/dmusic/30ee86270c31d1c40fab9d9ffe219d6e.ncae",
+        "size": 7194,
+        "md5": "ae15860aa592ac08af55b8728479b505"
+    },
+    {
+        "id": 7000,
+        "model": "AKG Y50",
+        "brand": "AKG",
+        "url": "http://d1.music.126.net/dmusic/c0cb466adb0a3ce51d7639ec10665ca1.ncae",
+        "size": 5888,
+        "md5": "f4332fd84eff1cac91b8b8327c853607"
+    },
+    {
+        "id": 42010,
+        "model": "B&O PLAY E8",
+        "brand": "B&O",
+        "url": "http://d1.music.126.net/dmusic/ffe88bfd0d710f60542d2844048e785e.ncae",
+        "size": 13777,
+        "md5": "93a9cbb7195f0b4edb5ebf633cf49749"
+    },
+    {
+        "id": 40016,
+        "model": "B&O PLAY Earset 3i",
+        "brand": "B&O",
+        "url": "http://d1.music.126.net/dmusic/0d1d22ad759715db8e87de56681bcd0c.ncae",
+        "size": 13975,
+        "md5": "1b0220de62d4e3476d4943df00332025"
+    },
+    {
+        "id": 39011,
+        "model": "B&O PLAY H6",
+        "brand": "B&O",
+        "url": "http://d1.music.126.net/dmusic/2fe6f0ea1f4787e0d26eaa3d11b553d1.ncae",
+        "size": 13238,
+        "md5": "1db1be0a1e412ba81498ad4aae582f7d"
+    },
+    {
+        "id": 44011,
+        "model": "B&O PLAY H9",
+        "brand": "B&O",
+        "url": "http://d1.music.126.net/dmusic/d7008158a8247189c1c93d48c4f3717f.ncae",
+        "size": 13897,
+        "md5": "12c0a7ff299dbf27083f1e23d16dd171"
+    },
+    {
+        "id": 40004,
+        "model": "Beats BeatsX",
+        "brand": "Beats",
+        "url": "http://d1.music.126.net/dmusic/88a93d839994addb926fd46fee113b9c.ncae",
+        "size": 12483,
+        "md5": "1d44826285a0021f89cb19a7a43387b4"
+    },
+    {
+        "id": 40005,
+        "model": "Beats EP On-Ear",
+        "brand": "Beats",
+        "url": "http://d1.music.126.net/dmusic/d1f4d6f258bb4c9aa0988caa7ec42fd6.ncae",
+        "size": 13352,
+        "md5": "0b8a4265da83acc045a5007069acdb01"
+    },
+    {
+        "id": 41007,
+        "model": "Beats Executive",
+        "brand": "Beats",
+        "url": "http://d1.music.126.net/dmusic/ff5afc7ca925507b7c9ba495d302a158.ncae",
+        "size": 16259,
+        "md5": "f9a30c64927c8f2257320d086c3f749f"
+    },
+    {
+        "id": 44001,
+        "model": "Beats Powerbeats 2 Wireless",
+        "brand": "Beats",
+        "url": "http://d1.music.126.net/dmusic/210e35152924cf698a5658095ef4c7ee.ncae",
+        "size": 12677,
+        "md5": "04ce37aa3aee0d71b4550c47726dc319"
+    },
+    {
+        "id": 6002,
+        "model": "Beats Powerbeats 3",
+        "brand": "Beats",
+        "url": "http://d1.music.126.net/dmusic/2399221be83b536a23bb93877cfa82db.ncae",
+        "size": 22152,
+        "md5": "8f929a4e640d4d82f25ff613fe552bcd"
+    },
+    {
+        "id": 42002,
+        "model": "Beats Solo2 Wireless",
+        "brand": "Beats",
+        "url": "http://d1.music.126.net/dmusic/1b7f3a2b8096fb951ff9918641ff08a1.ncae",
+        "size": 12865,
+        "md5": "188e300ffc831f99d4a45e7da932f539"
+    },
+    {
+        "id": 40006,
+        "model": "Beats Solo3 Wireless",
+        "brand": "Beats",
+        "url": "http://d1.music.126.net/dmusic/41645a42c30a76e642d518a789955041.ncae",
+        "size": 12460,
+        "md5": "9037e39069ab9bb2a3f8bd0f2079e99b"
+    },
+    {
+        "id": 43004,
+        "model": "Beats Studio Wireless",
+        "brand": "Beats",
+        "url": "http://d1.music.126.net/dmusic/680daa3ebbc848e9dfbe624e69771266.ncae",
+        "size": 15765,
+        "md5": "15ae1917ddd0779013b03c2286c68d31"
+    },
+    {
+        "id": 45000,
+        "model": "Beats Studio3 Wireless",
+        "brand": "Beats",
+        "url": "http://d1.music.126.net/dmusic/f5d2aaf8421bb068a7c1f61ea2793eec.ncae",
+        "size": 14276,
+        "md5": "d7690880c2d17531c0a097de862cf00b"
+    },
+    {
+        "id": 9000,
+        "model": "Beats urBeats",
+        "brand": "Beats",
+        "url": "http://d1.music.126.net/dmusic/aadec9ddf03718145e1afb5685de6541.ncae",
+        "size": 11658,
+        "md5": "d211d1fee95d80125bda1d033639d623"
+    },
+    {
+        "id": 1139000,
+        "model": "宝华韦健 Px7 S2e",
+        "brand": "宝华韦健",
+        "url": "http://d1.music.126.net/dmusic/66eb43abe2b00e294ed28ed56ea8b4a6.ncae",
+        "size": 12365,
+        "md5": "dd289a24f31d59fb86c64467bbcf0f1b"
+    },
+    {
+        "id": 37017,
+        "model": "宝华韦健P5 Series 2",
+        "brand": "宝华韦健",
+        "url": "http://d1.music.126.net/dmusic/4f4a4b2e916301104509c2e3d1c26adf.ncae",
+        "size": 13057,
+        "md5": "14356d69432102f364ce12b922e85da4"
+    },
+    {
+        "id": 42013,
+        "model": "宝华韦健P5 Wireless",
+        "brand": "宝华韦健",
+        "url": "http://d1.music.126.net/dmusic/8851ea1f019fb46a222f7fa5e7ffa5e9.ncae",
+        "size": 12929,
+        "md5": "c228e10ecf832fec8a3b46d091acca5b"
+    },
+    {
+        "id": 39013,
+        "model": "宝华韦健P7 Wired",
+        "brand": "宝华韦健",
+        "url": "http://d1.music.126.net/dmusic/d603506e86b39896b3e4440a00c44559.ncae",
+        "size": 13045,
+        "md5": "82be129d6e7820810959463d8475b74e"
+    },
+    {
+        "id": 1140000,
+        "model": "宝华韦健Pi5 S2",
+        "brand": "宝华韦健",
+        "url": "http://d1.music.126.net/dmusic/20d4d9d13e1fb43b2d206697af116a18.ncae",
+        "size": 10474,
+        "md5": "26801f605c64df3124d88cc9c051335a"
+    },
+    {
+        "id": 2252500,
+        "model": "宝华韦健PI7",
+        "brand": "宝华韦健",
+        "url": "http://d1.music.126.net/dmusic/7053fbdc170b514a35b2ac21bb1ec49b.ncae",
+        "size": 12177,
+        "md5": "ddabab564d96a8379848eb5304cce19a"
+    },
+    {
+        "id": 2251500,
+        "model": "宝华韦健Pi7 S2",
+        "brand": "宝华韦健",
+        "url": "http://d1.music.126.net/dmusic/6776d63ea8e1cbac3b5df12c8c34de4a.ncae",
+        "size": 11427,
+        "md5": "543af4047e582ed0f64ae399d27b3666"
+    },
+    {
+        "id": 38010,
+        "model": "宝华韦健PX Wireless",
+        "brand": "宝华韦健",
+        "url": "http://d1.music.126.net/dmusic/1cf1ecbf85030557c2045ddbc735f901.ncae",
+        "size": 15493,
+        "md5": "f5045b5843a101954a7377a7e0a0b2b6"
+    },
+    {
+        "id": 45001,
+        "model": "Bose QuietComfort 25",
+        "brand": "BOSE",
+        "url": "http://d1.music.126.net/dmusic/15a754482770dca469d5f37a2952c119.ncae",
+        "size": 14650,
+        "md5": "206a8615b94b7bb25c9dd955e7930988"
+    },
+    {
+        "id": 37003,
+        "model": "Bose QuietComfort 35",
+        "brand": "BOSE",
+        "url": "http://d1.music.126.net/dmusic/4917702fb478db9c89f06307addb5022.ncae",
+        "size": 14518,
+        "md5": "fc68ae719277241000c260d48fb0f71e"
+    },
+    {
+        "id": 44002,
+        "model": "Bose QuietComfort 35 II",
+        "brand": "BOSE",
+        "url": "http://d1.music.126.net/dmusic/dbd6c07b17c92f554bca6cdeed3bb1c6.ncae",
+        "size": 14760,
+        "md5": "5c89ef4bf40f6e18ffd7610d06270d44"
+    },
+    {
+        "id": 37004,
+        "model": "Bose QuietControl 30",
+        "brand": "BOSE",
+        "url": "http://d1.music.126.net/dmusic/8331bf812d30e3dd756ba86a4feb0660.ncae",
+        "size": 12851,
+        "md5": "3f6958e57bf4c6996cf2acfd4161011c"
+    },
+    {
+        "id": 43005,
+        "model": "Bose SoundLink 2 On-Ear",
+        "brand": "BOSE",
+        "url": "http://d1.music.126.net/dmusic/7c1a2627fb50d3c592875b79eec0b6e1.ncae",
+        "size": 13658,
+        "md5": "f4beaa07331ec24f8b8a49b495e0923b"
+    },
+    {
+        "id": 46000,
+        "model": "Bose SoundLink On-Ear",
+        "brand": "BOSE",
+        "url": "http://d1.music.126.net/dmusic/d42a4ceadb7a5433a8259fbbdeb75322.ncae",
+        "size": 12694,
+        "md5": "fa8454d79e5ade983f31e62c1f209233"
+    },
+    {
+        "id": 6003,
+        "model": "Bose SoundSport",
+        "brand": "BOSE",
+        "url": "http://d1.music.126.net/dmusic/89e1b2da29c9f1b99c7dcbbc56701188.ncae",
+        "size": 1751,
+        "md5": "9c940de464c8ee3354d781460c288ad7"
+    },
+    {
+        "id": 41009,
+        "model": "Bose SoundSport In-Ear",
+        "brand": "BOSE",
+        "url": "http://d1.music.126.net/dmusic/3e97376885e8fbe480fef98cff1fd58b.ncae",
+        "size": 13118,
+        "md5": "6e4f7c36e8d919c6997af29fac0d7660"
+    },
+    {
+        "id": 42003,
+        "model": "Bose SoundSport In-Ear Wireless",
+        "brand": "BOSE",
+        "url": "http://d1.music.126.net/dmusic/611e3f5cad8afc0c5e6ce788a395a98f.ncae",
+        "size": 13263,
+        "md5": "25ae46dc5766ae8370d0db0935246c69"
+    },
+    {
+        "id": 40007,
+        "model": "Bose SoundTrue 2 On-Ear",
+        "brand": "BOSE",
+        "url": "http://d1.music.126.net/dmusic/012340b435b9b47881e0aeac94855e00.ncae",
+        "size": 13411,
+        "md5": "1438d0d61bc2130a0f558c90d347b4fa"
+    },
+    {
+        "id": 43006,
+        "model": "Bose SoundTrue Ultra In-Ear",
+        "brand": "BOSE",
+        "url": "http://d1.music.126.net/dmusic/93c80fc3ed73930e39cfd0ea497cf56e.ncae",
+        "size": 11929,
+        "md5": "5a67788526ec2215fe1d1960c7a86a6e"
+    },
+    {
+        "id": 44013,
+        "model": "Plantronics BackBeat Fit",
+        "brand": "缤特力",
+        "url": "http://d1.music.126.net/dmusic/71e958bfe5b45ad7e6153b817d6a7c40.ncae",
+        "size": 13207,
+        "md5": "b8b59c9184d093265cd6990bb96a7388"
+    },
+    {
+        "id": 41020,
+        "model": "Plantronics BackBeat Go 600",
+        "brand": "缤特力",
+        "url": "http://d1.music.126.net/dmusic/d6b99a56ae9abb82d8e8e4da7920a296.ncae",
+        "size": 15288,
+        "md5": "c87ec6e875c70214eea51152503a9fc0"
+    },
+    {
+        "id": 42014,
+        "model": "Plantronics Backbeat Pro",
+        "brand": "缤特力",
+        "url": "http://d1.music.126.net/dmusic/56a95bfda0c8a6af4ff9072eb21b4ba0.ncae",
+        "size": 15055,
+        "md5": "799f89e8d076c2458329100adcecf02e"
+    },
+    {
+        "id": 46011,
+        "model": "Plantronics BackBeat Pro 2",
+        "brand": "缤特力",
+        "url": "http://d1.music.126.net/dmusic/e4f5d8bbe11edfaaa93a683214e7ea48.ncae",
+        "size": 13067,
+        "md5": "63f8a55794afc0219a153beb558145f7"
+    },
+    {
+        "id": 45011,
+        "model": "Plantronics RIG 800LX",
+        "brand": "缤特力",
+        "url": "http://d1.music.126.net/dmusic/f5e926a7a0192426f77cb3348db5d8a3.ncae",
+        "size": 15498,
+        "md5": "83925c1bc68b79f371c5effb97af70fe"
+    },
+    {
+        "id": 39012,
+        "model": "Beyerdynamic DT1990 PRO",
+        "brand": "拜亚动力",
+        "url": "http://d1.music.126.net/dmusic/5a2a2e3fbc45f55be8ce7f25e78bfba0.ncae",
+        "size": 13148,
+        "md5": "33f9786c26f9d53cd572b4b631432685"
+    },
+    {
+        "id": 42012,
+        "model": "Beyerdynamic DT770 (250 ohm)",
+        "brand": "拜亚动力",
+        "url": "http://d1.music.126.net/dmusic/787398277bd4a7d652271a0c56b27f1a.ncae",
+        "size": 14918,
+        "md5": "99202e1193410a067ecb7b1db1f65bea"
+    },
+    {
+        "id": 37016,
+        "model": "Beyerdynamic DT880 (32 ohm)",
+        "brand": "拜亚动力",
+        "url": "http://d1.music.126.net/dmusic/844afac7d6aa5d6fba9f43cd46470a1d.ncae",
+        "size": 13550,
+        "md5": "d31164ae86c27eb086c6189d5f6c399b"
+    },
+    {
+        "id": 41019,
+        "model": "Beyerdynamic DT990 PRO",
+        "brand": "拜亚动力",
+        "url": "http://d1.music.126.net/dmusic/840453d3873a9c876690a15090a2f0a3.ncae",
+        "size": 14569,
+        "md5": "2678229467b0d14932e40e0ea60da0d8"
+    },
+    {
+        "id": 7002,
+        "model": "Aurvana Air",
+        "brand": "创新",
+        "url": "http://d1.music.126.net/dmusic/d5ac5395602a3aaae11b56075312b0fc.ncae",
+        "size": 3460,
+        "md5": "2742a1f0e533d765165bac7eb4d640cc"
+    },
+    {
+        "id": 44005,
+        "model": "Aurvana Gold",
+        "brand": "创新",
+        "url": "http://d1.music.126.net/dmusic/68685c30a000d235e044b6214492599d.ncae",
+        "size": 12346,
+        "md5": "35430ee458a82b74a7c284f97d45505c"
+    },
+    {
+        "id": 6004,
+        "model": "Aurvana In-Ear 3",
+        "brand": "创新",
+        "url": "http://d1.music.126.net/dmusic/a93cc750f680998e5dfdafc31c677d5a.ncae",
+        "size": 25294,
+        "md5": "f3ef444964e3b2fc3266d785c6782c30"
+    },
+    {
+        "id": 38003,
+        "model": "Aurvana Platinum",
+        "brand": "创新",
+        "url": "http://d1.music.126.net/dmusic/f2d64ad0101b99e0d8ee06e798087a65.ncae",
+        "size": 15081,
+        "md5": "2eb266c3e3effb94af705e2c6dd52e3b"
+    },
+    {
+        "id": 37006,
+        "model": "Creative HN-900",
+        "brand": "创新",
+        "url": "http://d1.music.126.net/dmusic/25b56db3f1b348e961620e2d88043cb0.ncae",
+        "size": 17044,
+        "md5": "0012346ac130ca6458e88c7d23cd4807"
+    },
+    {
+        "id": 45002,
+        "model": "Sound Blaster EVO ZxR",
+        "brand": "创新",
+        "url": "http://d1.music.126.net/dmusic/cf90d210a9a8f951ff02d971212cfad8.ncae",
+        "size": 14654,
+        "md5": "16bcfe3bfd162967ba586f362190c5fe"
+    },
+    {
+        "id": 46001,
+        "model": "Sound BlasterX H5",
+        "brand": "创新",
+        "url": "http://d1.music.126.net/dmusic/44fdb6a9a2363d817b22adf2d9b994ba.ncae",
+        "size": 14290,
+        "md5": "52bf576e011a1605d1643cdba31468b4"
+    },
+    {
+        "id": 1141000,
+        "model": "Denon AH-C630W",
+        "brand": "DENON天龙",
+        "url": "http://d1.music.126.net/dmusic/dc26977939b251b3b3cb1c96531cd82a.ncae",
+        "size": 11881,
+        "md5": "e9b8da013ef4eaf4049746a9d66c714e"
+    },
+    {
+        "id": 1142000,
+        "model": "Denon AH-C830NCW",
+        "brand": "DENON天龙",
+        "url": "http://d1.music.126.net/dmusic/8c5adc3b81f4daa4dac60386526c1a07.ncae",
+        "size": 12371,
+        "md5": "1bec5dfebf26fa555611d781035250ae"
+    },
+    {
+        "id": 60001,
+        "model": "DK3001",
+        "brand": "达音科",
+        "url": "http://d1.music.126.net/dmusic/a5641fdadc26a1d2cf67cffc0d24498f.ncae",
+        "size": 11022,
+        "md5": "a19feac0a2bd1e24ff4dd7318b6809a1"
+    },
+    {
+        "id": 61001,
+        "model": "DK4001",
+        "brand": "达音科",
+        "url": "http://d1.music.126.net/dmusic/7d152c0e2316c46e140d579f04e852b7.ncae",
+        "size": 11730,
+        "md5": "c9bbc425a9e5bcfe0924ce7f6726d921"
+    },
+    {
+        "id": 60000,
+        "model": "Falcon-C(隼)",
+        "brand": "达音科",
+        "url": "http://d1.music.126.net/dmusic/9c95012e5ae95186bc88434dffa95db2.ncae",
+        "size": 11492,
+        "md5": "1aef4a07ea902eb7d1fdb4aeb117b763"
+    },
+    {
+        "id": 62000,
+        "model": "Titan 1-ES",
+        "brand": "达音科",
+        "url": "http://d1.music.126.net/dmusic/766ed54448fd6368b17855c01a08554b.ncae",
+        "size": 11477,
+        "md5": "a5aaa1c92566e2f551be24bac56f9fd2"
+    },
+    {
+        "id": 61000,
+        "model": "Titan 3",
+        "brand": "达音科",
+        "url": "http://d1.music.126.net/dmusic/1690dd85f358fc637a5b41319f0854ce.ncae",
+        "size": 11610,
+        "md5": "2f9c4c4124cb1cf38259c2af1b6b02d2"
+    },
+    {
+        "id": 59000,
+        "model": "Titan 5",
+        "brand": "达音科",
+        "url": "http://d1.music.126.net/dmusic/3de6014395ec59b9cf2a52aff1f67071.ncae",
+        "size": 11124,
+        "md5": "c4cc719155e9c31765cf877700665bb9"
+    },
+    {
+        "id": 100500,
+        "model": "FA9",
+        "brand": "飞傲",
+        "url": "http://d1.music.126.net/dmusic/0e62952da3f981ca0eec175334dfd338.ncae",
+        "size": 11522,
+        "md5": "f82bd9290ddcbfb4b071cd28d106c8bc"
+    },
+    {
+        "id": 6005,
+        "model": "FIIL Diva",
+        "brand": "FIIL",
+        "url": "http://d1.music.126.net/dmusic/cb8aad2d55fa52a58e927f3ff25bc23f.ncae",
+        "size": 9474,
+        "md5": "f22e372436d6c72db665905afb170ee4"
+    },
+    {
+        "id": 44012,
+        "model": "Fitbit Flyer",
+        "brand": "Fitbit",
+        "url": "http://d1.music.126.net/dmusic/d57e3cd25a09b109dfbb9f02d7836e13.ncae",
+        "size": 16710,
+        "md5": "12022c72c3c873a6cbacaa6100015491"
+    },
+    {
+        "id": 2265500,
+        "model": "Test",
+        "brand": "Fitbit",
+        "url": "http://d1.music.126.net/dmusic/80a57e5f60106257d06015273809e82d.ncae",
+        "size": 10667,
+        "md5": "0019dddb04f5139263945df0d147a639"
+    },
+    {
+        "id": 42004,
+        "model": "Philips Fidelio NC1",
+        "brand": "飞利浦",
+        "url": "http://d1.music.126.net/dmusic/10de07a08a70f4ef315dc13de09b949b.ncae",
+        "size": 13366,
+        "md5": "482f165fa1fc197fe82e9df2fdb088b8"
+    },
+    {
+        "id": 7005,
+        "model": "Philips SHM1900",
+        "brand": "飞利浦",
+        "url": "http://d1.music.126.net/dmusic/0b645f2f0c717e79ad13c87a7a4f1a97.ncae",
+        "size": 6896,
+        "md5": "bd619fd5c21da12fb3eb8d4496ae4fef"
+    },
+    {
+        "id": 44006,
+        "model": "Philips SHP9500",
+        "brand": "飞利浦",
+        "url": "http://d1.music.126.net/dmusic/361aa3c9c7d9e3142598bf261cdc0f2c.ncae",
+        "size": 13666,
+        "md5": "f2e794be19512fe321c7c99c96656529"
+    },
+    {
+        "id": 10000,
+        "model": "Grado Alessandro",
+        "brand": "歌德",
+        "url": "http://d1.music.126.net/dmusic/a23ab4b74f9f9cb8f01be6fc06b488a8.ncae",
+        "size": 8467,
+        "md5": "f328fcab561ba92433a359394b517076"
+    },
+    {
+        "id": 4004,
+        "model": "Grado SR125e",
+        "brand": "歌德",
+        "url": "http://d1.music.126.net/dmusic/13c4058b4c40735e72183b8265e7627f.ncae",
+        "size": 14318,
+        "md5": "c858914a1e63fa5cbc10762a6e23af4c"
+    },
+    {
+        "id": 39002,
+        "model": "Grado SR225e",
+        "brand": "歌德",
+        "url": "http://d1.music.126.net/dmusic/9770ab6ae129bf2a534c6f099193b282.ncae",
+        "size": 14330,
+        "md5": "a1770883e6d5a4978f115558200f59a8"
+    },
+    {
+        "id": 37008,
+        "model": "Grado SR60e",
+        "brand": "歌德",
+        "url": "http://d1.music.126.net/dmusic/8427fa08db41d4ad99a94f1e750f1ced.ncae",
+        "size": 14168,
+        "md5": "6935f53e5ca4780e192f46ed26e04093"
+    },
+    {
+        "id": 40011,
+        "model": "Grado SR80e",
+        "brand": "歌德",
+        "url": "http://d1.music.126.net/dmusic/c29adf745c220f1789f87b7e50f3e0c1.ncae",
+        "size": 14006,
+        "md5": "09227b499caf845aff72143c4771f09b"
+    },
+    {
+        "id": 41010,
+        "model": "Koss KSC75",
+        "brand": "高斯",
+        "url": "http://d1.music.126.net/dmusic/d590008255007824f447bd0cabf99333.ncae",
+        "size": 15856,
+        "md5": "1c3ad56e3dbf5321ca8ce71eb72909bc"
+    },
+    {
+        "id": 6006,
+        "model": "Koss Porta Pro",
+        "brand": "高斯",
+        "url": "http://d1.music.126.net/dmusic/67522fc5634d440987a63dc10c8f1f10.ncae",
+        "size": 15183,
+        "md5": "ecf3a8200a927200393766ee1cf10651"
+    },
+    {
+        "id": 42006,
+        "model": "Koss Porta Pro Wireless",
+        "brand": "高斯",
+        "url": "http://d1.music.126.net/dmusic/31955d5bbff42dfe95b15362ccb06bba.ncae",
+        "size": 14242,
+        "md5": "8ad06ab27e178ef4d1c9ee0359fdb5a1"
+    },
+    {
+        "id": 38004,
+        "model": "Koss QZ900",
+        "brand": "高斯",
+        "url": "http://d1.music.126.net/dmusic/d20e91d12cb486a7957366995ff74b20.ncae",
+        "size": 15626,
+        "md5": "06b4fb05c7cee245436fdc0129ea714f"
+    },
+    {
+        "id": 40010,
+        "model": "Koss QZPro",
+        "brand": "高斯",
+        "url": "http://d1.music.126.net/dmusic/bee32e81b1df979dec98c11730cb5436.ncae",
+        "size": 15691,
+        "md5": "e2994dc8a9eea098f3b963250c188fff"
+    },
+    {
+        "id": 41011,
+        "model": "Koss UR-20",
+        "brand": "高斯",
+        "url": "http://d1.music.126.net/dmusic/690382e9d3320cf49b4ad53024c69e93.ncae",
+        "size": 15915,
+        "md5": "229a67e8ce7162235a924963aa9aba08"
+    },
+    {
+        "id": 44014,
+        "model": "harman/kardon NC",
+        "brand": "哈曼卡顿",
+        "url": "http://d1.music.126.net/dmusic/171447ab9c71a4d5742a8c2f0e4364d3.ncae",
+        "size": 13804,
+        "md5": "8636aa841c808fc69f42412c264efa70"
+    },
+    {
+        "id": 13002,
+        "model": "华为经典(USB-C版)",
+        "brand": "华为",
+        "url": "http://d1.music.126.net/dmusic/d667276c43c28679bca1bbedb7ff7440.ncae",
+        "size": 31951,
+        "md5": "cbd621db68cb41be37880bfaa3b97056"
+    },
+    {
+        "id": 17000,
+        "model": "华为主动降噪2",
+        "brand": "华为",
+        "url": "http://d1.music.126.net/dmusic/df4552a49d567bb69a617ab7117f5e0f.ncae",
+        "size": 33051,
+        "md5": "0d077f43dc48477c8c7867be92564c15"
+    },
+    {
+        "id": 3001,
+        "model": "荣耀半入耳式",
+        "brand": "华为",
+        "url": "http://d1.music.126.net/dmusic/d63126cc9b5a87a71c9647bf9ad07c68.ncae",
+        "size": 31447,
+        "md5": "b9ec1980ba10d9fe194c85a002c822a5"
+    },
+    {
+        "id": 18000,
+        "model": "荣耀半入耳式（金属版）",
+        "brand": "华为",
+        "url": "http://d1.music.126.net/dmusic/1f2055043c737d80aca18ee588946243.ncae",
+        "size": 30468,
+        "md5": "994742674ea186b7352f081e919b5efe"
+    },
+    {
+        "id": 16000,
+        "model": "荣耀魔声",
+        "brand": "华为",
+        "url": "http://d1.music.126.net/dmusic/d72f80373c0b7cbe78d635fb9cda3c5f.ncae",
+        "size": 31605,
+        "md5": "172ce9f976bcb6f4b3ee0b2094b6d95c"
+    },
+    {
+        "id": 16001,
+        "model": "荣耀魔声II",
+        "brand": "华为",
+        "url": "http://d1.music.126.net/dmusic/ed1b99f1ffa3085e186e15527c8a9239.ncae",
+        "size": 31007,
+        "md5": "3960c605b59918dcbe988affadb18ee9"
+    },
+    {
+        "id": 13001,
+        "model": "荣耀引擎2",
+        "brand": "华为",
+        "url": "http://d1.music.126.net/dmusic/2dd92e2e18a6df0630d2707ec8e94836.ncae",
+        "size": 33165,
+        "md5": "886ecff7b7ce9fef6b2e6c633d58636f"
+    },
+    {
+        "id": 15000,
+        "model": "荣耀引擎Plus",
+        "brand": "华为",
+        "url": "http://d1.music.126.net/dmusic/20172bb1146ac2e7c7d971e0d9b7c02d.ncae",
+        "size": 32982,
+        "md5": "b85e502e199f8354569fe0ccf138ba88"
+    },
+    {
+        "id": 1148001,
+        "model": "iQOO TWS 2",
+        "brand": "iQOO",
+        "url": "http://d1.music.126.net/dmusic/1a72637fb1e041457526e436fc4415a5.ncae",
+        "size": 11003,
+        "md5": "c91f8d1263615ee387a43b330aba9205"
+    },
+    {
+        "id": 45010,
+        "model": "Jaybird Freedom",
+        "brand": "Jaybird",
+        "url": "http://d1.music.126.net/dmusic/9710bba0fed108afc1d37ee1bd787b33.ncae",
+        "size": 11982,
+        "md5": "8984e41cd2b65d4a6f4eddbc9a6ce86b"
+    },
+    {
+        "id": 41018,
+        "model": "Jaybird Freedom 2",
+        "brand": "Jaybird",
+        "url": "http://d1.music.126.net/dmusic/fc5168b2be8271c9fce75c55c4325a24.ncae",
+        "size": 13253,
+        "md5": "9f44d40707f2bdb70ecc0fdacb01b5c6"
+    },
+    {
+        "id": 42011,
+        "model": "Jaybird Run",
+        "brand": "Jaybird",
+        "url": "http://d1.music.126.net/dmusic/09d4bc769fd74ca8600ef15f33c09cb9.ncae",
+        "size": 12384,
+        "md5": "57b414ff5b5e4178b90606a27027ef8a"
+    },
+    {
+        "id": 40017,
+        "model": "Jaybird X2",
+        "brand": "Jaybird",
+        "url": "http://d1.music.126.net/dmusic/30d0125aedb2df095eb27e65ad1f1627.ncae",
+        "size": 12742,
+        "md5": "99b08972f832b7e27a62a44583053fb5"
+    },
+    {
+        "id": 46010,
+        "model": "Jaybird X3",
+        "brand": "Jaybird",
+        "url": "http://d1.music.126.net/dmusic/ca5dc113dcbd7484ac0573b40f916acb.ncae",
+        "size": 12181,
+        "md5": "97ce24b2baa90b7af86d1037e83d3d14"
+    },
+    {
+        "id": 44003,
+        "model": "JBL E25BT",
+        "brand": "JBL",
+        "url": "http://d1.music.126.net/dmusic/f6d879939167e58a65432f6e446bb5b4.ncae",
+        "size": 13812,
+        "md5": "e2228cf52e81f69386614d2886722f7a"
+    },
+    {
+        "id": 40008,
+        "model": "JBL E45BT",
+        "brand": "JBL",
+        "url": "http://d1.music.126.net/dmusic/d9c1c9dbebd52c130086b2538fc923c4.ncae",
+        "size": 13716,
+        "md5": "0e7d261161df3f0c7764924c3349fd23"
+    },
+    {
+        "id": 37005,
+        "model": "JBL E50BT",
+        "brand": "JBL",
+        "url": "http://d1.music.126.net/dmusic/9354e37505c2380f1b5ad98c036a62c6.ncae",
+        "size": 14982,
+        "md5": "17917bbe7bfb72b46ad2327029175b94"
+    },
+    {
+        "id": 38002,
+        "model": "JBL E55BT",
+        "brand": "JBL",
+        "url": "http://d1.music.126.net/dmusic/1623fa4591ffacd24751b09e224b2324.ncae",
+        "size": 13495,
+        "md5": "dd64318aa61610d19a0022fa1fee0788"
+    },
+    {
+        "id": 40009,
+        "model": "JBL Everest Elite 700",
+        "brand": "JBL",
+        "url": "http://d1.music.126.net/dmusic/71b61e687c677d024c04de0f712c0507.ncae",
+        "size": 13744,
+        "md5": "6001500d4e602b707a58fbe3c2f2cb48"
+    },
+    {
+        "id": 44004,
+        "model": "JBL Free",
+        "brand": "JBL",
+        "url": "http://d1.music.126.net/dmusic/f361f6a478a0ba5d47b5e6905a7c6419.ncae",
+        "size": 12038,
+        "md5": "0e4bff3ea96552b10356223155f26c0f"
+    },
+    {
+        "id": 4005,
+        "model": "JBL Reflect",
+        "brand": "JBL",
+        "url": "http://d1.music.126.net/dmusic/ac349baba1bbf4bbbb2859771f416248.ncae",
+        "size": 11688,
+        "md5": "db1d946dd4daf69bff272b1ee33808c9"
+    },
+    {
+        "id": 4006,
+        "model": "JBL T280A",
+        "brand": "JBL",
+        "url": "http://d1.music.126.net/dmusic/18814dcbf6f2c651a9b98bb44710d525.ncae",
+        "size": 11215,
+        "md5": "c80a1a57dcc0e7c079831dfcf0c2ec17"
+    },
+    {
+        "id": 39014,
+        "model": "Jabra Elite 25e",
+        "brand": "捷波朗",
+        "url": "http://d1.music.126.net/dmusic/16502c7ba8e3f9630099209c942ceceb.ncae",
+        "size": 11762,
+        "md5": "8eb55fad53c7a0882b0eb112f2cb6148"
+    },
+    {
+        "id": 39015,
+        "model": "Jabra Elite 65e",
+        "brand": "捷波朗",
+        "url": "http://d1.music.126.net/dmusic/423876bb82fd4cd9b0a6f2a9dbc3565c.ncae",
+        "size": 13302,
+        "md5": "ef09a9ebb1dc6239b7196b4dc0f3a428"
+    },
+    {
+        "id": 43010,
+        "model": "Jabra Elite 65t",
+        "brand": "捷波朗",
+        "url": "http://d1.music.126.net/dmusic/e0c455fa3dca01db7735bfa4d1d794f3.ncae",
+        "size": 13277,
+        "md5": "bb35ba4863b9ffb633d088ff614812b1"
+    },
+    {
+        "id": 43011,
+        "model": "Jabra Elite Active 65t",
+        "brand": "捷波朗",
+        "url": "http://d1.music.126.net/dmusic/a645e89246a7964d8b8cf623c9c5ab07.ncae",
+        "size": 13177,
+        "md5": "91a2882274cadec2e9c1a6cb0a14c58b"
+    },
+    {
+        "id": 42015,
+        "model": "Jabra Elite Sport",
+        "brand": "捷波朗",
+        "url": "http://d1.music.126.net/dmusic/d6b1a1d269caa4b05a9658741a36b070.ncae",
+        "size": 11659,
+        "md5": "16022549e6d871b1aa3bda97df5740c8"
+    },
+    {
+        "id": 42016,
+        "model": "HyperX Cloud Alpha",
+        "brand": "金士顿",
+        "url": "http://d1.music.126.net/dmusic/67c9bb572aefdafb55fcd1fc9ca375d0.ncae",
+        "size": 12915,
+        "md5": "c12f371b93b31c56ee68bc342e0a9d89"
+    },
+    {
+        "id": 40018,
+        "model": "HyperX Cloud Flight",
+        "brand": "金士顿",
+        "url": "http://d1.music.126.net/dmusic/7198fc95b4bd2e2b10c6b953caf0767b.ncae",
+        "size": 14668,
+        "md5": "e95eba987acec255217ef029220060f1"
+    },
+    {
+        "id": 46012,
+        "model": "HyperX Cloud II",
+        "brand": "金士顿",
+        "url": "http://d1.music.126.net/dmusic/64866b067050ced095e956d9de75b23d.ncae",
+        "size": 15349,
+        "md5": "c307db5222adbee0102f612f2ebf6e83"
+    },
+    {
+        "id": 39016,
+        "model": "HyperX Cloud Revolver",
+        "brand": "金士顿",
+        "url": "http://d1.music.126.net/dmusic/417cd88b09a2a8f4c1e82f2eb7254622.ncae",
+        "size": 13508,
+        "md5": "bf2f6197c8a6ed222d172b8eb1b06645"
+    },
+    {
+        "id": 39017,
+        "model": "HyperX Cloud Stinger",
+        "brand": "金士顿",
+        "url": "http://d1.music.126.net/dmusic/e6de4b1f659c70160c61bb21930e28b1.ncae",
+        "size": 14321,
+        "md5": "57d3a7067c67d1573a659823f63a49b2"
+    },
+    {
+        "id": 38011,
+        "model": "Skullcandy Crusher",
+        "brand": "骷髅头",
+        "url": "http://d1.music.126.net/dmusic/8ee79ec498bcd83a706d3aa1b245ef9a.ncae",
+        "size": 15920,
+        "md5": "72ede34a07ae1ffb70b4add17ba48e72"
+    },
+    {
+        "id": 37018,
+        "model": "Skullcandy Crusher Wireless",
+        "brand": "骷髅头",
+        "url": "http://d1.music.126.net/dmusic/a265d5edd7fb1df4a387194a155f746d.ncae",
+        "size": 13749,
+        "md5": "4c12591d02174c5000064ac9b45248da"
+    },
+    {
+        "id": 42017,
+        "model": "Skullcandy Grind",
+        "brand": "骷髅头",
+        "url": "http://d1.music.126.net/dmusic/afe9792afc16fa0f8a1d684e6956df20.ncae",
+        "size": 15360,
+        "md5": "5d78a69115b887a25dfd95130d7938a3"
+    },
+    {
+        "id": 37019,
+        "model": "Skullcandy Hesh 2",
+        "brand": "骷髅头",
+        "url": "http://d1.music.126.net/dmusic/d10c4631db99b7b203ab237d64edd583.ncae",
+        "size": 16219,
+        "md5": "fb14f6d8127e5590d031795c10d47740"
+    },
+    {
+        "id": 44015,
+        "model": "Skullcandy Hesh 3",
+        "brand": "骷髅头",
+        "url": "http://d1.music.126.net/dmusic/57e0533fe3bb42358b85854b90a3f560.ncae",
+        "size": 13139,
+        "md5": "0b3648d17ffb84fa950c19289e55d343"
+    },
+    {
+        "id": 38012,
+        "model": "Skullcandy Jib",
+        "brand": "骷髅头",
+        "url": "http://d1.music.126.net/dmusic/de6eca01d56e115e2fb5d9b76b5dd596.ncae",
+        "size": 11647,
+        "md5": "fe232415c646e451594c7060a6f56fad"
+    },
+    {
+        "id": 40019,
+        "model": "Logitech G Pro",
+        "brand": "罗技",
+        "url": "http://d1.music.126.net/dmusic/f1a3f918e581f3762ba9004005747892.ncae",
+        "size": 14824,
+        "md5": "a80b37d29b348d8fec12c1e53b2ec94f"
+    },
+    {
+        "id": 38014,
+        "model": "Logitech G430",
+        "brand": "罗技",
+        "url": "http://d1.music.126.net/dmusic/6b4166bedd80b8be628f840d4cb47931.ncae",
+        "size": 15470,
+        "md5": "b61c80ec51b3e5e135d286dac63d4957"
+    },
+    {
+        "id": 42019,
+        "model": "Logitech G433",
+        "brand": "罗技",
+        "url": "http://d1.music.126.net/dmusic/c1277789043d188f4906b0a6c1d29296.ncae",
+        "size": 14268,
+        "md5": "a2f58e6522b2389896f82e209476e729"
+    },
+    {
+        "id": 38015,
+        "model": "Logitech G533",
+        "brand": "罗技",
+        "url": "http://d1.music.126.net/dmusic/3a83e1510afc794e1bccf5c9b5029b93.ncae",
+        "size": 14414,
+        "md5": "a24cdfb29fea2ce57b4134fc05f07b41"
+    },
+    {
+        "id": 40020,
+        "model": "Logitech G930",
+        "brand": "罗技",
+        "url": "http://d1.music.126.net/dmusic/02e3531ba47a4edd6767138a0c70a3cc.ncae",
+        "size": 16245,
+        "md5": "aef9ab7841d7557a2b83265994e80831"
+    },
+    {
+        "id": 38016,
+        "model": "Logitech G933",
+        "brand": "罗技",
+        "url": "http://d1.music.126.net/dmusic/fb97b6d4100d354a7929d204a60b332d.ncae",
+        "size": 13879,
+        "md5": "a5100a478afd6475d867db35e915f187"
+    },
+    {
+        "id": 43012,
+        "model": "Razer Kraken Pro V2",
+        "brand": "雷蛇",
+        "url": "http://d1.music.126.net/dmusic/583a9d6f6adb67dbeec094727036dec9.ncae",
+        "size": 14388,
+        "md5": "79dda7a0aa4c9265e641d34e8238ddd3"
+    },
+    {
+        "id": 38013,
+        "model": "Razer Kraken USB",
+        "brand": "雷蛇",
+        "url": "http://d1.music.126.net/dmusic/2f9b7533bcc1ce527edc31ef1b75e165.ncae",
+        "size": 14788,
+        "md5": "c202312f0514102bcd6002a37a6f719e"
+    },
+    {
+        "id": 42018,
+        "model": "Razer Man O' War",
+        "brand": "雷蛇",
+        "url": "http://d1.music.126.net/dmusic/f2d020415f4ad050eeba9c42aaa9fdc5.ncae",
+        "size": 16078,
+        "md5": "909183422b25c5d50bb4b947afa445a1"
+    },
+    {
+        "id": 30001,
+        "model": "漫步者H230P",
+        "brand": "漫步者",
+        "url": "http://d1.music.126.net/dmusic/8633444f6b47309b3af4f2ebc7eef861.ncae",
+        "size": 33599,
+        "md5": "f6ca5ee48c2b8e3a3ca1bea5e1531412"
+    },
+    {
+        "id": 31000,
+        "model": "漫步者H235P",
+        "brand": "漫步者",
+        "url": "http://d1.music.126.net/dmusic/fb3300770ed97bc8e8f0dce1fc397fb1.ncae",
+        "size": 33362,
+        "md5": "86128d602f27729c484bf8423babce9a"
+    },
+    {
+        "id": 27002,
+        "model": "漫步者H265P",
+        "brand": "漫步者",
+        "url": "http://d1.music.126.net/dmusic/f45099b51064f78cafe29eb33afd9d0f.ncae",
+        "size": 33328,
+        "md5": "072fc1aa01ff68fde6dea902f0518ef7"
+    },
+    {
+        "id": 27003,
+        "model": "漫步者H270P",
+        "brand": "漫步者",
+        "url": "http://d1.music.126.net/dmusic/a5266cb6f1c93e55592f79bf07e0dd57.ncae",
+        "size": 33389,
+        "md5": "e4d04e1d8aefaa13199d8c1fea16800b"
+    },
+    {
+        "id": 32000,
+        "model": "漫步者H293P+",
+        "brand": "漫步者",
+        "url": "http://d1.music.126.net/dmusic/0d08f7ffdb69c0fab79fba9e9d5c75a0.ncae",
+        "size": 33368,
+        "md5": "31e611e0267d125c1f9f536b8b0acf18"
+    },
+    {
+        "id": 29001,
+        "model": "漫步者H295P",
+        "brand": "漫步者",
+        "url": "http://d1.music.126.net/dmusic/102dc0387c0d3eba9ec67a81265a56e3.ncae",
+        "size": 33713,
+        "md5": "6147f30243407b86baf7dd157bbcbf69"
+    },
+    {
+        "id": 33000,
+        "model": "漫步者H297",
+        "brand": "漫步者",
+        "url": "http://d1.music.126.net/dmusic/cff07c2ba1affc65c9e24d7df601a506.ncae",
+        "size": 33832,
+        "md5": "8ffa121a5088450f027d9f991c17d231"
+    },
+    {
+        "id": 22000,
+        "model": "漫步者W280X/BT",
+        "brand": "漫步者",
+        "url": "http://d1.music.126.net/dmusic/68e29c234337dd8b26857dce48f09e37.ncae",
+        "size": 33374,
+        "md5": "fe32d3e69dcd51a80efd61acc2069be1"
+    },
+    {
+        "id": 26001,
+        "model": "漫步者W293BT",
+        "brand": "漫步者",
+        "url": "http://d1.music.126.net/dmusic/afde47d88db58fc4fe5e180522e878d6.ncae",
+        "size": 33838,
+        "md5": "a762d8ffb836aae0f58c61dda66d7ad4"
+    },
+    {
+        "id": 29002,
+        "model": "漫步者W295BT+",
+        "brand": "漫步者",
+        "url": "http://d1.music.126.net/dmusic/c26c0138430418d91eb71ccb1f0393c4.ncae",
+        "size": 33664,
+        "md5": "063a8f69e46cff85ebfc500dc4ca6ed7"
+    },
+    {
+        "id": 23000,
+        "model": "漫步者W800X/BT",
+        "brand": "漫步者",
+        "url": "http://d1.music.126.net/dmusic/d20318fcd36868c01eb97b03bdd893c7.ncae",
+        "size": 33492,
+        "md5": "5582524d98b2be90ad02f49bf121aecd"
+    },
+    {
+        "id": 10001,
+        "model": "Monster Clarity",
+        "brand": "魔声",
+        "url": "http://d1.music.126.net/dmusic/046be8acd6c4c400ba633297b568deb0.ncae",
+        "size": 10025,
+        "md5": "b5e03e3ee7b740d7400f1dfddd8072d9"
+    },
+    {
+        "id": 11000,
+        "model": "Monster DNA",
+        "brand": "魔声",
+        "url": "http://d1.music.126.net/dmusic/c3c61ccefee7b1a037f463fa5f8cd399.ncae",
+        "size": 6272,
+        "md5": "54fcddb2c989e98d4a79fb9a8ba2c85a"
+    },
+    {
+        "id": 46002,
+        "model": "Monster Inspiration",
+        "brand": "魔声",
+        "url": "http://d1.music.126.net/dmusic/cd6e965527ba4dd1c4993dc5cb7ed604.ncae",
+        "size": 15893,
+        "md5": "f13a1567cdfde02c9fb674fb07d59e08"
+    },
+    {
+        "id": 6007,
+        "model": "Monster N-Tune",
+        "brand": "魔声",
+        "url": "http://d1.music.126.net/dmusic/0ac857f96870a7a012fd20f947de6e05.ncae",
+        "size": 5494,
+        "md5": "e20a7c9b7e77280c29dac1553e7a58d4"
+    },
+    {
+        "id": 45012,
+        "model": "Marshall Major II",
+        "brand": "马歇尔",
+        "url": "http://d1.music.126.net/dmusic/17e33b610f0090894d87981a99eaec61.ncae",
+        "size": 12317,
+        "md5": "6e8b570a62916d6d552cbcc2041417ee"
+    },
+    {
+        "id": 42020,
+        "model": "Marshall MID ANC",
+        "brand": "马歇尔",
+        "url": "http://d1.music.126.net/dmusic/28fac50e232a7dd2e2bdbeca51cd3e81.ncae",
+        "size": 13856,
+        "md5": "7590ac7a7a19279cabd90682d620d84c"
+    },
+    {
+        "id": 7003,
+        "model": "Meizu EP2X",
+        "brand": "魅族",
+        "url": "http://d1.music.126.net/dmusic/85ed3019d5c1b3e487a109b49e23203d.ncae",
+        "size": 18073,
+        "md5": "c7c03ec2c4f5ef7515d391818eed9838"
+    },
+    {
+        "id": 7004,
+        "model": "Meizu EP31",
+        "brand": "魅族",
+        "url": "http://d1.music.126.net/dmusic/e8b45b77f5564e8e2a1bae57125626c8.ncae",
+        "size": 16502,
+        "md5": "f37bc7beb2c116a9d1a07c474adaf313"
+    },
+    {
+        "id": 28001,
+        "model": "Meizu EP51",
+        "brand": "魅族",
+        "url": "http://d1.music.126.net/dmusic/c2f2f18b9172e8a6738b4ccaf38267a1.ncae",
+        "size": 12856,
+        "md5": "fb281945d035528d0046e1addef31486"
+    },
+    {
+        "id": 21000,
+        "model": "Meizu EP52",
+        "brand": "魅族",
+        "url": "http://d1.music.126.net/dmusic/87a7c5f98ac08e2a6810d8616f2496a6.ncae",
+        "size": 12620,
+        "md5": "4d2808dde58a09348a81ec2b04c412db"
+    },
+    {
+        "id": 50000,
+        "model": "Meizu EP52 Lite",
+        "brand": "魅族",
+        "url": "http://d1.music.126.net/dmusic/f8c09e91ba92dfc730a2348fa0945b86.ncae",
+        "size": 13055,
+        "md5": "7341a159ab340808ebd4ab3377d4acb7"
+    },
+    {
+        "id": 19000,
+        "model": "Meizu Flow",
+        "brand": "魅族",
+        "url": "http://d1.music.126.net/dmusic/5c098eaa0cb346ed1aab3838f057520b.ncae",
+        "size": 13135,
+        "md5": "45eadcb1b8b6abc15ab2f15cbbbbc903"
+    },
+    {
+        "id": 34000,
+        "model": "Meizu Flow Bass",
+        "brand": "魅族",
+        "url": "http://d1.music.126.net/dmusic/ab49508a1358b8471fb4e528230bde13.ncae",
+        "size": 13330,
+        "md5": "3f4837bf960ecfb4b53241dcffda912a"
+    },
+    {
+        "id": 36000,
+        "model": "Meizu Halo",
+        "brand": "魅族",
+        "url": "http://d1.music.126.net/dmusic/b162bc5f54a95242f9f8f9746599a089.ncae",
+        "size": 14760,
+        "md5": "ad8ed384c67af50f738f5076dc43a975"
+    },
+    {
+        "id": 35000,
+        "model": "Meizu Live",
+        "brand": "魅族",
+        "url": "http://d1.music.126.net/dmusic/c0165a12accf6d82757394105f03bb5a.ncae",
+        "size": 14052,
+        "md5": "b3ec9313b63aa4d90079902b1305eed7"
+    },
+    {
+        "id": 20000,
+        "model": "Meizu POP",
+        "brand": "魅族",
+        "url": "http://d1.music.126.net/dmusic/6f9fed0befe02a6e782fc99042b06fab.ncae",
+        "size": 12156,
+        "md5": "b2d5a9f96e46b11a1cd0db9360f31e21"
+    },
+    {
+        "id": 2259500,
+        "model": "other",
+        "brand": "魅族",
+        "url": "http://d1.music.126.net/dmusic/f45bec936b85ec5836c4bc19dc33ab5a.ncae",
+        "size": 11152,
+        "md5": "0cf6a4ab325c50e49a7b1865c75d5ceb"
+    },
+    {
+        "id": 49000,
+        "model": "NF3u",
+        "brand": "宁梵声学",
+        "url": "http://d1.music.126.net/dmusic/1bc51c7cd998733cd3506525da646e7c.ncae",
+        "size": 13576,
+        "md5": "1acecdda0912e64cfca355635574054a"
+    },
+    {
+        "id": 97500,
+        "model": "一加云耳2",
+        "brand": "OnePlus",
+        "url": "http://d1.music.126.net/dmusic/1f8e658dd65ee7731be7c6d68853c334.ncae",
+        "size": 13283,
+        "md5": "e1740f72a95af8ae9839564f13fb9d1d"
+    },
+    {
+        "id": 99500,
+        "model": "OPPO Enco Q1",
+        "brand": "OPPO",
+        "url": "http://d1.music.126.net/dmusic/4b7bef61a9f24763a21b0c4061fc1d81.ncae",
+        "size": 11840,
+        "md5": "2090120919daeb0e37cffcaf84bdbb7d"
+    },
+    {
+        "id": 3928750,
+        "model": "OPPO Enco X4",
+        "brand": "OPPO",
+        "url": "http://d1.music.126.net/dmusic/854d715240a088781140dcacfd786ad2.ncae",
+        "size": 10986,
+        "md5": "981fe0dd4959a3c881bec418f7af0594"
+    },
+    {
+        "id": 2003,
+        "model": "OPPO MH130",
+        "brand": "OPPO",
+        "url": "http://d1.music.126.net/dmusic/27f52f2b6b5a8a046587e5147d3c636b.ncae",
+        "size": 11513,
+        "md5": "4ba756d0bed96bc2e50b57310686d5be"
+    },
+    {
+        "id": 43007,
+        "model": "OPPO PM-3",
+        "brand": "OPPO",
+        "url": "http://d1.music.126.net/dmusic/78bafea0be9e460a325163eb8cdea69c.ncae",
+        "size": 13870,
+        "md5": "03fcea33b3545b60e5f0214c87363e2f"
+    },
+    {
+        "id": 13000,
+        "model": "AirPods",
+        "brand": "苹果",
+        "url": "http://d1.music.126.net/dmusic/ecab2cfffcdb544ff5538db090d17bce.ncae",
+        "size": 13640,
+        "md5": "22b2c437b272be69b2d2c323e6f1873e"
+    },
+    {
+        "id": 2246500,
+        "model": "AirPods 第二代",
+        "brand": "苹果",
+        "url": "http://d1.music.126.net/dmusic/d1c034a497b5ab7b2abdc9834659e1b0.ncae",
+        "size": 12398,
+        "md5": "493f04369e2d5479ef93774934adef54"
+    },
+    {
+        "id": 2247500,
+        "model": "AirPods Pro 第二代",
+        "brand": "苹果",
+        "url": "http://d1.music.126.net/dmusic/c2cea5b8458f2e12f9bfa117b40f7dcf.ncae",
+        "size": 7178,
+        "md5": "28d470dbe82da46228af71a0fe484cc8"
+    },
+    {
+        "id": 12000,
+        "model": "EarPods",
+        "brand": "苹果",
+        "url": "http://d1.music.126.net/dmusic/04de816a48db909f5bfd34d9c50b0e89.ncae",
+        "size": 12591,
+        "md5": "188868dcd793cfdfd4ac6ab0b528adeb"
+    },
+    {
+        "id": 46013,
+        "model": "Polk Audio Buckle",
+        "brand": "普乐之声",
+        "url": "http://d1.music.126.net/dmusic/634824e075a04c605bdf143e6c86b795.ncae",
+        "size": 13686,
+        "md5": "ba9c639af7f8f47d9e63d7a41d50b190"
+    },
+    {
+        "id": 45013,
+        "model": "Polk Audio UltraFocus 8000",
+        "brand": "普乐之声",
+        "url": "http://d1.music.126.net/dmusic/1517c8ee2ec73e1b11ae595d88b9e8ba.ncae",
+        "size": 13010,
+        "md5": "a4a2b114137b37e777ce83a76741581e"
+    },
+    {
+        "id": 42021,
+        "model": "Parrot Zik 2.0",
+        "brand": "派诺特",
+        "url": "http://d1.music.126.net/dmusic/04e15d505319687e4f6126c05ee12275.ncae",
+        "size": 13987,
+        "md5": "39395092ae7cbfbf2da23d17af077f53"
+    },
+    {
+        "id": 41021,
+        "model": "Parrot Zik 3.0",
+        "brand": "派诺特",
+        "url": "http://d1.music.126.net/dmusic/66f1a9bd1662176a7bd13585918eab8b.ncae",
+        "size": 14908,
+        "md5": "eee7ff487e60cb21cb5c57e71ff305f7"
+    },
+    {
+        "id": 2262500,
+        "model": "QCY Crossky C50",
+        "brand": "QCY",
+        "url": "http://d1.music.126.net/dmusic/500f211e88abab0a4a5757a322d1d713.ncae",
+        "size": 10610,
+        "md5": "8a6a54b05162b3ec3e34cc8bb9dd5464"
+    },
+    {
+        "id": 2279500,
+        "model": "QCY Crossky R50",
+        "brand": "QCY",
+        "url": "http://d1.music.126.net/dmusic/5d53c632d7b46e2bb3cb4763e022116b.ncae",
+        "size": 10613,
+        "md5": "9174f74be6a4d7661220ecb963a36038"
+    },
+    {
+        "id": 2281500,
+        "model": "QCY H3S",
+        "brand": "QCY",
+        "url": "http://d1.music.126.net/dmusic/53c7c3d3dbd3dbb7de025e42df3ef504.ncae",
+        "size": 10613,
+        "md5": "9174f74be6a4d7661220ecb963a36038"
+    },
+    {
+        "id": 3924750,
+        "model": "QCY MeloBuds A30",
+        "brand": "QCY",
+        "url": "http://d1.music.126.net/dmusic/78554691971ca81828d9f9c2132887e8.ncae",
+        "size": 15809,
+        "md5": "dff1a921bdfc9d3979f13ba533c067db"
+    },
+    {
+        "id": 3923750,
+        "model": "QCY MeloBuds N20",
+        "brand": "QCY",
+        "url": "http://d1.music.126.net/dmusic/a0f9558ba86b1daa7da790f2ae9b37f8.ncae",
+        "size": 12227,
+        "md5": "e6e67b15b28567922a1add3871648b1d"
+    },
+    {
+        "id": 2278501,
+        "model": "QCY MeloBuds N60",
+        "brand": "QCY",
+        "url": "http://d1.music.126.net/dmusic/415587d2295d6971005a89975aef8e53.ncae",
+        "size": 10613,
+        "md5": "9174f74be6a4d7661220ecb963a36038"
+    },
+    {
+        "id": 1161000,
+        "model": "HONOR Earbuds A",
+        "brand": "荣耀",
+        "url": "http://d1.music.126.net/dmusic/9a84be875b560afb7d6b06fb1abe23ec.ncae",
+        "size": 11616,
+        "md5": "7db05548575a84618de9476fa87a0dda"
+    },
+    {
+        "id": 2263500,
+        "model": "荣耀Earbuds 4i",
+        "brand": "荣耀",
+        "url": "http://d1.music.126.net/dmusic/6ff1493f56d16ed82bff1c458b3c8a8e.ncae",
+        "size": 14526,
+        "md5": "42de190480cf748a3743ba16f741b357"
+    },
+    {
+        "id": 2264500,
+        "model": "荣耀 Earbuds 4i",
+        "brand": "荣耀亲选",
+        "url": "http://d1.music.126.net/dmusic/b04b17bebb5de0df2098a0a54f8e3166.ncae",
+        "size": 14526,
+        "md5": "42de190480cf748a3743ba16f741b357"
+    },
+    {
+        "id": 2278500,
+        "model": "荣耀亲选耳夹式耳机2",
+        "brand": "荣耀亲选",
+        "url": "http://d1.music.126.net/dmusic/a890968f54cdd4f4c0e2af0d6cd14450.ncae",
+        "size": 12160,
+        "md5": "48c3fd7340e1e129d16145040c533a94"
+    },
+    {
+        "id": 2280500,
+        "model": "荣耀亲选耳机X8i",
+        "brand": "荣耀亲选",
+        "url": "http://d1.music.126.net/dmusic/b1be01b47553d7b8cd0761fee3557382.ncae",
+        "size": 10761,
+        "md5": "520212f3ecd24f1d8a3b6f0a24e87c3c"
+    },
+    {
+        "id": 1127000,
+        "model": "X5e",
+        "brand": "荣耀亲选",
+        "url": "http://d1.music.126.net/dmusic/45eefb476944e7ad857ded651279ba41.ncae",
+        "size": 12836,
+        "md5": "91449afcc5d86bd1edff1ca475d4db33"
+    },
+    {
+        "id": 2258500,
+        "model": "S6S Pro",
+        "brand": "sanag",
+        "url": "http://d1.music.126.net/dmusic/32931af31730f8e33e020bddd6f28c91.ncae",
+        "size": 10500,
+        "md5": "d614cf39cbec24f0658cd99d58a032f5"
+    },
+    {
+        "id": 43013,
+        "model": "Superlux HD668B",
+        "brand": "舒伯乐",
+        "url": "http://d1.music.126.net/dmusic/b2059c05c249e8c3270f8ace8716ed05.ncae",
+        "size": 15182,
+        "md5": "d31d7ac6e5fd0a026927e727dfb0574a"
+    },
+    {
+        "id": 45014,
+        "model": "Superlux HD681",
+        "brand": "舒伯乐",
+        "url": "http://d1.music.126.net/dmusic/fdab09c98c8a8dc6cbfc32d85fff1213.ncae",
+        "size": 15644,
+        "md5": "b8e1286e1a7ba5fb409ba21aa7fd930c"
+    },
+    {
+        "id": 37020,
+        "model": "Superlux HD681 EVO",
+        "brand": "舒伯乐",
+        "url": "http://d1.music.126.net/dmusic/5db48a1f7df83fee99fc52949aa53ef9.ncae",
+        "size": 14719,
+        "md5": "0ef53455b9b8d12f5b04a7da230161fb"
+    },
+    {
+        "id": 6009,
+        "model": "Shure SE215",
+        "brand": "舒尔",
+        "url": "http://d1.music.126.net/dmusic/c22cabc12bfdfdae90256ba02d11a989.ncae",
+        "size": 13742,
+        "md5": "eee6b6894e85e94f84d4266489cffa75"
+    },
+    {
+        "id": 44007,
+        "model": "Shure SE315",
+        "brand": "舒尔",
+        "url": "http://d1.music.126.net/dmusic/85e4070161ecc005091a9e0e39f43852.ncae",
+        "size": 14873,
+        "md5": "ca054f3d66168be2cb4244d393d75173"
+    },
+    {
+        "id": 45005,
+        "model": "Shure SE425",
+        "brand": "舒尔",
+        "url": "http://d1.music.126.net/dmusic/de86516b8ef779b807eb34cb96f53351.ncae",
+        "size": 14161,
+        "md5": "2536d45711e914827d46365ad427df60"
+    },
+    {
+        "id": 45006,
+        "model": "Shure SRH240A",
+        "brand": "舒尔",
+        "url": "http://d1.music.126.net/dmusic/59b5638a4e2a786d5fd3e6a3fd6e0752.ncae",
+        "size": 14491,
+        "md5": "3bdd84eff06cfd1d551921de1a35b5e7"
+    },
+    {
+        "id": 46008,
+        "model": "Shure SRH440",
+        "brand": "舒尔",
+        "url": "http://d1.music.126.net/dmusic/0211a4399b0c6ebeab818335995b8d69.ncae",
+        "size": 13376,
+        "md5": "fa299b06448607328a4414114910ea27"
+    },
+    {
+        "id": 39005,
+        "model": "Sennheiser AMBEO",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/93361d239040eb41745caace00dcb1ce.ncae",
+        "size": 13791,
+        "md5": "a55211685acc7aba8363c875fefdf9d9"
+    },
+    {
+        "id": 8001,
+        "model": "Sennheiser CX180",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/c32c83d0a926b758ca40bab377f24604.ncae",
+        "size": 11342,
+        "md5": "524e2a386ce2b6ebbbc61e07a87f25b5"
+    },
+    {
+        "id": 5003,
+        "model": "Sennheiser CX213",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/c56275f938df8b9689f5f93b169519e1.ncae",
+        "size": 10912,
+        "md5": "4d13e385c24ac11c3a340c33484e0900"
+    },
+    {
+        "id": 9002,
+        "model": "Sennheiser CX275s",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/db0d99cdf2d4c183e83a58c22fb62700.ncae",
+        "size": 11596,
+        "md5": "1a6e8195d519217ec44383c7c6f7b48a"
+    },
+    {
+        "id": 9001,
+        "model": "Sennheiser CX3.0",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/7d9a8b24686b4b117ff221402189fa60.ncae",
+        "size": 11873,
+        "md5": "edd6f114e7bd26890ca7331926d8a263"
+    },
+    {
+        "id": 43008,
+        "model": "Sennheiser CXC700",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/f0cd6b9bf8787e421bff3f25ef125031.ncae",
+        "size": 12480,
+        "md5": "905f0e29cef0204d086eab63b843aaa5"
+    },
+    {
+        "id": 37009,
+        "model": "Sennheiser Game One",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/59d42a7cbe0c31ae2fbe1f72ef452781.ncae",
+        "size": 13687,
+        "md5": "317e7800eb5056f8918f27b299628dff"
+    },
+    {
+        "id": 38005,
+        "model": "Sennheiser HD1 In-Ear Wireless",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/c75d40ed82008c23fcc2edf7eff8b043.ncae",
+        "size": 12133,
+        "md5": "937aeea904f5532baf37691e3c70499a"
+    },
+    {
+        "id": 39006,
+        "model": "Sennheiser HD201",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/5ea0d500ae6d520d7c7be92062638707.ncae",
+        "size": 15801,
+        "md5": "122d26f6f6ac45f5e498a805ceef829f"
+    },
+    {
+        "id": 42007,
+        "model": "Sennheiser HD202 II",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/a1acc343f6cef855546e48c7c91deb26.ncae",
+        "size": 15440,
+        "md5": "00cfd6b190e512502d72dbcc2c0f19c4"
+    },
+    {
+        "id": 40013,
+        "model": "Sennheiser HD280 Pro",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/f8eaf9f57cbe57eac4e49ec299af209a.ncae",
+        "size": 14614,
+        "md5": "00098bf7e62ee18e51cb26ca2194ab47"
+    },
+    {
+        "id": 39007,
+        "model": "Sennheiser HD4.50",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/8e14f8bc52cdceffc466e6f180027673.ncae",
+        "size": 14980,
+        "md5": "916c67a52b0108ad1d331619365e71a6"
+    },
+    {
+        "id": 42008,
+        "model": "Sennheiser HD518",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/fb5523aee9bc7f44e6abb6ed56c91a31.ncae",
+        "size": 13719,
+        "md5": "ece319432391301be2736e140c17e17b"
+    },
+    {
+        "id": 41012,
+        "model": "Sennheiser HD598",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/e09856751d13645147e2d8ee8b9968a9.ncae",
+        "size": 13404,
+        "md5": "a4789d797bead44e08b5986808e2fdb5"
+    },
+    {
+        "id": 39008,
+        "model": "Sennheiser HD598Cs",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/78ed982a0bf7a59093e5c5608d52ec6f.ncae",
+        "size": 13475,
+        "md5": "75561354fc14b1ad0679ff054b41b05c"
+    },
+    {
+        "id": 42009,
+        "model": "Sennheiser HD599",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/b95666091767571a7c7378ba667ff87f.ncae",
+        "size": 13204,
+        "md5": "d030fade8db0c9d90ea37cd6fa69e7ab"
+    },
+    {
+        "id": 46003,
+        "model": "Sennheiser HD600",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/d7d35e2460a8f930b9ee40efda34a923.ncae",
+        "size": 12643,
+        "md5": "6ad8159e8fe69e0613ec27e008b0ed32"
+    },
+    {
+        "id": 6008,
+        "model": "Sennheiser HD650",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/8d89baa6a453f392e6f03db426cea9fa.ncae",
+        "size": 12813,
+        "md5": "b9498604f5e7b90a14fd179eb9d46711"
+    },
+    {
+        "id": 37010,
+        "model": "Sennheiser HD700",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/19debd304828d065b83d0ddd552fc276.ncae",
+        "size": 13448,
+        "md5": "aa813e0a35b3111a8e50a6428e52b4f5"
+    },
+    {
+        "id": 37011,
+        "model": "Sennheiser HD800s",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/ada256d8a3b37e69bfb6516b0c552894.ncae",
+        "size": 13488,
+        "md5": "bcb9605f094c0adf123895dec1c1c08f"
+    },
+    {
+        "id": 40014,
+        "model": "Sennheiser MM450-X",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/88fa324a8b593e9664189e884d56c5ee.ncae",
+        "size": 14171,
+        "md5": "d9e9d3b64216e509c9fec7af5a3ff751"
+    },
+    {
+        "id": 41014,
+        "model": "Sennheiser MM550-X",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/a40ff53834a2e188cfddbc1d498f0e9f.ncae",
+        "size": 14615,
+        "md5": "03b155c936c6678aaa0998437c8f1e88"
+    },
+    {
+        "id": 43009,
+        "model": "Sennheiser Momentum 2.0",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/671e32e7c54d719b866f16abd04052fb.ncae",
+        "size": 13127,
+        "md5": "2c96547d1c7541b3c96f53c90ae420e6"
+    },
+    {
+        "id": 46004,
+        "model": "Sennheiser Momentum 2.0 On-Ear",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/086615bc9c46cb534682022541830641.ncae",
+        "size": 13554,
+        "md5": "e9ee08d50153d1a164adf9b791727543"
+    },
+    {
+        "id": 41015,
+        "model": "Sennheiser Momentum 2.0 Wireless",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/229777b3acadbcae9093b92167b74b2e.ncae",
+        "size": 15120,
+        "md5": "3e8198f77d3e856b2c14504f930b3aba"
+    },
+    {
+        "id": 4007,
+        "model": "Sennheiser Momentum M2 In-Ear",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/ddc00d47d0e00358657c7b1780401e16.ncae",
+        "size": 11804,
+        "md5": "f52dbb70dc619fce45dac0c1090e3fab"
+    },
+    {
+        "id": 5004,
+        "model": "Sennheiser Momentum Over-Ear",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/d9c10664e4e7870dd0027718f822d794.ncae",
+        "size": 7014,
+        "md5": "d5f8c42b81c2f2e48d5d4d0f26b7e8ac"
+    },
+    {
+        "id": 2004,
+        "model": "Sennheiser MX375",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/b51d28ab58cb269db6204da670269306.ncae",
+        "size": 3214,
+        "md5": "3d5eaee52171b07a2f01265d398c7331"
+    },
+    {
+        "id": 2005,
+        "model": "Sennheiser PX80",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/3760a2deef9e96529b96a530521397a9.ncae",
+        "size": 8303,
+        "md5": "a4376b251a183a8f2ca14d33d65fd027"
+    },
+    {
+        "id": 38006,
+        "model": "Sennheiser PXC250 II",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/78bb856c700d5b9d5d348101fd14e73f.ncae",
+        "size": 14552,
+        "md5": "4d884026277fce0e19ac9f311fed635d"
+    },
+    {
+        "id": 38007,
+        "model": "Sennheiser PXC450",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/c80b467542c8f18a123134e6c5d34460.ncae",
+        "size": 16416,
+        "md5": "25a10f0bf1eec4bd671ce194cbeb3535"
+    },
+    {
+        "id": 37012,
+        "model": "Sennheiser PXC550 Wireless",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/e9ea11a874243c5aa397dbc250670be9.ncae",
+        "size": 15493,
+        "md5": "f5045b5843a101954a7377a7e0a0b2b6"
+    },
+    {
+        "id": 46005,
+        "model": "Sennheiser RS165",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/2eea10413e8034ed9b953a377cc963a1.ncae",
+        "size": 13968,
+        "md5": "55962a51bc7c855f75a9ac1f9d76daad"
+    },
+    {
+        "id": 46006,
+        "model": "Sennheiser RS175",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/cf9daf5c7aff9c72a16c74be8199d30b.ncae",
+        "size": 14263,
+        "md5": "f8b201c6c896961099fbd2f92e4f8586"
+    },
+    {
+        "id": 39009,
+        "model": "Sennheiser RS185",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/c2891a8fbe78fbeda7a91867ffa274c1.ncae",
+        "size": 14508,
+        "md5": "cc419ce3c4db509500fd5925eb6fe70b"
+    },
+    {
+        "id": 46007,
+        "model": "Sennheiser RS195",
+        "brand": "森海塞尔",
+        "url": "http://d1.music.126.net/dmusic/0083cee9269d65d25f34ae3865119c71.ncae",
+        "size": 16289,
+        "md5": "6619f9fde0cdc36d799f7777dddcfeaf"
+    },
+    {
+        "id": 1123000,
+        "model": "Liberty 3 Pro",
+        "brand": "声阔",
+        "url": "http://d1.music.126.net/dmusic/7c4e33235df093cca48ed14b9554513a.ncae",
+        "size": 10590,
+        "md5": "a7d857fb6b64a4fa5af2ac62a29c7175"
+    },
+    {
+        "id": 1124000,
+        "model": "Liberty Air 2 Pro",
+        "brand": "声阔",
+        "url": "http://d1.music.126.net/dmusic/7d71a37deae85a8c6e09ed0ec031b701.ncae",
+        "size": 11367,
+        "md5": "7b16bdcba0113a45e0f3c5ffa824141b"
+    },
+    {
+        "id": 1125000,
+        "model": "Life P3",
+        "brand": "声阔",
+        "url": "http://d1.music.126.net/dmusic/5b64e4618026b983d5979c8ddc4df048.ncae",
+        "size": 11192,
+        "md5": "dc8d62e4619f8612dd14e7b7807a5559"
+    },
+    {
+        "id": 1126000,
+        "model": "Life Q35",
+        "brand": "声阔",
+        "url": "http://d1.music.126.net/dmusic/c2415be18d897330a1abe88550086d6b.ncae",
+        "size": 13023,
+        "md5": "9442dc8fc06616163323ec2f36259e51"
+    },
+    {
+        "id": 1137000,
+        "model": "Sony LinkBuds",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/6488ee3d969cff62d01842adb805c691.ncae",
+        "size": 11358,
+        "md5": "7e8ec41766a7107a261efc88eff2e72f"
+    },
+    {
+        "id": 1138000,
+        "model": "Sony LinkBuds S",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/7a309a4b26791062c645c3a05f518bfb.ncae",
+        "size": 9648,
+        "md5": "64b79d67ff0cd0955c4b250960b0efcd"
+    },
+    {
+        "id": 38000,
+        "model": "Sony MDR-100AAP",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/2b237b3f9183f8848a79c4adebcc5256.ncae",
+        "size": 14288,
+        "md5": "a5746c46aec13be426226d4e147ea667"
+    },
+    {
+        "id": 39000,
+        "model": "Sony MDR-1A",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/c6f1f6256d977e978a3090357e2d248b.ncae",
+        "size": 13636,
+        "md5": "b76ffee7eaf0e2a77b49ef8da3aa737b"
+    },
+    {
+        "id": 40000,
+        "model": "Sony MDR-7506",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/6c8843dbfd173b3798182ade8e686954.ncae",
+        "size": 15127,
+        "md5": "8eeb966cd9ad207925a14f13476e4c97"
+    },
+    {
+        "id": 41000,
+        "model": "Sony MDR-NC8",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/97d2524846663d22b037a336fe5cd95b.ncae",
+        "size": 15722,
+        "md5": "acde38b5cc263f719aa14a92dd82d12f"
+    },
+    {
+        "id": 10002,
+        "model": "Sony MDR-XB50AP",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/2ee242558ed1f48a8f5891bd1498fc61.ncae",
+        "size": 13721,
+        "md5": "f755306222c3b59b8c961907f41b9be8"
+    },
+    {
+        "id": 5005,
+        "model": "Sony MDR-XB550AP",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/02cbe218450d9bff70a89d102c148f23.ncae",
+        "size": 6632,
+        "md5": "8e5c0cc3fcb4198f4daf60eb4a1524de"
+    },
+    {
+        "id": 40001,
+        "model": "Sony MDR-XB950B1",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/7d55c3ec9e1533b4171c3166a34753d5.ncae",
+        "size": 14357,
+        "md5": "84a1d248f954a331e842b9d1672acf7a"
+    },
+    {
+        "id": 41001,
+        "model": "Sony MDR-XB950N1",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/ebb2d812ba8510eb1fa7e3c2dc2d0b40.ncae",
+        "size": 13209,
+        "md5": "7ad622e77196b0729e81dca609325628"
+    },
+    {
+        "id": 42000,
+        "model": "Sony MDR-ZX110NC",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/431df242db82d39807be9c29ea9dca3d.ncae",
+        "size": 14131,
+        "md5": "963def804959fca3f8e1c1430e6be326"
+    },
+    {
+        "id": 39001,
+        "model": "Sony MDR-ZX550BN",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/1c1ab906a32a1b2da903dbd2aaf74b91.ncae",
+        "size": 16160,
+        "md5": "01f94cf272fe015915c4f69d779b0382"
+    },
+    {
+        "id": 41002,
+        "model": "Sony MDR-ZX770BN",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/21221efcb183f3cf6c9c47a4c59bad31.ncae",
+        "size": 16265,
+        "md5": "95309b47283f4ca724945caa3230ab82"
+    },
+    {
+        "id": 1146000,
+        "model": "Sony ULT WEAR",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/e4b61be586ef0c02aa71f964d048d181.ncae",
+        "size": 11348,
+        "md5": "cfb60bfdb5a89f56ac5f94cc67cf6e00"
+    },
+    {
+        "id": 40002,
+        "model": "Sony WF-1000X",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/40136033a610aa6599dac3545127444e.ncae",
+        "size": 14215,
+        "md5": "71e0ab92977487181c116ab286c63108"
+    },
+    {
+        "id": 1135000,
+        "model": "Sony WF-1000XM5",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/492d63423ee71d9acd33da2715b719df.ncae",
+        "size": 9954,
+        "md5": "49db612b9c62259a246f656e5dd07793"
+    },
+    {
+        "id": 37001,
+        "model": "Sony WF-SP700N",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/55121d8542c22dd55aa9aacc49cbca0a.ncae",
+        "size": 13709,
+        "md5": "e4acb2d7f33ff318258a1018a3d17512"
+    },
+    {
+        "id": 37000,
+        "model": "Sony WH-1000X",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/841f907ecb1fa09e20c4253b0fc6a23e.ncae",
+        "size": 14491,
+        "md5": "76d5205439cb6eb34954f00f3f4fcf0e"
+    },
+    {
+        "id": 41003,
+        "model": "Sony WH-1000XM2",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/36c4eeb469b57a3a73b0538079660690.ncae",
+        "size": 14769,
+        "md5": "7a1406158249997c9cbc0a06777b3a15"
+    },
+    {
+        "id": 1136000,
+        "model": "Sony WH-1000XM5",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/ca602d2c9a3dc56c269690670e753930.ncae",
+        "size": 11852,
+        "md5": "cbd777ed024adfad0a90430b7a40db57"
+    },
+    {
+        "id": 43000,
+        "model": "Sony WH-CH700N",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/e7fcbcc5a3acc2fc6bfef5835d816caf.ncae",
+        "size": 14327,
+        "md5": "a9038cbcc7086254b6cfc686a25f63f2"
+    },
+    {
+        "id": 42001,
+        "model": "Sony WH-H900N",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/339b0533a11c92e407c7fe904b1d8c76.ncae",
+        "size": 14991,
+        "md5": "1319c98446aff4f5b995bc821a087acb"
+    },
+    {
+        "id": 40003,
+        "model": "Sony WI-C300",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/bd7c2092b4b46d012e49684be52fd8aa.ncae",
+        "size": 13331,
+        "md5": "c86b058f69184d459f52a76806d43b64"
+    },
+    {
+        "id": 41004,
+        "model": "Sony WI-C400",
+        "brand": "索尼",
+        "url": "http://d1.music.126.net/dmusic/2a95917c4944e166ec8740b22c518a4b.ncae",
+        "size": 13355,
+        "md5": "08d891a4f8407437e4577fb81b0ae6d7"
+    },
+    {
+        "id": 2254500,
+        "model": "Air5 Lite",
+        "brand": "SOUNDPEATS",
+        "url": "http://d1.music.126.net/dmusic/b7a41a05dadd174e2df59fee4a2545ea.ncae",
+        "size": 12171,
+        "md5": "5ed7cbf02d39b80db8710a4fe21c56d6"
+    },
+    {
+        "id": 2257500,
+        "model": "POP Clip",
+        "brand": "SOUNDPEATS",
+        "url": "http://d1.music.126.net/dmusic/597d11df3809cbbf555550ce0d9f4d13.ncae",
+        "size": 10382,
+        "md5": "ea435090b45987376d2b8bc65bf740f3"
+    },
+    {
+        "id": 46014,
+        "model": "SteelSeries Arctis 7",
+        "brand": "赛睿",
+        "url": "http://d1.music.126.net/dmusic/4ff37caf002c6672d75ff127f83d6c32.ncae",
+        "size": 13765,
+        "md5": "07402bb69d1848fd09046d3c2aa6a13c"
+    },
+    {
+        "id": 44016,
+        "model": "SteelSeries Arctis Pro GameDAC",
+        "brand": "赛睿",
+        "url": "http://d1.music.126.net/dmusic/82ec94ecdef00868cc9dedd56545aa98.ncae",
+        "size": 13942,
+        "md5": "fb1571e971e9a7926a30080f3a952a22"
+    },
+    {
+        "id": 39018,
+        "model": "SteelSeries Siberia 200",
+        "brand": "赛睿",
+        "url": "http://d1.music.126.net/dmusic/4f5980eae1c8fa97c3574801b3da234a.ncae",
+        "size": 15483,
+        "md5": "e41d871d08a3bbade76851a6c7826a26"
+    },
+    {
+        "id": 39003,
+        "model": "Samsung Gear IconX",
+        "brand": "三星",
+        "url": "http://d1.music.126.net/dmusic/599e24f854bb8535c9c5992b8ba79967.ncae",
+        "size": 13205,
+        "md5": "d08741f0c8e6befae7803b82caef38d5"
+    },
+    {
+        "id": 39004,
+        "model": "Samsung Level On Wireless",
+        "brand": "三星",
+        "url": "http://d1.music.126.net/dmusic/b6e093c716dbd2493347fd489951de89.ncae",
+        "size": 14633,
+        "md5": "51bc7d9e54690503c300f3b18d7bb643"
+    },
+    {
+        "id": 40012,
+        "model": "Samsung Level Over Wireless",
+        "brand": "三星",
+        "url": "http://d1.music.126.net/dmusic/bc0515eb788b6b725f3f6bb5b5f32d42.ncae",
+        "size": 14925,
+        "md5": "4282ae2d8c948480cd9fe9de7d547bad"
+    },
+    {
+        "id": 45003,
+        "model": "Samsung Level U Pro",
+        "brand": "三星",
+        "url": "http://d1.music.126.net/dmusic/43451cd836d7e11caa15261224888b97.ncae",
+        "size": 12471,
+        "md5": "fae9eec271f28eb1dfc148b0b4c64def"
+    },
+    {
+        "id": 45004,
+        "model": "Samsung U Flex",
+        "brand": "三星",
+        "url": "http://d1.music.126.net/dmusic/44a06e6ec49895670984127cddbfbdb3.ncae",
+        "size": 13826,
+        "md5": "a7a3699f7b92fe10177ab35570da1c06"
+    },
+    {
+        "id": 5002,
+        "model": "Samsung 原厂(S6/S7)",
+        "brand": "三星",
+        "url": "http://d1.music.126.net/dmusic/4e50471c27b4295ad382b31238a86e69.ncae",
+        "size": 21254,
+        "md5": "2a617a2f92aa58df5a8cdbd9cc1ccfa6"
+    },
+    {
+        "id": 38017,
+        "model": "Panasonic RP-HC101",
+        "brand": "松下",
+        "url": "http://d1.music.126.net/dmusic/2ee14b26ac1e68303f64a9ab5b10fb71.ncae",
+        "size": 13891,
+        "md5": "e7496d4647c2ba56397d12ef9dde10cf"
+    },
+    {
+        "id": 46015,
+        "model": "Panasonic RP-HC200",
+        "brand": "松下",
+        "url": "http://d1.music.126.net/dmusic/c3f1a6479772ccc4db4b488551d35012.ncae",
+        "size": 15007,
+        "md5": "d80001cacef6126c7d1b61d3d4c6341c"
+    },
+    {
+        "id": 41022,
+        "model": "Panasonic RP-HC56",
+        "brand": "松下",
+        "url": "http://d1.music.126.net/dmusic/7ac52c01cc0853c82ffa9edb4ab859d7.ncae",
+        "size": 13123,
+        "md5": "4691b784db59c602df467631b15b872b"
+    },
+    {
+        "id": 39019,
+        "model": "Panasonic RP-HC800",
+        "brand": "松下",
+        "url": "http://d1.music.126.net/dmusic/75ffd70274639b5fb11e8374d247e84a.ncae",
+        "size": 14838,
+        "md5": "63ac9ea07b6a4d02bbdbd297f76eb337"
+    },
+    {
+        "id": 38018,
+        "model": "Panasonic RP-HJE120",
+        "brand": "松下",
+        "url": "http://d1.music.126.net/dmusic/6fadcbe3379c44362f4965bbf4d312b2.ncae",
+        "size": 12533,
+        "md5": "0bd498cca5e17b05d027f9edbf3fc97e"
+    },
+    {
+        "id": 1132000,
+        "model": "Force 1",
+        "brand": "TFZ",
+        "url": "http://d1.music.126.net/dmusic/ea1b1ddab03996c957af489d49ab35dc.ncae",
+        "size": 11763,
+        "md5": "c861926eb9b0e8193592098e79908289"
+    },
+    {
+        "id": 1131000,
+        "model": "Force 5",
+        "brand": "TFZ",
+        "url": "http://d1.music.126.net/dmusic/6a556df60dcee4b16ad6ab70e8a7463c.ncae",
+        "size": 12016,
+        "md5": "41eb91421a8858d8c37248bfcd255c26"
+    },
+    {
+        "id": 1130000,
+        "model": "Force King",
+        "brand": "TFZ",
+        "url": "http://d1.music.126.net/dmusic/6b229ce2a205859ed3aab5fe19cdddd9.ncae",
+        "size": 11367,
+        "md5": "d4f028d299a2eac0341a32dedfa919fb"
+    },
+    {
+        "id": 1129000,
+        "model": "Live X",
+        "brand": "TFZ",
+        "url": "http://d1.music.126.net/dmusic/74acc3e3632fe8d201740a215fc228a0.ncae",
+        "size": 10767,
+        "md5": "69c4af6454c221c1a074b18e97041436"
+    },
+    {
+        "id": 19001,
+        "model": "TFZ-King",
+        "brand": "TFZ",
+        "url": "http://d1.music.126.net/dmusic/813a49bcbf475035ff6f375bf7a1faf5.ncae",
+        "size": 33588,
+        "md5": "658cc59a3fe4cf9bc9a63be0a20f813a"
+    },
+    {
+        "id": 25000,
+        "model": "TFZ-King Pro",
+        "brand": "TFZ",
+        "url": "http://d1.music.126.net/dmusic/7629d115f8b8915efc7d678f74e7ee4b.ncae",
+        "size": 33336,
+        "md5": "0b4cc5647289566644fd2397a6080cfe"
+    },
+    {
+        "id": 29000,
+        "model": "TFZ-My Love I/II",
+        "brand": "TFZ",
+        "url": "http://d1.music.126.net/dmusic/295b2387c6eae5726c8aad20c479686c.ncae",
+        "size": 33171,
+        "md5": "00f962507e99429a3b7b48377135d414"
+    },
+    {
+        "id": 26000,
+        "model": "TFZ-Queen",
+        "brand": "TFZ",
+        "url": "http://d1.music.126.net/dmusic/1b6cfc5c30be117902aba254d4496392.ncae",
+        "size": 33394,
+        "md5": "16119acda08e269defa4955014684d0c"
+    },
+    {
+        "id": 27000,
+        "model": "TFZ-S2",
+        "brand": "TFZ",
+        "url": "http://d1.music.126.net/dmusic/22f466c96727e28c9dd8e4f83f2391e8.ncae",
+        "size": 33504,
+        "md5": "a51e094569dcb0be06535b096942a9e2"
+    },
+    {
+        "id": 27001,
+        "model": "TFZ-Secret Garden",
+        "brand": "TFZ",
+        "url": "http://d1.music.126.net/dmusic/d939d6956bde00da7255b00f6102cd1c.ncae",
+        "size": 33447,
+        "md5": "ca92b787c5f4a925351976f891239cfa"
+    },
+    {
+        "id": 28000,
+        "model": "TFZ-T1",
+        "brand": "TFZ",
+        "url": "http://d1.music.126.net/dmusic/a6b09d05c99f4ec122c367317df4ee2a.ncae",
+        "size": 33202,
+        "md5": "d9342e28c75f22df3e1f1b83581c92e7"
+    },
+    {
+        "id": 30000,
+        "model": "TFZ-T2",
+        "brand": "TFZ",
+        "url": "http://d1.music.126.net/dmusic/4eed3b49d6bc537cbb5f81328f514643.ncae",
+        "size": 33319,
+        "md5": "b8459704c72c974347affabf926744c3"
+    },
+    {
+        "id": 25001,
+        "model": "TFZ-Tequlia 1",
+        "brand": "TFZ",
+        "url": "http://d1.music.126.net/dmusic/a7854280f7610806983144d2b53086ab.ncae",
+        "size": 33602,
+        "md5": "78fa38513958013edddeb7ccaf33d28e"
+    },
+    {
+        "id": 44017,
+        "model": "HiFiMan Ananda",
+        "brand": "头领",
+        "url": "http://d1.music.126.net/dmusic/56c1129df780e4e66b63f26521dbd29e.ncae",
+        "size": 14879,
+        "md5": "1e036d5d28bdae249b97e41867350f83"
+    },
+    {
+        "id": 40021,
+        "model": "HiFiMan Edition X",
+        "brand": "头领",
+        "url": "http://d1.music.126.net/dmusic/54dcb1e7a021757bd0e69329c62be12d.ncae",
+        "size": 16078,
+        "md5": "758e26dd836c7298c388c9a8c1fe042d"
+    },
+    {
+        "id": 41023,
+        "model": "HiFiMan HE400i",
+        "brand": "头领",
+        "url": "http://d1.music.126.net/dmusic/3188bff7396a30b14de773116c01f1c1.ncae",
+        "size": 14500,
+        "md5": "9a7d019aa13ac5090e379657803f85ab"
+    },
+    {
+        "id": 43014,
+        "model": "HiFiMan Sundara",
+        "brand": "头领",
+        "url": "http://d1.music.126.net/dmusic/bbd64f9376a14223bce9ad06c0ea9f75.ncae",
+        "size": 15129,
+        "md5": "e6e5ff355e2fee69192a46aaed10863d"
+    },
+    {
+        "id": 41016,
+        "model": "ATH-AD700X",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/8c3da82b0a8d8f3071520191daf5972c.ncae",
+        "size": 15715,
+        "md5": "b2ebeed01e354b87c2b1c1b23a5e6a6b"
+    },
+    {
+        "id": 41017,
+        "model": "ATH-ANC23",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/9cba5dbed1696f849ce4f540fe52bd40.ncae",
+        "size": 13237,
+        "md5": "8e3453edb208657bdd2ede6dad112f58"
+    },
+    {
+        "id": 44008,
+        "model": "ATH-ANC27X",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/7765112a9119b533074c1865fd680c36.ncae",
+        "size": 13806,
+        "md5": "17ac69d3789ac6e37b3cccbe357835c8"
+    },
+    {
+        "id": 44009,
+        "model": "ATH-ANC29",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/855509133e3c8cbb518ade43d677d9ea.ncae",
+        "size": 15015,
+        "md5": "2d64fb46c44383f134d841979c2837b8"
+    },
+    {
+        "id": 45007,
+        "model": "ATH-ANC33iS",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/fb4b75415ffe56b7848225c0ea4f967f.ncae",
+        "size": 13923,
+        "md5": "425eaa840d1f0445cf44e28fbed90bdb"
+    },
+    {
+        "id": 44010,
+        "model": "ATH-ANC70",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/a1bba7a6219daa86dfdedd720f57f7ca.ncae",
+        "size": 14859,
+        "md5": "c86d6fcc048fd0b39e2d43f5dae9c71b"
+    },
+    {
+        "id": 39010,
+        "model": "ATH-ANC7B",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/584fecc2bd91ad2dde1fe69067dced2c.ncae",
+        "size": 16016,
+        "md5": "f3a1c20cd38e6a3e69bf169e29534fd1"
+    },
+    {
+        "id": 46009,
+        "model": "ATH-ANC7B SVIS",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/8a2c7726e1fec2c634a1a9a0fc76ce5e.ncae",
+        "size": 16053,
+        "md5": "4cd3c5a3adcf8af0de414b062efc80fb"
+    },
+    {
+        "id": 38008,
+        "model": "ATH-ANC9",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/59fab1ca6df4ea170601b1632f99539d.ncae",
+        "size": 13590,
+        "md5": "9b09390b732346106369e7772b790745"
+    },
+    {
+        "id": 6001,
+        "model": "ATH-C770",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/d6d7f8e9eb92d0e4b72365a76e63605e.ncae",
+        "size": 3295,
+        "md5": "de88bb8b04454901f2d1c1302f04b23b"
+    },
+    {
+        "id": 4003,
+        "model": "ATH-CLR100",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/13f3d83de00d6a4b9744063591f6f202.ncae",
+        "size": 16036,
+        "md5": "7bcac2c55b0af1911ec77308580ec46a"
+    },
+    {
+        "id": 5001,
+        "model": "ATH-im50",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/fef22a92902595cf6560f0083b464bf2.ncae",
+        "size": 11541,
+        "md5": "6d28e9e9b903c221ca55754935ecdd9c"
+    },
+    {
+        "id": 2001,
+        "model": "ATH-M20x",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/6303e538d564c2a6e3566c3d7cd32c78.ncae",
+        "size": 15357,
+        "md5": "d9c8e63a38c2bfa356309c3eb93e413e"
+    },
+    {
+        "id": 38009,
+        "model": "ATH-M30x",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/6ed2407243ea2aebbfb83b1d7a4eb97f.ncae",
+        "size": 16105,
+        "md5": "a808be8e6a8ab6cddf7a80fa3b1291b8"
+    },
+    {
+        "id": 40015,
+        "model": "ATH-M40x",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/6e0481eed57e555ee79467e630e169ba.ncae",
+        "size": 14765,
+        "md5": "129c57e99ef4eb012f6a14a28422b090"
+    },
+    {
+        "id": 45008,
+        "model": "ATH-M50x",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/c1413f2f01f80b524c5f7f32da51f98b.ncae",
+        "size": 14595,
+        "md5": "dd48676db0faf6bd43974f95511fecca"
+    },
+    {
+        "id": 37014,
+        "model": "ATH-M60x",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/55dfc1356f16a1674cad5f97e0de8b97.ncae",
+        "size": 15347,
+        "md5": "517806345eb825eb7296d271b03841a9"
+    },
+    {
+        "id": 37015,
+        "model": "ATH-M70x",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/14c7c8ab8d48ca2a303f7ef69040fdc0.ncae",
+        "size": 13634,
+        "md5": "2e8c7d07d187d47e95a459c6f9809892"
+    },
+    {
+        "id": 2002,
+        "model": "ATH-MSR7",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/5f1357034634081d489f5205b7c1d62e.ncae",
+        "size": 7090,
+        "md5": "4eba50999d59d5008a26a67551bad5d0"
+    },
+    {
+        "id": 45009,
+        "model": "ATH-MSR7NC",
+        "brand": "铁三角",
+        "url": "http://d1.music.126.net/dmusic/bbd4dad05985ec1aa9d6a67eeb53224e.ncae",
+        "size": 13834,
+        "md5": "8c2e2add46488d494c0311084d90f627"
+    },
+    {
+        "id": 47000,
+        "model": "V-MODA Crossfade II Wireless",
+        "brand": "V-MODA",
+        "url": "http://d1.music.126.net/dmusic/4519303b9b2d2de7243682fcb4ce4ea7.ncae",
+        "size": 13823,
+        "md5": "6f1f92d6fe1232fe4d372712417aa295"
+    },
+    {
+        "id": 48000,
+        "model": "V-MODA Crossfade M-100",
+        "brand": "V-MODA",
+        "url": "http://d1.music.126.net/dmusic/b5dad85f696060a8e6a21f696c7e2137.ncae",
+        "size": 14365,
+        "md5": "915e4d785e4f0a79d5897f539d12d036"
+    },
+    {
+        "id": 1144000,
+        "model": "vivo TWS 4",
+        "brand": "vivo",
+        "url": "http://d1.music.126.net/dmusic/8d194d8293b364e15442d7944ace27e1.ncae",
+        "size": 11003,
+        "md5": "c91f8d1263615ee387a43b330aba9205"
+    },
+    {
+        "id": 1145000,
+        "model": "vivo TWS 4 Hi-Fi",
+        "brand": "vivo",
+        "url": "http://d1.music.126.net/dmusic/c1efffd6025a14a308c37a67c85eac26.ncae",
+        "size": 11163,
+        "md5": "232b6e5e880fcf3366562e952ac3770b"
+    },
+    {
+        "id": 3926750,
+        "model": "vivo TWS 5 Pro",
+        "brand": "vivo",
+        "url": "http://d1.music.126.net/dmusic/69a0140193271b47eeebb000541b36bc.ncae",
+        "size": 17212,
+        "md5": "eaa4f7f02c320d7da160401268c95c4e"
+    },
+    {
+        "id": 6010,
+        "model": "vivo XE600i",
+        "brand": "vivo",
+        "url": "http://d1.music.126.net/dmusic/3349e7e6f7cb2ec31943b25fef4a47b6.ncae",
+        "size": 25102,
+        "md5": "e20a4d2fff9bba3722464e0e7c7eda68"
+    },
+    {
+        "id": 39020,
+        "model": "Turtle Beach Elite 800",
+        "brand": "乌龟海岸",
+        "url": "http://d1.music.126.net/dmusic/dbf9482091e2797183f1cae29b5b2231.ncae",
+        "size": 14760,
+        "md5": "ad2526c52c4ccc7afd8c2ba6cb9e9124"
+    },
+    {
+        "id": 40022,
+        "model": "Turtle Beach Recon 50X",
+        "brand": "乌龟海岸",
+        "url": "http://d1.music.126.net/dmusic/84de246bab22cdd6467de747ba9b2c40.ncae",
+        "size": 13740,
+        "md5": "02fb7102cb69805a9a14273ed9741073"
+    },
+    {
+        "id": 46016,
+        "model": "Turtle Beach Stealth 300",
+        "brand": "乌龟海岸",
+        "url": "http://d1.music.126.net/dmusic/46c3f976c6c38e88138017cb8e35e1b9.ncae",
+        "size": 13774,
+        "md5": "dbe9489cb708026b6fcd08efd0f2282c"
+    },
+    {
+        "id": 38019,
+        "model": "Turtle Beach Stealth 600",
+        "brand": "乌龟海岸",
+        "url": "http://d1.music.126.net/dmusic/e921e6bda9c493b11ebe5bd0a12ebe3c.ncae",
+        "size": 14259,
+        "md5": "a59b52a07e1d3d660e090b344c928795"
+    },
+    {
+        "id": 40023,
+        "model": "Turtle Beach Stealth 700",
+        "brand": "乌龟海岸",
+        "url": "http://d1.music.126.net/dmusic/679459f987e3e2fd49886602fb56ed88.ncae",
+        "size": 12658,
+        "md5": "c21b54d1c416ce3419f147d13247c4f7"
+    },
+    {
+        "id": 57000,
+        "model": "万魔电竞蓝牙耳机",
+        "brand": "万魔",
+        "url": "http://d1.music.126.net/dmusic/75474d00e2facd25f0b79439b86e1280.ncae",
+        "size": 12735,
+        "md5": "93ab1df0b1a5d0b6498782efaed9ad04"
+    },
+    {
+        "id": 64000,
+        "model": "万魔高清降噪圈铁蓝牙耳机",
+        "brand": "万魔",
+        "url": "http://d1.music.126.net/dmusic/63c2fb8ee377a483bfee9608570f64b1.ncae",
+        "size": 13090,
+        "md5": "fd6a3f7235e8d10659567c4987e24280"
+    },
+    {
+        "id": 44000,
+        "model": "万魔活塞复刻版",
+        "brand": "万魔",
+        "url": "http://d1.music.126.net/dmusic/26c272ac7e10823448fb748ec2492e84.ncae",
+        "size": 13509,
+        "md5": "18b8d8a64c57c04b9bba5fc89397695a"
+    },
+    {
+        "id": 58001,
+        "model": "万魔好声音入耳式",
+        "brand": "万魔",
+        "url": "http://d1.music.126.net/dmusic/04fe90ee9c2f47bddd43c17be05217ea.ncae",
+        "size": 13280,
+        "md5": "7f39517c7e8b2750f2a011594af7640c"
+    },
+    {
+        "id": 2000,
+        "model": "万魔三单元圈铁",
+        "brand": "万魔",
+        "url": "http://d1.music.126.net/dmusic/9f0aab8fd2da8a8217a739a0951aaee8.ncae",
+        "size": 14366,
+        "md5": "47377b179a1d7e8df0a7f490f3ad118e"
+    },
+    {
+        "id": 55000,
+        "model": "万魔双单元圈铁",
+        "brand": "万魔",
+        "url": "http://d1.music.126.net/dmusic/855e351e8f2742e2fa7d7b55201717d3.ncae",
+        "size": 13413,
+        "md5": "6bbd018b03a1bd99784ce3a082c2606f"
+    },
+    {
+        "id": 43001,
+        "model": "万魔四单元圈铁",
+        "brand": "万魔",
+        "url": "http://d1.music.126.net/dmusic/4e0b7e8c7808128c8c14f884dcd5e573.ncae",
+        "size": 11272,
+        "md5": "f270384894b0194a4d848c1353244ec2"
+    },
+    {
+        "id": 53000,
+        "model": "万魔三单元圈铁蓝牙版",
+        "brand": "万魔",
+        "url": "http://d1.music.126.net/dmusic/acbba610d12a8d908fbccd9ecc3032f1.ncae",
+        "size": 11668,
+        "md5": "9d43fabe61914d867d70d42653117900"
+    },
+    {
+        "id": 52000,
+        "model": "万魔三单元头戴式",
+        "brand": "万魔",
+        "url": "http://d1.music.126.net/dmusic/b31f8fbd9e9a560a464c35999c073a7b.ncae",
+        "size": 13470,
+        "md5": "b183de1ee461edd693299c1cba8f894b"
+    },
+    {
+        "id": 57001,
+        "model": "万魔时尚蓝牙耳机",
+        "brand": "万魔",
+        "url": "http://d1.music.126.net/dmusic/9b4243dbafa2b9b21472b932ee3165d7.ncae",
+        "size": 12176,
+        "md5": "84d34aa8360082297cd67ba7570bbd51"
+    },
+    {
+        "id": 58000,
+        "model": "万魔时尚有线耳机",
+        "brand": "万魔",
+        "url": "http://d1.music.126.net/dmusic/c3faf983f62a3ffbaf0d92b844f01b6c.ncae",
+        "size": 11833,
+        "md5": "00c3bcd15910cf90feb3538009c6f151"
+    },
+    {
+        "id": 63000,
+        "model": "万魔时尚真无线耳机",
+        "brand": "万魔",
+        "url": "http://d1.music.126.net/dmusic/857733e53c429db5bd784ec3200a7ae3.ncae",
+        "size": 10842,
+        "md5": "ab18d7dcf34d844a2415972e2197ab17"
+    },
+    {
+        "id": 54000,
+        "model": "万魔运动耳机 iBFree 2",
+        "brand": "万魔",
+        "url": "http://d1.music.126.net/dmusic/9b530a8a8281e03a37e639f7cb19caac.ncae",
+        "size": 12548,
+        "md5": "75888974f3cbbf3b840386ac06191a7a"
+    },
+    {
+        "id": 56000,
+        "model": "万魔运动耳机 iBFree 升级版",
+        "brand": "万魔",
+        "url": "http://d1.music.126.net/dmusic/a3e885576ddaa7c142dbd2d8618aa78e.ncae",
+        "size": 13279,
+        "md5": "2fd02c9bc46e2f99a8186cfdc8750319"
+    },
+    {
+        "id": 14000,
+        "model": "氧气耳机",
+        "brand": "网易云音乐",
+        "url": "http://d1.music.126.net/dmusic/b9eee6a1b3ca3eb64805a8302e43c3b8.ncae",
+        "size": 33644,
+        "md5": "c1c6e31fcdd42636aec555f19e01ec4c"
+    },
+    {
+        "id": 24000,
+        "model": "氧气蓝牙耳机Pro版",
+        "brand": "网易云音乐",
+        "url": "http://d1.music.126.net/dmusic/b098f94e4c62db78f84d1c14cca9673b.ncae",
+        "size": 33508,
+        "md5": "2db7584bf3c4d0331458c1fa7fe7c2cb"
+    },
+    {
+        "id": 51000,
+        "model": "氧气蓝牙耳机青春版",
+        "brand": "网易云音乐",
+        "url": "http://d1.music.126.net/dmusic/2f839302aa70f7875d202cb09819ec75.ncae",
+        "size": 14300,
+        "md5": "63f58ba396ce225396a4607e0f3286c9"
+    },
+    {
+        "id": 101500,
+        "model": "Air 2 Pro",
+        "brand": "小米",
+        "url": "http://d1.music.126.net/dmusic/87ba558e0c96a39a5335bab3cdb9f419.ncae",
+        "size": 13272,
+        "md5": "de6cb6c72c7330865a0c81381d945b08"
+    },
+    {
+        "id": 1128000,
+        "model": "Redmi Buds 5",
+        "brand": "小米",
+        "url": "http://d1.music.126.net/dmusic/1609ff0a768e7d986238d41a45c3be3d.ncae",
+        "size": 8694,
+        "md5": "ff6f00a8e9db27e36508295489af30fd"
+    },
+    {
+        "id": 1133000,
+        "model": "Redmi Buds 5 Pro",
+        "brand": "小米",
+        "url": "http://d1.music.126.net/dmusic/a6205d73d1f46f6c0c2fd5cff4508de1.ncae",
+        "size": 10466,
+        "md5": "f569862f10622c071f32414c08df6838"
+    },
+    {
+        "id": 1134000,
+        "model": "Redmi Buds 5 Pro Gaming",
+        "brand": "小米",
+        "url": "http://d1.music.126.net/dmusic/d7782edac1087e0915ceb2bce7c206c0.ncae",
+        "size": 10613,
+        "md5": "fa4b9ec9ab446c2e10e226102c1d0a94"
+    },
+    {
+        "id": 2253500,
+        "model": "Redmi Buds 6",
+        "brand": "小米",
+        "url": "http://d1.music.126.net/dmusic/1e9c357b3d5c705f954fac9c6fe1a6ea.ncae",
+        "size": 11825,
+        "md5": "70bdb2c6311054fd9088bef0862e078b"
+    },
+    {
+        "id": 1148000,
+        "model": "Redmi Buds 6 活力版",
+        "brand": "小米",
+        "url": "http://d1.music.126.net/dmusic/505a1ceb1bb8117ed40b197692fb611c.ncae",
+        "size": 12803,
+        "md5": "c0fa41698047ff3ec2eb3a8ecf235576"
+    },
+    {
+        "id": 2255500,
+        "model": "REDMI Buds 6 Pro",
+        "brand": "小米",
+        "url": "http://d1.music.126.net/dmusic/6800fdc220cf0ccb94ea27e9edc8764d.ncae",
+        "size": 14581,
+        "md5": "35d7f851c6ff4563839e5a8bdd840f31"
+    },
+    {
+        "id": 2256500,
+        "model": "REDMI Buds 6 Pro 电竞版",
+        "brand": "小米",
+        "url": "http://d1.music.126.net/dmusic/9019f53fbe0d480d03ca8fccdeb17a1b.ncae",
+        "size": 11131,
+        "md5": "231ddf523cd5ca91ce6889b1399d5680"
+    },
+    {
+        "id": 1162000,
+        "model": "Redmi Buds 6S",
+        "brand": "小米",
+        "url": "http://d1.music.126.net/dmusic/265ab6e725e9cec2048f8a8403f61725.ncae",
+        "size": 11989,
+        "md5": "c9aff4f9e15ccecc17cbb602b2e9d6a6"
+    },
+    {
+        "id": 2261500,
+        "model": "REDMI Buds 7S",
+        "brand": "小米",
+        "url": "http://d1.music.126.net/dmusic/083f8d61194f80c715a38aaa27b3dfe0.ncae",
+        "size": 14581,
+        "md5": "35d7f851c6ff4563839e5a8bdd840f31"
+    },
+    {
+        "id": 2248500,
+        "model": "Xiaomi Buds 5",
+        "brand": "小米",
+        "url": "http://d1.music.126.net/dmusic/548754a793e729c4049918f7722b345d.ncae",
+        "size": 12794,
+        "md5": "5ef6c216dd33747130bcc8118683bf42"
+    },
+    {
+        "id": 2260500,
+        "model": "Xiaomi Buds 5 Pro",
+        "brand": "小米",
+        "url": "http://d1.music.126.net/dmusic/99c8dcdc936c199bd969c0f235f5eabe.ncae",
+        "size": 11147,
+        "md5": "68030ac8c790e3542dd485e0dbf453f6"
+    },
+    {
+        "id": 8002,
+        "model": "小米圈铁",
+        "brand": "小米",
+        "url": "http://d1.music.126.net/dmusic/97f261feceaffe03560e2629771fcf99.ncae",
+        "size": 22838,
+        "md5": "a8793c27020b369c4003d496ed679ed5"
+    },
+    {
+        "id": 46017,
+        "model": "Etymotic ER4XR",
+        "brand": "音特美",
+        "url": "http://d1.music.126.net/dmusic/45ccf780d78d12adf635bcb9da42793a.ncae",
+        "size": 13583,
+        "md5": "142efd67d77b9c207760bc40232d7cf1"
+    },
+    {
+        "id": 1002,
+        "model": "默认耳机",
+        "brand": "Cloud Audio",
+        "url": "http://d1.music.126.net/dmusic/3b59e1345d8b0450b5cd42030e2337aa.ncae",
+        "size": 7854,
+        "md5": "17ef3d044a5bdb18cb9578182a6bc95a"
+    }
+]

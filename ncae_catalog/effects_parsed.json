@@ -1,0 +1,298 @@
+[
+    {
+        "id": 1001,
+        "name": "3D环绕",
+        "desc": "戴上耳机，沉浸式拥抱四方涌来的音乐",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242522013/cd70/7ee1/908c/403af171cb2f8af205925e20741a3913.ncae",
+        "size": 373,
+        "md5": "403af171cb2f8af205925e20741a3913"
+    },
+    {
+        "id": 1002,
+        "name": "纯净ACG",
+        "desc": "进入ACG的世界，收获另一番悦耳，适合动漫 OP/ED、游戏原声、ACG 同人音乐等",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242041780/275c/58fb/bc94/400702639cd01f4658b5b9759f47819c.ncae",
+        "size": 378,
+        "md5": "400702639cd01f4658b5b9759f47819c"
+    },
+    {
+        "id": 1003,
+        "name": "迷幻电音",
+        "desc": "感受电音的冰冷与狂热，慵懒与力量，适合迷幻电子、实验电子音乐。",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242308133/56f8/a10c/96a9/e2fe76c7250fdab09648a692df414566.ncae",
+        "size": 379,
+        "md5": "e2fe76c7250fdab09648a692df414566"
+    },
+    {
+        "id": 1004,
+        "name": "清澈人声",
+        "desc": "或低沉或嘹亮或婉转，感受人声之美",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242502286/05d3/5fcd/4924/c797a8cbc5804d0b125fdcdf45f59e02.ncae",
+        "size": 828,
+        "md5": "c797a8cbc5804d0b125fdcdf45f59e02"
+    },
+    {
+        "id": 1005,
+        "name": "超重低音",
+        "desc": "带来更加深邃、浑厚、富有弹性的低音",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242429548/0985/09e4/d5e2/431563362bd499a389772e181f42847a.ncae",
+        "size": 202,
+        "md5": "431563362bd499a389772e181f42847a"
+    },
+    {
+        "id": 1006,
+        "name": "录音棚立体声",
+        "desc": "感受犹如顶级录音棚的声学空间和混响，适合歌手翻唱、乐器独奏等",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78241942952/1386/4c68/9a7c/10a9bcec48423975e3957d4d5e9924b6.ncae",
+        "size": 13637,
+        "md5": "10a9bcec48423975e3957d4d5e9924b6"
+    },
+    {
+        "id": 1007,
+        "name": "HiFi电子管",
+        "desc": "声音带有复古的质感，仿佛用老式电子管设备听歌，适合爵士乐、老歌、蓝调等",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242239749/ad7e/4f3f/499c/b9f33a4e88fc9e2c3cfb0404cbac340f.ncae",
+        "size": 8054,
+        "md5": "b9f33a4e88fc9e2c3cfb0404cbac340f"
+    },
+    {
+        "id": 1008,
+        "name": "LiveHouse现场",
+        "desc": "仿佛置身于一个乐迷聚集的小型音乐厅",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242362980/4488/4d72/cb35/56ab889a03b7ab394186fc7609763726.ncae",
+        "size": 283,
+        "md5": "56ab889a03b7ab394186fc7609763726"
+    },
+    {
+        "id": 5001,
+        "name": "音乐厅",
+        "desc": "坐在音乐厅中层观众席，感受大型交响乐团演奏的 “恢弘感”，适合交响乐、协奏曲、古典合唱等",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78241923036/f3f8/e459/7893/51abcf5c7359cd566ffbb2e2e5ab77c8.ncae",
+        "size": 106,
+        "md5": "51abcf5c7359cd566ffbb2e2e5ab77c8"
+    },
+    {
+        "id": 6001,
+        "name": "婉约古风",
+        "desc": "乐器与人声交织出古风的 “意境美”，适合古风歌曲、民乐演奏。",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242273308/07ee/126c/73cf/89d3625ef3a410a99029e86d0677cae6.ncae",
+        "size": 119,
+        "md5": "89d3625ef3a410a99029e86d0677cae6"
+    },
+    {
+        "id": 6002,
+        "name": "独享立体声",
+        "desc": "立体声场纯粹不发散，细节清晰利落，适合私密场景下独享音乐细节。",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78241892848/06d6/41cc/a288/50ed8cd3902d7d831d428b3b5480f0f9.ncae",
+        "size": 109,
+        "md5": "50ed8cd3902d7d831d428b3b5480f0f9"
+    },
+    {
+        "id": 7002,
+        "name": "水晶立体声",
+        "desc": "声场通透纯净，乐器与人声边界清晰，适合轻音乐、ACG 女声等",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242467942/bdb8/02da/fb7c/cd38458c29845286beec4d406506b040.ncae",
+        "size": 106,
+        "md5": "cd38458c29845286beec4d406506b040"
+    },
+    {
+        "id": 8001,
+        "name": "民谣音效",
+        "desc": "强化人声的 “叙事性”，听感干净、温暖，适合民谣原创、城市民谣、乡村民谣等",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78241828650/2010/db03/58ff/793f824b161009ff45b00575baba2389.ncae",
+        "size": 124,
+        "md5": "793f824b161009ff45b00575baba2389"
+    },
+    {
+        "id": 8002,
+        "name": "教堂混响",
+        "desc": "还原教堂空旷的空间声学，仿佛置身教堂内部，氛围庄严而治愈。",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242224501/7a7d/e67c/2066/30d64fd7d0afae285104d60e72141533.ncae",
+        "size": 295,
+        "md5": "30d64fd7d0afae285104d60e72141533"
+    },
+    {
+        "id": 8003,
+        "name": "极重低音",
+        "desc": "低频深度下潜，鼓点带着耳膜震动",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78241813111/f154/4755/71c1/b5abcf54924245cc301a3562bae5b150.ncae",
+        "size": 124,
+        "md5": "b5abcf54924245cc301a3562bae5b150"
+    },
+    {
+        "id": 9000,
+        "name": "演唱会现场",
+        "desc": "置身万人体育馆，感受合唱的震撼与歌手的互动，适合流行演唱会 live 版、摇滚演唱会等",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78241906846/3e3d/5a80/4a51/40fc27d90bfb88fb1b51209309826d89.ncae",
+        "size": 121,
+        "md5": "40fc27d90bfb88fb1b51209309826d89"
+    },
+    {
+        "id": 10000,
+        "name": "环绕立体声",
+        "desc": "声场更宽阔，声音定位更清晰，适合流行、摇滚、民谣等。",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242257589/c82e/45d3/9f3e/fbc3e5870a09bb5861a70320076b48b9.ncae",
+        "size": 118,
+        "md5": "fbc3e5870a09bb5861a70320076b48b9"
+    },
+    {
+        "id": 11000,
+        "name": "嘻哈音效",
+        "desc": "听感律动十足，说唱有力，还原嘻哈的 “街头感”。",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78241785432/db5c/c718/d411/f5b9a23e512671f1d7737f9a91b24d68.ncae",
+        "size": 122,
+        "md5": "f5b9a23e512671f1d7737f9a91b24d68"
+    },
+    {
+        "id": 12000,
+        "name": "震撼全景",
+        "desc": "感受超强声场带来的震撼效果，适合大型电影配乐、重金属、狂嗨电子等。",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242290212/7e34/e150/7349/09bac945d482cd839350eb6ff9738de5.ncae",
+        "size": 3545,
+        "md5": "09bac945d482cd839350eb6ff9738de5"
+    },
+    {
+        "id": 13000,
+        "name": "高解析人声",
+        "desc": "超强的解析力还原甜美人声与通透高音",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242484629/0500/5fa6/bdae/8b9519e959cf3c56546a9dec2b78efc6.ncae",
+        "size": 379,
+        "md5": "8b9519e959cf3c56546a9dec2b78efc6"
+    },
+    {
+        "id": 14000,
+        "name": "狂嗨LIVE",
+        "desc": "秒降狂嗨现场的网红音效，听感如置身舞池中央，适合电子舞曲（EDM）、摇滚 live、嘻哈炸场曲等",
+        "url": "http://d1.music.126.net/dmusic/obj/w57Cg8KTwrbClD_CmMK-/80289388395/ed17/c21e/ddc3/134fe0596f1a04ae979848583baa4eaa.ncae",
+        "size": 671,
+        "md5": "134fe0596f1a04ae979848583baa4eaa"
+    },
+    {
+        "id": 22500,
+        "name": "复古收音机",
+        "desc": "听老式收音机，追忆旧日时光，适合听老歌、评书、经典相声等",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78241995944/4d24/28c2/e64c/7bff116e56aefb454a682bbc8cf15da9.ncae",
+        "size": 7904,
+        "md5": "7bff116e56aefb454a682bbc8cf15da9"
+    },
+    {
+        "id": 23500,
+        "name": "HiFi现场",
+        "desc": "亲临最躁最High的音乐现场，适合live歌曲、爵士乐现场等",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242322859/01de/cae4/4276/6de65dfbbadcbae6d4bb05d59e440783.ncae",
+        "size": 30892,
+        "md5": "6de65dfbbadcbae6d4bb05d59e440783"
+    },
+    {
+        "id": 24500,
+        "name": "毛不易《小王》专属音效",
+        "desc": "专辑定制音效，窝在床上，倾听那温暖的声音",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78241969170/48d2/daf6/27e2/9fb2d0643449661cea9d08eb77d50dae.ncae",
+        "size": 322,
+        "md5": "9fb2d0643449661cea9d08eb77d50dae"
+    },
+    {
+        "id": 25500,
+        "name": "动感电音",
+        "desc": "戴上耳机，沉浸在科技带来的无限律动中",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242340962/f68a/5ecd/33a4/26a1c76fd0bd67080c09fa7792491dfe.ncae",
+        "size": 570,
+        "md5": "26a1c76fd0bd67080c09fa7792491dfe"
+    },
+    {
+        "id": 26500,
+        "name": "摇滚经典",
+        "desc": "吉他声更具力量感，鼓声更加响亮震撼，重现摇滚音乐的激情与活力",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242024260/6de5/6946/f24a/330f546c4f9dd399493d45b608d3aa44.ncae",
+        "size": 273,
+        "md5": "330f546c4f9dd399493d45b608d3aa44"
+    },
+    {
+        "id": 27500,
+        "name": "《不完美人生指南》专属音效",
+        "desc": "专辑定制音效，一键拥有极致体验，不完美生活也可以很美",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78612783951/3cd8/6bdb/7429/4beccc89f48554bd9760f464f25175e1.ncae",
+        "size": 139,
+        "md5": "4beccc89f48554bd9760f464f25175e1"
+    },
+    {
+        "id": 28500,
+        "name": "NINEONE#专属音效",
+        "desc": "以梦为马，一路向前。乃万音效，云村黑胶VIP独家定制。",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78612696753/68ae/af95/3af5/92690f4969318e878fca3d8d00452028.ncae",
+        "size": 309,
+        "md5": "92690f4969318e878fca3d8d00452028"
+    },
+    {
+        "id": 1035400,
+        "name": "360°环绕",
+        "desc": "精密算法，360°旋转，音乐行星常伴左右",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242449315/234b/9db2/bb07/aee35b9108e221a8bc57365192c7ea6f.ncae",
+        "size": 91,
+        "md5": "aee35b9108e221a8bc57365192c7ea6f"
+    },
+    {
+        "id": 1036400,
+        "name": "怀旧卡带机",
+        "desc": "一盘磁带只有十首歌，那时每一首都被珍藏",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/78242205629/a8ac/6eec/0ecd/221dfcb97273fbd738bf07daad14b46b.ncae",
+        "size": 233,
+        "md5": "221dfcb97273fbd738bf07daad14b46b"
+    },
+    {
+        "id": 2058600,
+        "name": "8D环绕",
+        "desc": "声音动态旋转，享受音乐从颅内穿梭而过的律动",
+        "url": "http://d1.music.126.net/dmusic/obj/wo_Dk8OFw6LCn2vCm8Kx/62737629769/6908/0757/5235/b772477b6d9e0fa15aa94eb9d6e2b0ed.ncae",
+        "size": 253,
+        "md5": "b772477b6d9e0fa15aa94eb9d6e2b0ed"
+    },
+    {
+        "id": 3595400,
+        "name": "原声黑胶",
+        "desc": "黑胶原始的噪声底噪质感，还原上世纪录音室的真实温度，每一声沙沙都是时光的触感",
+        "url": "http://d1.music.126.net/dmusic/obj/w57Cg8KTwrbClD_CmMK-/79716434200/f7dd/63a4/a14b/013772810a30647fdbe7d65bc401e00a.ncae",
+        "size": 494,
+        "md5": "013772810a30647fdbe7d65bc401e00a"
+    },
+    {
+        "id": 3596400,
+        "name": "空间黑胶",
+        "desc": "像站在旧式录音棚里聆听，声场的每一个反射都带着记忆的回响，时间在此刻变得悠长。",
+        "url": "http://d1.music.126.net/dmusic/obj/w57Cg8KTwrbClD_CmMK-/79716438085/abf6/4e7c/0fe2/ec22045e52e6e5a23fb37163bf3de397.ncae",
+        "size": 503,
+        "md5": "ec22045e52e6e5a23fb37163bf3de397"
+    },
+    {
+        "id": 3597400,
+        "name": "清透黑胶",
+        "desc": "像推开一扇朝南的窗，声音随着午后的微风散开，轻盈透亮，每一个细节都透着黑胶特有的呼吸感。",
+        "url": "http://d1.music.126.net/dmusic/obj/w57Cg8KTwrbClD_CmMK-/79716439178/ac7c/a715/b110/620e0b153693f75d98df45071ab7707e.ncae",
+        "size": 685,
+        "md5": "620e0b153693f75d98df45071ab7707e"
+    },
+    {
+        "id": 3598400,
+        "name": "暖调黑胶",
+        "desc": "像坐进一把老式绒布椅，人声贴着耳边缓缓流淌，低频饱满，声音柔软地把你裹在里面。",
+        "url": "http://d1.music.126.net/dmusic/obj/w57Cg8KTwrbClD_CmMK-/79716442262/65e6/030f/1135/f99600c7ce1bebb9bc4f91a0f8ac7456.ncae",
+        "size": 681,
+        "md5": "f99600c7ce1bebb9bc4f91a0f8ac7456"
+    },
+    {
+        "id": 3600400,
+        "name": "全景环绕",
+        "desc": "戴上耳机，人声在耳边，乐器在身后，环境声从四周涌来，像坐在舞台中间听一场私人 Live。",
+        "url": "http://d1.music.126.net/dmusic/obj/w57Cg8KTwrbClD_CmMK-/80952664736/b695/7fc2/8b31/9564dd306959d052bda5694f44fb75b5.ncae",
+        "size": 375,
+        "md5": "9564dd306959d052bda5694f44fb75b5"
+    },
+    {
+        "id": 3601400,
+        "name": "华晨宇音效",
+        "desc": "专属定制，适合听花花的歌曲",
+        "url": "http://d1.music.126.net/dmusic/obj/w57Cg8KTwrbClD_CmMK-/82462197821/3d71/0e57/b8fb/4ffa0d4c4d303569606a6905b6b4ec3d.ncae",
+        "size": 649,
+        "md5": "4ffa0d4c4d303569606a6905b6b4ec3d"
+    }
+]
