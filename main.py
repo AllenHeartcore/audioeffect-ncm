@@ -21,7 +21,7 @@ if __name__ == "__main__":
 
     schemes = []
     for e in args.efx.split(","):
-        fsch = f"presets/{e}.ncae"
+        fsch = f"ncae_raw/{e}.ncae"
         print("Decrypting NCAE scheme:", fsch)
         schemes.append(NCAEScheme(fsch))
 

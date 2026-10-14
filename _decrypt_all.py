@@ -4,7 +4,7 @@ import warnings
 
 from ncae.scheme import NCAEScheme
 
-dsrc = "presets"
+dsrc = "ncae_raw"
 ddst = "data/processed"
 
 
