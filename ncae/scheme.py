@@ -1,12 +1,11 @@
+import json
+import os
 import warnings
 
-import os
-import json
-
 from ncae.audio import Audio
-from ncae.decrypt import read_encfile, NCAEDecryptor
-from ncae.plugins.convolve import NCAEPluginConvolve
+from ncae.decrypt import NCAEDecryptor, read_encfile
 from ncae.plugins.bt import NCAEPluginBT
+from ncae.plugins.convolve import NCAEPluginConvolve
 from ncae.plugins.eq import NCAEPluginEQ
 from ncae.plugins.reverb import NCAEPluginReverb
 from ncae.plugins.se import NCAEPluginSE

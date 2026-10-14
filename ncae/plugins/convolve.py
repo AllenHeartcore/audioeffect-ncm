@@ -1,8 +1,8 @@
 import warnings
+from io import BytesIO
 
 import numpy as np
 import soundfile as sf
-from io import BytesIO
 
 from ncae.audio import Audio
 from ncae.plugins.utils import ImpulseResponse

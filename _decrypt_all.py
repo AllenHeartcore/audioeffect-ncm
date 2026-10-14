@@ -1,10 +1,8 @@
+import json
+import os
 import warnings
 
-import os
-import json
-
 from ncae.scheme import NCAEScheme
-
 
 dsrc = "presets"
 ddst = "data/processed"

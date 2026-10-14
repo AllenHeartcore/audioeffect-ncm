@@ -1,9 +1,9 @@
 import warnings
 
+import matplotlib.pyplot as plt
 import numpy as np
 import soundfile as sf
-from scipy.signal import resample, convolve
-import matplotlib.pyplot as plt
+from scipy.signal import convolve, resample
 
 from ncae.audio import Audio
 

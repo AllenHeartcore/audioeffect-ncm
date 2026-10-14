@@ -5,7 +5,6 @@ from argparse import ArgumentParser
 from ncae.audio import Audio
 from ncae.scheme import NCAEScheme
 
-
 if __name__ == "__main__":
 
     warnings.filterwarnings("ignore", category=RuntimeWarning)

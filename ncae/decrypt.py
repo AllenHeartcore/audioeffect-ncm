@@ -1,8 +1,8 @@
-from typing import Union
 import warnings
+import zlib
+from typing import Union
 
 import numpy as np
-import zlib
 
 
 def read_encfile(filename: str) -> tuple:
