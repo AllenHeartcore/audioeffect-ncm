@@ -91,7 +91,7 @@ if __name__ == "__main__":
         print(f"Fetching effects for exposeType={_type}...")
         _effects[_type] = eapi_post(EFFECTS_ENDPOINT, {"exposeType": _type})["data"]
 
-    _unify_servers(sum(_effects.values(), []), "url")  # pointers
+    _unify_servers(sum(_effects.values(), []), "link")  # pointers
     _remove_field(sum(_effects.values(), []), "useCount")
     json_dump(_effects, CATALOG_DIR / "effects_raw.json")
 
@@ -101,27 +101,27 @@ if __name__ == "__main__":
     effects = {}
     for _e in sum(_effects.values(), []):
 
-        with _e["soundMaterialList"] as _smls:
-            if len(_smls) != 1:
-                raise ValueError(f"Unexpected soundMaterialList length {len(_smls)} for effect {_e['id']}")
-            _sml = _smls[0]
-            new = {
-                "id": _e["id"],
-                "name": _e["name"],
-                "desc": _e["subTitle"],
-                "url": _sml["link"],
-                "size": _sml["size"],
-                "md5": _sml["md5"],
-            }
+        _smls = _e["soundMaterialList"]
+        if len(_smls) != 1:
+            raise ValueError(f"Unexpected soundMaterialList length {len(_smls)} for effect {_e['id']}")
+        _sml = _smls[0]
+        new = {
+            "id": _e["id"],
+            "name": _e["name"],
+            "desc": _e["subTitle"],
+            "url": _sml["link"],
+            "size": _sml["size"],
+            "md5": _sml["md5"],
+        }
 
-        with new["md5"] as _md5:
-            if _md5 not in effects:
-                effects[_md5] = new
-            elif (old := effects[_md5])["id"] < new["id"]:
-                if old["size"] != new["size"]:
-                    raise ValueError(f"Size mismatch for effect {_md5}: {old['size']} vs {new['size']}")
-                old.update(name=new["name"], desc=new["desc"], url=new["url"])
-                # but keep the smaller id
+        _md5 = new["md5"]
+        if _md5 not in effects:
+            effects[_md5] = new
+        elif (old := effects[_md5])["id"] < new["id"]:
+            if old["size"] != new["size"]:
+                raise ValueError(f"Size mismatch for effect {_md5}: {old['size']} vs {new['size']}")
+            old.update(name=new["name"], desc=new["desc"], url=new["url"])
+            # but keep the smaller id
 
     effects = list(effects.values())
     effects.sort(key=lambda x: x["id"])
@@ -131,6 +131,8 @@ if __name__ == "__main__":
     print("Fetching device brands...")
 
     _brands = eapi_post(DEVICE_BRANDS_ENDPOINT, {})["data"]
+
+    _unify_servers(_brands, "deviceImgUrl")
     json_dump(_brands, CATALOG_DIR / "devices_raw_brands.json")
 
     # ----------- Raw device models
@@ -151,7 +153,8 @@ if __name__ == "__main__":
 
     _unify_servers(sum(_models, []), "deviceSoundUrl")  # pointers
     _unify_servers(sum(_models, []), "deviceSoundImgUrl")
-    _remove_field(sum(_models, []), "useCount")
+    _remove_field(sum(_models, []), "usedCount")
+    _remove_field(sum(_models, []), "feedMsgCount")
     json_dump(
         {f"{b['deviceManagerId']}_{b['deviceName']}": ms for b, ms in zip(_brands, _models)},
         CATALOG_DIR / "devices_raw_models.json",
@@ -162,7 +165,8 @@ if __name__ == "__main__":
 
     _unify_servers(_models_ca, "deviceSoundUrl")
     _unify_servers(_models_ca, "deviceSoundImgUrl")
-    _remove_field(_models_ca, "useCount")
+    _remove_field(_models_ca, "usedCount")
+    _remove_field(_models_ca, "feedMsgCount")
     json_dump(_models_ca, CATALOG_DIR / "devices_raw_models_cloudaudio.json")
 
     # ---------- Parsed device models
