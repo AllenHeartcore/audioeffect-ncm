@@ -19,6 +19,7 @@ DEVICE_BRANDS_ENDPOINT = "/api/usertool/home/soundeffect/devicebrand/list"
 DEVICE_MODELS_ENDPOINT = "/api/usertool/home/soundeffect/devicesound/list"
 EFFECTS_ENDPOINT = "/api/usertool/sound/queryAllSound"
 EFFECTS_EXPOSE_TYPES = (2, 3, 6, 7)
+CLOUD_AUDIO_BRAND_NAME = "云音认证"
 CLOUD_AUDIO_BRAND_ID = -1
 
 DEFAULT_IMG_NETLOC = "p1.music.126.net"
@@ -140,7 +141,8 @@ if __name__ == "__main__":
                 *(asyncio.to_thread(fetch_device_model, brand_id, prog) for brand_id in brand_ids)
             )
 
-    _brands = [b for b in _brands if b["deviceManagerId"] != CLOUD_AUDIO_BRAND_ID]
+    if CLOUD_AUDIO_BRAND_ID not in [b["deviceManagerId"] for b in _brands]:
+        _brands.append({"deviceManagerId": CLOUD_AUDIO_BRAND_ID, "deviceName": CLOUD_AUDIO_BRAND_NAME})
     _models = asyncio.run(fetch_device_models([b["deviceManagerId"] for b in _brands]))
 
     _unify_netloc(sum(_models, []), "deviceSoundImgUrl")  # pointers
@@ -148,12 +150,6 @@ if __name__ == "__main__":
         {f"{b['deviceManagerId']}_{b['deviceName']}": ms for b, ms in zip(_brands, _models)},
         CATALOG_DIR / "devices_raw_models.json",
     )
-
-    # "Cloud Audio"
-    _models_ca = eapi_post(DEVICE_MODELS_ENDPOINT, {"deviceManagerId": CLOUD_AUDIO_BRAND_ID})["data"]
-
-    _unify_netloc(_models_ca, "deviceSoundImgUrl")
-    json_dump(_models_ca, CATALOG_DIR / "devices_raw_models_cloudaudio.json")
 
     # ---------- Parsed device models
     print("Parsing device models...")
@@ -166,16 +162,21 @@ if __name__ == "__main__":
         "size": model["size"],
         "md5": model["soundMd5"],
     }
-    models = {_m["soundId"]: _rectify(b["deviceName"], _m) for b, ms in zip(_brands, _models) for _m in ms}
-    for _m in _models_ca:
-        m = _rectify("Cloud Audio", _m)
-        if m["id"] not in models:
-            models[m["id"]] = m
+    models = {
+        _m["soundId"]: _rectify(b["deviceName"], _m)
+        for b, ms in zip(_brands, _models)
+        for _m in ms
+        if b["deviceManagerId"] != CLOUD_AUDIO_BRAND_ID
+    }
+
+    for _m in _models[[b["deviceManagerId"] for b in _brands].index(CLOUD_AUDIO_BRAND_ID)]:
+        new = _rectify(CLOUD_AUDIO_BRAND_NAME, _m)
+        if new["id"] not in models:
+            models[new["id"]] = new
         else:
-            old = models[m["id"]]
-            for field in ("model", "url", "size", "md5"):
-                if old[field] != m[field]:
-                    raise ValueError(f"Device model mismatch in {field} for id {m['id']}: {old[field]} vs {m[field]}")
+            old = models[new["id"]]
+            if any(old[k] != new[k] for k in ("model", "url", "size", "md5")):
+                raise ValueError(f"Cloud audio effect {new['id']} mismatch: {old} vs {new}")
 
     models = list(models.values())
     json_dump(models, CATALOG_DIR / "devices_parsed.json")
