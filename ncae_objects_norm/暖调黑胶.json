@@ -1,0 +1,175 @@
+{
+    "effect_name": "黑胶 温暖混响",
+    "limiter": {
+        "attack": 0.005,
+        "infiniteRatio": true,
+        "outputgain": 0,
+        "ratio": 4,
+        "release": 0.12,
+        "threshold": -0.8
+    },
+    "noise": {
+        "attack": 0.01,
+        "dry": 0,
+        "link": 1,
+        "ltime": 4,
+        "peq": {
+            "f": [
+                {
+                    "band": 0,
+                    "freq": 1000,
+                    "gain": -20,
+                    "q": 1.5,
+                    "type": 1
+                },
+                {
+                    "band": 1,
+                    "freq": 6000,
+                    "gain": -8,
+                    "q": 2,
+                    "type": 4
+                },
+                {
+                    "band": 2,
+                    "freq": 3800,
+                    "gain": -5,
+                    "q": 1,
+                    "type": 4
+                },
+                {
+                    "band": 3,
+                    "freq": 4000,
+                    "gain": -10,
+                    "q": 1,
+                    "type": 9
+                },
+                {
+                    "band": 4,
+                    "freq": 1000,
+                    "gain": 0,
+                    "q": 1,
+                    "type": 6
+                }
+            ]
+        },
+        "peqonoff": true,
+        "release": 1,
+        "stime": 0.5,
+        "type": 1,
+        "wet": -25
+    },
+    "order": [
+        "cmp",
+        "eq",
+        "bt",
+        "peq",
+        "chorus",
+        "flanger",
+        "se",
+        "rotate",
+        "spspatial",
+        "dly",
+        "rvb",
+        "noise",
+        "alc",
+        "effect_name"
+    ],
+    "peq": {
+        "f": [
+            {
+                "band": 0,
+                "freq": 950,
+                "gain": 2,
+                "q": 1,
+                "type": 6
+            },
+            {
+                "band": 1,
+                "freq": 90,
+                "gain": 1,
+                "q": 3.2,
+                "type": 8
+            },
+            {
+                "band": 2,
+                "freq": 3800,
+                "gain": 0,
+                "q": 3,
+                "type": 6
+            },
+            {
+                "band": 3,
+                "freq": 9000,
+                "gain": 0.4,
+                "q": 1,
+                "type": 6
+            },
+            {
+                "band": 4,
+                "freq": 500,
+                "gain": -0.4,
+                "q": 3,
+                "type": 6
+            }
+        ],
+        "gain": 0
+    },
+    "rvb": {
+        "il": {
+            "center": 0,
+            "lfe": 0
+        },
+        "ol": {
+            "dry": 0,
+            "er": -30,
+            "rvb": -25
+        },
+        "rl": {
+            "center": 0,
+            "front": 0,
+            "lfe": 0,
+            "rear": 0
+        },
+        "rvb": {
+            "density": 40,
+            "diffusion": 100,
+            "dtime": 2.2,
+            "hfdamping": 2.5,
+            "pdelay": 40,
+            "q": 10,
+            "rshape": 100,
+            "swidth": 180
+        },
+        "tc": {
+            "f": [
+                {
+                    "band": 1,
+                    "curve": 0,
+                    "freq": 880,
+                    "gain": -10,
+                    "insert": 2,
+                    "name": "滤波器1",
+                    "q": 2
+                },
+                {
+                    "band": 2,
+                    "curve": 2,
+                    "freq": 8500,
+                    "gain": -6,
+                    "insert": 2,
+                    "name": "滤波器2",
+                    "q": 2
+                },
+                {
+                    "band": 3,
+                    "curve": 1,
+                    "freq": 8000,
+                    "gain": 0,
+                    "insert": 3,
+                    "name": "滤波器3",
+                    "q": 0.5
+                }
+            ]
+        }
+    }
+}

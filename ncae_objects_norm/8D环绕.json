@@ -1,0 +1,37 @@
+{
+    "rotate": {
+        "velocity": 6
+    },
+    "rvb": {
+        "er": {
+            "pattern": 15,
+            "rsize": 0,
+            "sdelay": 50
+        },
+        "il": {
+            "center": 0,
+            "lfe": 0
+        },
+        "ol": {
+            "dry": 0,
+            "er": -30,
+            "rvb": -25
+        },
+        "rl": {
+            "center": 0,
+            "front": 0,
+            "lfe": 0,
+            "rear": 0
+        },
+        "rvb": {
+            "density": 40,
+            "diffusion": 60,
+            "dtime": 3.5,
+            "hfdamping": 5,
+            "pdelay": 80,
+            "q": 6,
+            "rshape": 50,
+            "swidth": 120
+        }
+    }
+}

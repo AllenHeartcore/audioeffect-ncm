@@ -1,4 +1,44 @@
 {
+    "aev2": {
+        "cmp": {
+            "attack": 0,
+            "postgain": 0,
+            "pregain": -2,
+            "range": 0,
+            "ratio": 1,
+            "release": 0,
+            "threshold": 0
+        },
+        "eq": {
+            "eqs": [0, 0, -0.4, -1.2, -0.8, 1.4, 1.8, 2.4, 1.6, 0]
+        },
+        "peq": {
+            "f": [
+                {
+                    "band": 0,
+                    "freq": 1200,
+                    "gain": 1.6,
+                    "q": 1,
+                    "type": 6
+                },
+                {
+                    "band": 1,
+                    "freq": 2500,
+                    "gain": 2.2,
+                    "q": 1,
+                    "type": 6
+                },
+                {
+                    "band": 2,
+                    "freq": 6000,
+                    "gain": 2,
+                    "q": 1,
+                    "type": 6
+                }
+            ],
+            "gain": 0
+        }
+    },
     "bt": {
         "bass": 2,
         "treble": 3

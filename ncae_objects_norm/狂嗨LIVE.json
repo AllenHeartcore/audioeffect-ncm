@@ -1,4 +1,106 @@
 {
+    "aev2": {
+        "bt": {
+            "bass": 0.4,
+            "bassFreq": 500,
+            "bassQ": 1,
+            "treble": -0.4,
+            "trebleFreq": 8000,
+            "trebleQ": 1
+        },
+        "effect_name": "音效配置 5-15 10:58",
+        "eq": {
+            "eqs": [0, 0.4, 0.8, 0.2, -0.6, -0.4, -0.2, -0.6, -0.4, -0.2]
+        },
+        "order": [
+            "cmp",
+            "eq",
+            "bt",
+            "peq",
+            "chorus",
+            "flanger",
+            "se",
+            "rotate",
+            "spspatial",
+            "dly",
+            "rvb",
+            "noise",
+            "alc"
+        ],
+        "peq": {
+            "f": [],
+            "gain": -1
+        },
+        "rvb": {
+            "er": {
+                "pattern": 24,
+                "rsize": 100,
+                "sdelay": 40
+            },
+            "il": {
+                "center": 0,
+                "lfe": 0
+            },
+            "ol": {
+                "dry": 0,
+                "er": -10,
+                "rvb": -23
+            },
+            "rl": {
+                "center": 0,
+                "front": 0,
+                "lfe": 0,
+                "rear": 0
+            },
+            "rvb": {
+                "density": 60,
+                "diffusion": 90,
+                "dtime": 2.5,
+                "hfdamping": 2,
+                "pdelay": 30,
+                "q": 8,
+                "rshape": 40,
+                "swidth": 160
+            },
+            "tc": {
+                "f": [
+                    {
+                        "band": 1,
+                        "curve": 0,
+                        "freq": 700,
+                        "gain": -5,
+                        "insert": 3,
+                        "name": "滤波器1",
+                        "q": 1
+                    },
+                    {
+                        "band": 2,
+                        "curve": 2,
+                        "freq": 8000,
+                        "gain": -5,
+                        "insert": 3,
+                        "name": "滤波器2",
+                        "q": 1
+                    },
+                    {
+                        "band": 3,
+                        "curve": 2,
+                        "freq": 8000,
+                        "gain": 0,
+                        "insert": 3,
+                        "name": "滤波器3",
+                        "q": 0.5
+                    }
+                ]
+            }
+        },
+        "se": {
+            "ambience": 5,
+            "presence": 4,
+            "sshaper": true,
+            "stereoizer": 2
+        }
+    },
     "bt": {
         "bass": 12,
         "treble": -12

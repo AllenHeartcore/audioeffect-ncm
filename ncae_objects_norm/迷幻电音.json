@@ -1,7 +1,51 @@
 {
+    "aev2": {
+        "bt": {
+            "bass": 1,
+            "bassFreq": 0,
+            "bassQ": 0,
+            "treble": 2,
+            "trebleFreq": 0,
+            "trebleQ": 0
+        },
+        "eq": {
+            "eqs": [2, 2, 1, 0, -1.6, 1.5, 0, 1, 2.57, 3.77]
+        },
+        "rvb": {
+            "il": {
+                "center": 0,
+                "lfe": 0
+            },
+            "ol": {
+                "dry": 0,
+                "er": -30,
+                "rvb": -28
+            },
+            "rl": {
+                "center": 0,
+                "front": 0,
+                "lfe": 0,
+                "rear": 0
+            },
+            "rvb": {
+                "density": 60,
+                "diffusion": 30,
+                "dtime": 1.8,
+                "hfdamping": 2,
+                "pdelay": 80,
+                "q": 6,
+                "rshape": 90,
+                "swidth": 60
+            }
+        }
+    },
     "bt": {
         "bass": 3,
-        "treble": 2
+        "bassFreq": 0,
+        "bassQ": 0,
+        "treble": 2,
+        "trebleFreq": 0,
+        "trebleQ": 0
     },
     "eq": {
         "eqs": [5, 6.09, 2.2, 0, -1.6, 1.5, 0, 1, 2.57, 3.77]

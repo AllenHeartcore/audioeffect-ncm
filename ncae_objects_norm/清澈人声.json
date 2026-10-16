@@ -1,4 +1,65 @@
 {
+    "aev2": {
+        "bt": {
+            "bass": 0,
+            "bassFreq": 200,
+            "bassQ": 0.5,
+            "treble": 0,
+            "trebleFreq": 6000,
+            "trebleQ": 0.5
+        },
+        "eq": {
+            "eqs": [-1, -0.6, -0.4, -0.6, -0.8, -0.2, 1.4, 1.2, 0.2, 0]
+        },
+        "limiter": {
+            "attack": 0.005,
+            "infiniteRatio": true,
+            "outputgain": 0.5,
+            "ratio": 4,
+            "release": 0.12,
+            "threshold": -0.8
+        },
+        "peq": {
+            "f": [
+                {
+                    "band": 0,
+                    "freq": 800,
+                    "gain": 4.4,
+                    "q": 0.6,
+                    "type": 8
+                },
+                {
+                    "band": 1,
+                    "freq": 12000,
+                    "gain": -3.2,
+                    "q": 1.2,
+                    "type": 8
+                },
+                {
+                    "band": 2,
+                    "freq": 10000,
+                    "gain": -1.2,
+                    "q": 1,
+                    "type": 6
+                },
+                {
+                    "band": 3,
+                    "freq": 6000,
+                    "gain": 1,
+                    "q": 1,
+                    "type": 6
+                },
+                {
+                    "band": 4,
+                    "freq": 700,
+                    "gain": -1,
+                    "q": 2,
+                    "type": 6
+                }
+            ],
+            "gain": 1
+        }
+    },
     "eq": {
         "eqs": [-1.5, -1, 0, 1.79, 4, 3.79, 1.79, 0.5, -1, 1]
     }

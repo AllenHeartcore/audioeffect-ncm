@@ -1,0 +1,91 @@
+{
+    "cmp": {
+        "attack": 0.05,
+        "postgain": 0,
+        "pregain": 0,
+        "range": 0,
+        "ratio": 1.5,
+        "release": 0.3,
+        "threshold": -7
+    },
+    "dly": {
+        "delay": 25,
+        "dry": 0,
+        "feedback": 0.1,
+        "wet": -12
+    },
+    "effect_name": "黑胶2",
+    "eq": {
+        "eqs": [0, -0.4, -0.4, 0.2, -0.6, 0.6, 1, -0.3, -0.2, 0]
+    },
+    "flanger": {
+        "delay": 0.1,
+        "depth": 0.1,
+        "feedback": 0.1,
+        "mix": 0.9,
+        "rate": 0.1
+    },
+    "limiter": {
+        "attack": 0.005,
+        "infiniteRatio": true,
+        "outputgain": 0,
+        "ratio": 2,
+        "release": 0.12,
+        "threshold": -0.1
+    },
+    "order": [
+        "cmp",
+        "eq",
+        "bt",
+        "peq",
+        "chorus",
+        "flanger",
+        "se",
+        "rotate",
+        "spspatial",
+        "dly",
+        "rvb",
+        "noise",
+        "alc",
+        "effect_name"
+    ],
+    "peq": {
+        "f": [
+            {
+                "band": 1,
+                "freq": 12000,
+                "gain": 2,
+                "q": 5,
+                "type": 6
+            },
+            {
+                "band": 2,
+                "freq": 9500,
+                "gain": -1,
+                "q": 1,
+                "type": 8
+            },
+            {
+                "band": 3,
+                "freq": 1500,
+                "gain": 0,
+                "q": 2,
+                "type": 6
+            },
+            {
+                "band": 4,
+                "freq": 3800,
+                "gain": -2,
+                "q": 2,
+                "type": 6
+            }
+        ],
+        "gain": -0.5
+    },
+    "se": {
+        "ambience": 5,
+        "presence": 4,
+        "sshaper": true,
+        "stereoizer": 0.1
+    }
+}

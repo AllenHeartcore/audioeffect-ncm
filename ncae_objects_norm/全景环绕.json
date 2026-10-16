@@ -1,0 +1,145 @@
+{
+    "12": {
+        "channeldelay": {
+            "channelCount": 12,
+            "delayMs": [0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "dryWet": [0.9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        "peq": {
+            "f": [
+                {
+                    "band": 1,
+                    "freq": 500,
+                    "gain": -0.2,
+                    "q": 2.5,
+                    "type": 6
+                },
+                {
+                    "band": 2,
+                    "freq": 1500,
+                    "gain": 0.2,
+                    "q": 3,
+                    "type": 6
+                },
+                {
+                    "band": 3,
+                    "freq": 3500,
+                    "gain": 3,
+                    "q": 2.5,
+                    "type": 6
+                },
+                {
+                    "band": 4,
+                    "freq": 4000,
+                    "gain": 3,
+                    "q": 1,
+                    "type": 5
+                },
+                {
+                    "band": 5,
+                    "freq": 100,
+                    "gain": 0.4,
+                    "q": 4,
+                    "type": 6
+                }
+            ],
+            "gain": 1.5
+        }
+    },
+    "2": {
+        "channeldelay": {
+            "channelCount": 2,
+            "delayMs": [0, 32],
+            "dryWet": [0.8, 1]
+        },
+        "peq": {
+            "f": [
+                {
+                    "band": 1,
+                    "freq": 500,
+                    "gain": -0.2,
+                    "q": 2.5,
+                    "type": 6
+                },
+                {
+                    "band": 2,
+                    "freq": 1500,
+                    "gain": 0.2,
+                    "q": 3,
+                    "type": 6
+                },
+                {
+                    "band": 3,
+                    "freq": 3500,
+                    "gain": 3,
+                    "q": 2.5,
+                    "type": 6
+                },
+                {
+                    "band": 4,
+                    "freq": 4000,
+                    "gain": 3,
+                    "q": 1,
+                    "type": 5
+                },
+                {
+                    "band": 5,
+                    "freq": 100,
+                    "gain": 0.4,
+                    "q": 4,
+                    "type": 6
+                }
+            ],
+            "gain": 1.5
+        }
+    },
+    "6": {
+        "channeldelay": {
+            "channelCount": 6,
+            "delayMs": [0, 32, 3, 0, 0, 0],
+            "dryWet": [1, 1, 1, 1, 1, 1]
+        },
+        "peq": {
+            "f": [
+                {
+                    "band": 1,
+                    "freq": 500,
+                    "gain": -0.2,
+                    "q": 2.5,
+                    "type": 6
+                },
+                {
+                    "band": 2,
+                    "freq": 1500,
+                    "gain": 0.2,
+                    "q": 3,
+                    "type": 6
+                },
+                {
+                    "band": 3,
+                    "freq": 3500,
+                    "gain": 3,
+                    "q": 2.5,
+                    "type": 6
+                },
+                {
+                    "band": 4,
+                    "freq": 4000,
+                    "gain": 3,
+                    "q": 1,
+                    "type": 5
+                },
+                {
+                    "band": 5,
+                    "freq": 100,
+                    "gain": 0.4,
+                    "q": 4,
+                    "type": 6
+                }
+            ],
+            "gain": 1.5
+        }
+    },
+    "effect_name": "",
+    "version": "v3"
+}

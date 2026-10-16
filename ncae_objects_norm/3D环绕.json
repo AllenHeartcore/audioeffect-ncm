@@ -1,4 +1,102 @@
 {
+    "aev2": {
+        "peq": {
+            "f": [
+                {
+                    "band": 0,
+                    "freq": 130,
+                    "gain": -0.8,
+                    "q": 0.7,
+                    "type": 6
+                },
+                {
+                    "band": 1,
+                    "freq": 350,
+                    "gain": -0.6,
+                    "q": 1,
+                    "type": 6
+                },
+                {
+                    "band": 2,
+                    "freq": 550,
+                    "gain": -0.6,
+                    "q": 1,
+                    "type": 6
+                },
+                {
+                    "band": 3,
+                    "freq": 1900,
+                    "gain": 1,
+                    "q": 1.2,
+                    "type": 6
+                },
+                {
+                    "band": 4,
+                    "freq": 3000,
+                    "gain": 1,
+                    "q": 1.1,
+                    "type": 6
+                },
+                {
+                    "band": 5,
+                    "freq": 7000,
+                    "gain": -1.2,
+                    "q": 2.8,
+                    "type": 6
+                },
+                {
+                    "band": 6,
+                    "freq": 10500,
+                    "gain": 0.8,
+                    "q": 0.8,
+                    "type": 5
+                },
+                {
+                    "band": 7,
+                    "freq": 9000,
+                    "gain": -0.6,
+                    "q": 1.2,
+                    "type": 6
+                },
+                {
+                    "band": 8,
+                    "freq": 12000,
+                    "gain": -0.2,
+                    "q": 1,
+                    "type": 6
+                }
+            ],
+            "gain": 0
+        },
+        "rvb": {
+            "er": {
+                "pattern": 22,
+                "rsize": 26,
+                "sdelay": 8
+            },
+            "ol": {
+                "dry": 0,
+                "er": -18,
+                "rvb": -24
+            },
+            "rvb": {
+                "density": 60,
+                "diffusion": 68,
+                "dtime": 1.25,
+                "hfdamping": 8,
+                "pdelay": 28,
+                "q": 8,
+                "rshape": 30,
+                "swidth": 135
+            }
+        },
+        "se": {
+            "ambience": 1,
+            "presence": 3.5,
+            "sshaper": true,
+            "stereoizer": 3.2
+        }
+    },
     "se": {
         "ambience": 1,
         "presence": 6,

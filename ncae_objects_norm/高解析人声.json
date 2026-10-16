@@ -1,0 +1,81 @@
+{
+    "eq": {
+        "eqs": [-0.4, -0.4, -0.2, -0.2, -0.4, 1, 1.6, 2, 2, 0.2]
+    },
+    "limiter": {
+        "attack": 0.01,
+        "infiniteRatio": true,
+        "outputgain": 0.5,
+        "ratio": 4,
+        "release": 0.12,
+        "threshold": -0.8
+    },
+    "peq": {
+        "f": [
+            {
+                "band": 0,
+                "freq": 100,
+                "gain": -0.6,
+                "q": 0.7,
+                "type": 4
+            },
+            {
+                "band": 1,
+                "freq": 750,
+                "gain": 0.8,
+                "q": 0.8,
+                "type": 6
+            },
+            {
+                "band": 2,
+                "freq": 1600,
+                "gain": 0.6,
+                "q": 1,
+                "type": 6
+            },
+            {
+                "band": 3,
+                "freq": 2800,
+                "gain": 1,
+                "q": 1.1,
+                "type": 6
+            },
+            {
+                "band": 4,
+                "freq": 4200,
+                "gain": 1,
+                "q": 1,
+                "type": 5
+            },
+            {
+                "band": 5,
+                "freq": 10000,
+                "gain": 1,
+                "q": 0.8,
+                "type": 5
+            },
+            {
+                "band": 6,
+                "freq": 7000,
+                "gain": -1.2,
+                "q": 2.8,
+                "type": 6
+            },
+            {
+                "band": 7,
+                "freq": 6000,
+                "gain": 0.6,
+                "q": 1,
+                "type": 6
+            },
+            {
+                "band": 8,
+                "freq": 9000,
+                "gain": -1,
+                "q": 1.2,
+                "type": 6
+            }
+        ],
+        "gain": 1
+    }
+}

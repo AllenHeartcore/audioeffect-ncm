@@ -1,0 +1,153 @@
+{
+    "effect_name": "华晨宇专属音效_V5",
+    "limiter": {
+        "attack": 0.005,
+        "infiniteRatio": true,
+        "outputgain": 0,
+        "ratio": 2,
+        "release": 0.12,
+        "threshold": -0.1
+    },
+    "order": [
+        "cmp",
+        "mbcmp",
+        "eq",
+        "bt",
+        "peq",
+        "mbs",
+        "chorus",
+        "dyneq",
+        "flanger",
+        "mseq",
+        "se",
+        "rotate",
+        "spatial",
+        "spspatial",
+        "dly",
+        "rvb",
+        "noise",
+        "alc",
+        "mbsf",
+        "channeldelay",
+        "limiter"
+    ],
+    "peq": {
+        "f": [
+            {
+                "band": 1,
+                "freq": 480,
+                "gain": -1.2,
+                "q": 2.2,
+                "type": 6
+            },
+            {
+                "band": 2,
+                "freq": 3200,
+                "gain": 1.2,
+                "q": 3,
+                "type": 6
+            },
+            {
+                "band": 3,
+                "freq": 1200,
+                "gain": -0.4,
+                "q": 2,
+                "type": 6
+            },
+            {
+                "band": 4,
+                "freq": 4500,
+                "gain": -0.2,
+                "q": 0.2,
+                "type": 6
+            },
+            {
+                "band": 5,
+                "freq": 7500,
+                "gain": 1,
+                "q": 0,
+                "type": 5
+            },
+            {
+                "band": 6,
+                "freq": 95,
+                "gain": 1.5,
+                "q": 4,
+                "type": 6
+            },
+            {
+                "band": 7,
+                "freq": 300,
+                "gain": -0.4,
+                "q": 5,
+                "type": 6
+            }
+        ],
+        "gain": -1
+    },
+    "rvb": {
+        "il": {
+            "center": 0,
+            "lfe": 0
+        },
+        "ol": {
+            "dry": 0,
+            "er": -30,
+            "rvb": -26
+        },
+        "rl": {
+            "center": 0,
+            "front": 0,
+            "lfe": 0,
+            "rear": 0
+        },
+        "rvb": {
+            "density": 50,
+            "diffusion": 100,
+            "dtime": 1.9,
+            "hfdamping": 0.5,
+            "pdelay": 50,
+            "q": 10,
+            "rshape": 100,
+            "swidth": 160
+        },
+        "tc": {
+            "f": [
+                {
+                    "band": 1,
+                    "curve": 0,
+                    "freq": 750,
+                    "gain": -15,
+                    "insert": 3,
+                    "name": "滤波器1",
+                    "q": 2
+                },
+                {
+                    "band": 2,
+                    "curve": 2,
+                    "freq": 7500,
+                    "gain": -15,
+                    "insert": 3,
+                    "name": "滤波器2",
+                    "q": 2
+                },
+                {
+                    "band": 3,
+                    "curve": 2,
+                    "freq": 8000,
+                    "gain": -4,
+                    "insert": 0,
+                    "name": "滤波器3",
+                    "q": 0.5
+                }
+            ]
+        }
+    },
+    "se": {
+        "ambience": 5,
+        "presence": 3,
+        "sshaper": false,
+        "stereoizer": 3
+    },
+    "version": "v1"
+}

@@ -79,12 +79,12 @@ def _rget(url: str, **kwargs) -> requests.Response:
 def _clean_json(obj: dict | list) -> dict | list:
 
     if isinstance(obj, dict):
-        if obj.get("on") is False:
+        if obj.get("on") is False or obj.get("useable") is False:
             return _DROP_MARK
 
         cleaned = {}
         for k, v in sorted(obj.items()):
-            if k == "on":
+            if k == "on" or k == "useable":
                 continue
             if (v := _clean_json(v)) is not _DROP_MARK:
                 cleaned[k] = v
@@ -92,6 +92,8 @@ def _clean_json(obj: dict | list) -> dict | list:
         return cleaned
 
     elif isinstance(obj, list):
+        if all(isinstance(v, (int, float)) for v in obj):
+            return str(obj)
         cleaned = []
         for v in obj:
             if (v := _clean_json(v)) is not _DROP_MARK:
@@ -112,7 +114,9 @@ def probe_and_normalize(raw: bytes) -> tuple[str, bytes]:
     else:
         try:
             data = json.loads(raw.decode("utf-8"))
-            return ".json", json.dumps(_clean_json(data), ensure_ascii=False, indent=4).encode("utf-8")
+            string = json.dumps(_clean_json(data), indent=4, ensure_ascii=False)
+            string = string.replace('"[', "[").replace(']"', "]")
+            return ".json", string.encode("utf-8")
         except json.JSONDecodeError:
             raise ValueError("Unknown file format")
 
