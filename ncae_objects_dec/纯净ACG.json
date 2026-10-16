@@ -1,0 +1,99 @@
+{
+  "eq": {
+    "on": true,
+    "eqs": [4, 6.19, 1.5, -0.5, -0.8, 2, 5.19, 1, -1.5, 4]
+  },
+  "bt": {
+    "on": true,
+    "bass": 2,
+    "treble": 3
+  },
+  "rvb": {
+    "on": false
+  },
+  "se": {
+    "on": false
+  },
+"aev2":{
+  "rvb": {
+    "on": false
+  },
+  "se": {
+    "on": false
+  },
+  "peq": {
+    "f": [
+      {
+        "gain": 1.6,
+        "freq": 1200,
+        "band": 0,
+        "q": 1,
+        "on": true,
+        "type": 6
+      },
+      {
+        "gain": 2.2,
+        "freq": 2500,
+        "band": 1,
+        "q": 1,
+        "on": true,
+        "type": 6
+      },
+      {
+        "q": 1,
+        "freq": 6000,
+        "band": 2,
+        "type": 6,
+        "on": true,
+        "gain": 2
+      },
+      {
+        "band": 3,
+        "on": false
+      },
+      {
+        "band": 4,
+        "on": false
+      },
+      {
+        "band": 5,
+        "on": false
+      },
+      {
+        "band": 6,
+        "on": false
+      },
+      {
+        "band": 7,
+        "on": false
+      },
+      {
+        "band": 8,
+        "on": false
+      }
+    ],
+    "gain": 0,
+    "on": true
+  },
+  "limiter": {
+    "on": false
+  },
+  "bt": {
+    "on": false
+  },
+  "eq": {
+    "eqs": [0, 0, -0.4, -1.2, -0.8, 1.4, 1.8, 2.4, 1.6, 0],
+    "on": true
+  },
+  "cmp": {
+    "attack": 0,
+    "on": true,
+    "pregain": -2,
+    "release": 0,
+    "range": 0,
+    "ratio": 1,
+    "postgain": 0,
+    "threshold": 0
+  }
+}
+}

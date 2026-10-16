@@ -1,0 +1,114 @@
+{
+  "cmp": {
+    "on": false
+  },
+  "eq": {
+    "on": true,
+    "eqs": [-0.4, -0.4, -0.2, -0.2, -0.4, 1, 1.6, 2, 2, 0.2]
+  },
+  "peq": {
+    "on": true,
+    "gain": 1,
+    "f": [
+      {
+        "on": true,
+        "freq": 100,
+        "band": 0,
+        "type": 4,
+        "q": 0.7,
+        "gain": -0.6
+      },
+      {
+        "on": true,
+        "freq": 750,
+        "band": 1,
+        "type": 6,
+        "q": 0.8,
+        "gain": 0.8
+      },
+      {
+        "on": true,
+        "freq": 1600,
+        "band": 2,
+        "type": 6,
+        "q": 1,
+        "gain": 0.6
+      },
+      {
+        "on": true,
+        "freq": 2800,
+        "band": 3,
+        "type": 6,
+        "q": 1.1,
+        "gain": 1
+      },
+      {
+        "on": true,
+        "freq": 4200,
+        "band": 4,
+        "type": 5,
+        "q": 1,
+        "gain": 1
+      },
+      {
+        "on": true,
+        "freq": 10000,
+        "band": 5,
+        "type": 5,
+        "q": 0.8,
+        "gain": 1
+      },
+      {
+        "on": true,
+        "freq": 7000,
+        "band": 6,
+        "type": 6,
+        "q": 2.8,
+        "gain": -1.2
+      },
+      {
+        "on": true,
+        "freq": 6000,
+        "band": 7,
+        "type": 6,
+        "q": 1,
+        "gain": 0.6
+      },
+      {
+        "on": true,
+        "freq": 9000,
+        "band": 8,
+        "type": 6,
+        "q": 1.2,
+        "gain": -1
+      }
+    ]
+  },
+  "rvb": {
+    "on": false
+  },
+  "limiter": {
+    "attack": 0.01,
+    "on": true,
+    "release": 0.12,
+    "outputgain": 0.5,
+    "infiniteRatio": true,
+    "ratio": 4,
+    "threshold": -0.8
+  },
+  "se": {
+    "on": false
+  },
+  "bt": {
+    "on": false
+  },
+  "rotate": {
+    "on": false
+  },
+  "spspatial": {
+    "on": false
+  },
+  "alc": {
+    "on": false
+  }
+}

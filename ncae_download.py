@@ -10,8 +10,8 @@ from tqdm import tqdm
 
 CATALOG_DIR = Path(__file__).parent / "ncae_catalog"
 OBJECT_DIR_ENC = Path(__file__).parent / "ncae_objects"
-OBJECT_DIR_DEC = Path(__file__).parent / "ncae_objects_decrypted"
-OBJECT_DIR_NORM = Path(__file__).parent / "ncae_objects_normalized"
+OBJECT_DIR_DEC = Path(__file__).parent / "ncae_objects_dec"
+OBJECT_DIR_NORM = Path(__file__).parent / "ncae_objects_norm"
 REQ_TIMEOUT = 10
 
 _DROP_MARK = object()  # sentinel for missing values

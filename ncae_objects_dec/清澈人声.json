@@ -1,0 +1,219 @@
+{
+  "eq": {
+    "on": true,
+    "eqs": [
+      -1.5,
+      -1,
+      0,
+      1.79,
+      4,
+      3.79,
+      1.79,
+      0.5,
+      -1,
+      1
+    ]
+  },
+  "bt": {
+    "on": false
+  },
+  "rvb": {
+    "on": false
+  },
+  "se": {
+    "on": false
+  },
+  "aev2": {
+    "rvb": {
+      "rvb": {
+        "pdelay": 130,
+        "hfdamping": 3.5,
+        "rshape": 100,
+        "density": 80,
+        "swidth": 180,
+        "q": 6,
+        "diffusion": 80,
+        "dtime": 3.5
+      },
+      "on": false,
+      "er": {
+        "pattern": 15,
+        "sdelay": 40,
+        "on": false,
+        "rsize": 100
+      },
+      "tc": {
+        "f": [
+          {
+            "q": 1,
+            "freq": 125,
+            "band": 1,
+            "curve": 0,
+            "insert": 3,
+            "gain": 2
+          },
+          {
+            "q": 0.5,
+            "freq": 2000,
+            "band": 2,
+            "curve": 1,
+            "insert": 3,
+            "gain": -6
+          },
+          {
+            "q": 0.5,
+            "freq": 8000,
+            "band": 3,
+            "curve": 2,
+            "insert": 3,
+            "gain": -4
+          }
+        ],
+        "on": false
+      },
+      "il": {
+        "center": 0,
+        "lfe": 0
+      },
+      "ol": {
+        "dry": 0,
+        "er": -30,
+        "rvb": -25
+      },
+      "useable": true,
+      "rl": {
+        "lfe": 0,
+        "front": 0,
+        "rear": 0,
+        "center": 0
+      }
+    },
+    "se": {
+      "presence": 0,
+      "sshaper": true,
+      "ambience": 1,
+      "useable": true,
+      "on": false,
+      "stereoizer": 5
+    },
+    "peq": {
+      "useable": true,
+      "gain": 1,
+      "on": true,
+      "f": [
+        {
+          "gain": 4.4000000000000004,
+          "freq": 800,
+          "band": 0,
+          "type": 8,
+          "on": true,
+          "q": 0.59999999999999998
+        },
+        {
+          "gain": -3.2000000000000002,
+          "freq": 12000,
+          "band": 1,
+          "type": 8,
+          "on": true,
+          "q": 1.2
+        },
+        {
+          "gain": -1.2,
+          "freq": 10000,
+          "band": 2,
+          "type": 6,
+          "on": true,
+          "q": 1
+        },
+        {
+          "gain": 1,
+          "freq": 6000,
+          "band": 3,
+          "type": 6,
+          "on": true,
+          "q": 1
+        },
+        {
+          "gain": -1,
+          "freq": 700,
+          "band": 4,
+          "type": 6,
+          "on": true,
+          "q": 2
+        },
+        {
+          "gain": -3,
+          "freq": 18000,
+          "band": 5,
+          "type": 9,
+          "on": false,
+          "q": 2
+        },
+        {
+          "gain": -1.3999999999999999,
+          "freq": 300,
+          "band": 6,
+          "type": 4,
+          "on": false,
+          "q": 0.10000000000000001
+        },
+        {
+          "gain": 0,
+          "freq": 80,
+          "band": 7,
+          "type": 1,
+          "on": false,
+          "q": 0
+        }
+      ]
+    },
+    "limiter": {
+      "attack": 0.0050000000000000001,
+      "on": true,
+      "release": 0.12,
+      "outputgain": 0.5,
+      "infiniteRatio": true,
+      "ratio": 4,
+      "useable": true,
+      "threshold": -0.80000000000000004
+    },
+    "bt": {
+      "treble": 0,
+      "trebleFreq": 6000,
+      "on": true,
+      "bass": 0,
+      "trebleQ": 0.5,
+      "bassQ": 0.5,
+      "useable": true,
+      "bassFreq": 200
+    },
+    "eq": {
+      "eqs": [
+        -1,
+        -0.59999999999999998,
+        -0.40000000000000002,
+        -0.59999999999999998,
+        -0.80000000000000004,
+        -0.20000000000000001,
+        1.3999999999999999,
+        1.2,
+        0.20000000000000001,
+        0
+      ],
+      "useable": true,
+      "on": true
+    },
+    "cmp": {
+      "attack": 0.050000000000000003,
+      "on": false,
+      "pregain": 0,
+      "core": true,
+      "release": 0.10000000000000001,
+      "range": -5,
+      "ratio": 4,
+      "postgain": 0,
+      "useable": true,
+      "threshold": -18
+    }
+  }
+}
